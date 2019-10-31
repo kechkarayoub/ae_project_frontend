@@ -1,0 +1,718 @@
+header {
+    background: #808080;
+    float: left;
+    width: 100%;
+
+    @media only screen and (min-width: 320px) {
+        height: auto;
+    }
+
+    @media only screen and (min-width: 480px) {
+        height: 290px;
+    }
+
+    @media only screen and (min-width: 640px) {
+        height: 344px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        height: 415px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        height: 510px;
+    }
+
+    .bg-header {
+        background-image: url(../images/header/bg-header.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        float: left;
+        width: 100%;
+
+        @media only screen and (min-width: 320px) {
+            background-size: auto 170px;
+            height: 208px;
+        }
+
+        @media only screen and (min-width: 480px) {
+            background-size: auto 224px;
+            height: 258px;
+        }
+
+        @media only screen and (min-width: 640px) {
+            background-size: auto 294px;
+            height: 344px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            background-size: auto 355px;
+            height: 415px;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            background-size: auto 440px;
+            height: 510px;
+        }
+
+        .bg-header-2 {
+            background-image: url(../images/header/bg-header-2.png);
+            background-repeat: repeat-x;
+            background-position: left top;
+            display: inline-grid;
+            float: left;
+            width: 100%;
+
+            @media only screen and (min-width: 320px) {
+                background-position: center 170px;
+                height: 208px;
+            }
+
+            @media only screen and (min-width: 480px) {
+                background-position: center 224px;
+                height: 258px;
+            }
+
+            @media only screen and (min-width: 640px) {
+                background-position: center 294px;
+                height: 344px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                background-position: center 355px;
+                height: 415px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                background-position: center 440px;
+                height: 510px;
+            }
+
+            .topbanner {
+                float: left;
+                width: 100%;
+
+                .menubanner {
+                    float: left;
+                    height: 100%;
+                    width: 100%;
+                    min-width: 320px;
+
+                    .wrapper {
+                        height: 100%;
+                        margin: 0 auto;
+                        min-width: 320px;
+                        width: 100%;
+
+                        .langues-infos {
+                            height: 35px;
+                            margin: 0 auto;
+                            min-width: 320px;
+                            width: 100%;
+
+                            .changelangue {
+                                display: inherit;
+                                float: right;
+                                padding-top: 5px;
+                                font-family: Verdana, Geneva, sans-serif;
+                                color: #E1E1E1;
+                                font-size: 1.3em;
+                                text-align: right;
+
+                                @media only screen and (min-width: 640px) {
+                                    height: 30px;
+                                    width: 90px;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    height: 34px;
+                                    width: 100px;
+                                }
+
+                                @media only screen and (min-width: 1024px) {
+                                    height: 34px;
+                                    width: 100px;
+                                }
+
+                                a {
+                                    color: #E1E1E1;
+                                    text-decoration: none;
+
+                                    &:hover {
+                                        color: #990033;
+                                    }
+                                }
+                            }
+
+                            &.rightinfos {
+                                text-align: right;
+                            }
+                        }
+
+                        nav.navbar {
+                            background: #333333;
+                            height: calc(100% - 35px);
+                            padding: 0;
+                            width: 100%;
+                            z-index: 2;
+
+                            @media only screen and (min-width: 768px) {
+                                flex-flow: row nowrap;
+                                justify-content: flex-start;
+                                -ms-flex-pack: start;
+                                -ms-flex-flow: row nowrap;
+                                -webkit-box-direction: normal;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-pack: start;
+                            }
+
+                            @media only screen and (max-width: 767px) {
+                                background-color: #000;
+                                padding: 3px 0;
+                            }
+
+                            .navbar-toggler {
+                                border-color: rgba(255, 255, 255, 0.1);
+
+                                .navbar-toggler-icon {
+                                    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    display: none;
+                                }
+                            }
+
+                            .navbar-collapse {
+                                @media only screen and (min-width: 768px) {
+                                    display: flex !important;
+                                    display: -ms-flexbox !important;
+                                    display: -webkit-box !important;
+                                    flex-basis: auto;
+                                    -ms-flex-preferred-size: auto;
+                                }
+
+                                .navbar-nav {
+                                    float: left;
+                                    height: auto;
+                                    justify-content: space-between;
+                                    position: relative;
+                                    width: 100%;
+
+                                    .nav-item:link, .nav-item:active, .nav-item:visited {
+                                        border: none;
+                                        border-right: 1px solid #CCCCCC;
+                                        color: #E1E1E1;
+                                        display: table-cell;
+                                        font-weight: normal;
+                                        outline: none;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        vertical-align: middle;
+                                        width: 16.66%;
+
+                                        .bt-icon {
+                                            display: block;
+                                            padding-bottom: 2px;
+
+                                            img {
+                                                outline: none;
+                                                border: none;
+                                            }
+
+                                            @media only screen and (min-width: 1024px) {
+                                                display: none;
+                                            }
+
+
+                                            @media only screen and (max-width: 767px) {
+                                                margin-right: 10px;
+                                            }
+                                        }
+
+                                        .bt-text {
+                                            display: block;
+                                        }
+
+                                        &.link-home {
+                                        }
+
+                                        &:last-child {
+                                            border-right: 0px;
+                                        }
+
+                                        &:hover {
+                                            color: #FFFFFF;
+                                            background-image: url(../images/header/bg-menu-bt.png);
+                                            background-repeat: repeat-x;
+                                            background-position: center top;
+                                        }
+
+                                        @media only screen and (max-width: 767px) {
+                                            border-bottom: 1px solid #333;
+                                            border-right: 0;
+                                            display: inline-flex;
+                                            justify-content: flex-start;
+                                            margin-left: 40px;
+                                            width: calc(100% - 80px);
+                                        }
+
+
+
+                                        @media only screen and (min-width: 640px) {
+                                            height: 40px;
+                                        }
+
+                                        @media only screen and (min-width: 768px) {
+                                            font-size: 0.8em;
+                                            height: 50px;
+                                        }
+
+                                        @media only screen and (min-width: 1024px) {
+                                            font-size: 1em;
+                                            height: 40px;
+                                        }
+                                    }
+
+                                    @media only screen and (min-width: 768px) {
+                                        -webkit-box-orient: horizontal;
+                                        -webkit-box-direction: normal;
+                                        -ms-flex-flow: row nowrap;
+                                        flex-flow: row nowrap;
+                                        -webkit-box-pack: start;
+                                        -ms-flex-pack: start;
+                                        justify-content: flex-start;
+                                    }
+                                }
+                            }
+                        }
+
+                        @media only screen and (min-width: 320px) {
+                            width: 320px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            width: 480px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            width: 640px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            width: 768px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            width: 1024px;
+                        }
+                    }
+                }
+            }
+
+            .header-bottom {
+                margin: 0 auto;
+                width: 100%;
+
+                .wrapper {
+                    height: 100%;
+                    margin: 0 auto;
+                    position: relative;
+
+                    #slide_show {
+                        .rslides {
+                            list-style: none;
+
+                            li {
+                                img {
+                                    float: right;
+                                    /*width: 100%;*/
+                                    @media only screen and (min-width: 640px) {
+                                        height: 269px;
+                                    }
+
+                                    @media only screen and (min-width: 768px) {
+                                        height: 322px;
+                                    }
+
+                                    @media only screen and (min-width: 1024px) {
+                                        height: 430px;
+                                    }
+                                }
+                            }
+                        }
+
+                        @media only screen and (min-width: 320px) {
+                            display: none;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            display: none;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            background-repeat: no-repeat;
+                            background-size: 100% 269px;
+                            display: inherit;
+                            float: right;
+                            height: 269px;
+                            width: 100%;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            background-repeat: no-repeat;
+                            background-size: 100% 322px;
+                            display: inherit;
+                            float: right;
+                            height: 322px;
+                            width: 100%;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            background-repeat: no-repeat;
+                            background-size: 100% 430px;
+                            display: inherit;
+                            float: right;
+                            height: 430px;
+                            width: 100%;
+                        }
+                    }
+
+                    .nweb_header_img {
+                        background-image: url(../images/header/slide_header_1.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        display: inherit;
+                        float: right;
+                        width: 100%;
+                        @media only screen and (min-width: 320px) {
+                            height: 120px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            height: 200px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            display: none;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            display: none;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            display: none;
+                        }
+                    }
+
+                    .logo_el {
+                        display: block;
+                        height: 100%;
+                        left: 0;
+                        position: absolute;
+                        width: 30%;
+
+                        a {
+                            display: block;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        @media only screen and (min-width: 320px) {
+                            display: block;
+                            width: 40%;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            display: block;
+                            width: 35%;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            display: block;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            display: block;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            display: block;
+                        }
+                    }
+
+                    .realtor_el {
+                        display: block;
+                        height: 100%;
+                        position: absolute;
+                        right: 0;
+                        width: 30%;
+
+                        img {
+                            height: 75%;
+                            width: 100%;
+
+                            @media only screen and (max-width: 479px) {
+                                height: 62%;
+                            }
+                        }
+
+                        .realtor_data {
+                            color: #3b3127;
+                            font-weight: bold;
+                            margin-top: 5px;
+                            width: 100%;
+
+                            @media only screen and (min-width: 320px) {
+                                height: 38%;
+                                line-height: 9px;
+                            }
+
+                            @media only screen and (min-width: 480px) {
+                                height: 25%;
+                                line-height: 10px;
+                            }
+
+                            @media only screen and (min-width: 640px) {
+                                height: 25%;
+                                line-height: 15px;
+                            }
+
+                            @media only screen and (min-width: 768px) {
+                                height: 25%;
+                                line-height: 19px;
+                            }
+
+                            @media only screen and (min-width: 1024px) {
+                                height: 25%;
+                                line-height: 25px;
+                            }
+
+                            .full-name {
+
+                                @media only screen and (min-width: 320px) {
+                                    font-size: 11px;
+                                }
+
+                                @media only screen and (min-width: 480px) {
+                                    font-size: 12px;
+                                }
+
+                                @media only screen and (min-width: 640px) {
+                                    font-size: 16px;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    font-size: 20px;
+                                }
+
+                                @media only screen and (min-width: 1024px) {
+                                    font-size: 25px;
+                                }
+                            }
+
+                            .agency-name {
+                                font-size: 15px;
+
+                                @media only screen and (min-width: 320px) {
+                                    font-size: 9px;
+                                }
+
+                                @media only screen and (min-width: 480px) {
+                                    font-size: 11px;
+                                }
+
+                                @media only screen and (min-width: 640px) {
+                                    font-size: 12px;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    font-size: 13px;
+                                }
+
+                                @media only screen and (min-width: 1024px) {
+                                    font-size: 15px;
+                                }
+                            }
+
+                            .email {
+                                font-size: 15px;
+
+                                @media only screen and (min-width: 320px) {
+                                    font-size: 9px;
+                                }
+
+                                @media only screen and (min-width: 480px) {
+                                    font-size: 10px;
+                                }
+
+                                @media only screen and (min-width: 640px) {
+                                    font-size: 12px;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    font-size: 13px;
+                                }
+
+                                @media only screen and (min-width: 1024px) {
+                                    font-size: 15px;
+                                }
+                            }
+
+                            .tel_fax {
+                                display: flex;
+                                font-size: 20px;
+                                justify-content: space-between;
+
+                                @media only screen and (min-width: 320px) {
+                                    font-size: 8px;
+                                }
+
+                                @media only screen and (min-width: 480px) {
+                                    font-size: 10px;
+                                }
+
+                                @media only screen and (min-width: 640px) {
+                                    font-size: 12px;
+                                }
+
+                                @media only screen and (min-width: 768px) {
+                                    font-size: 15px;
+                                }
+
+                                @media only screen and (min-width: 1024px) {
+                                    font-size: 20px;
+                                }
+
+                                .tel {
+                                }
+
+                                .fax {
+                                }
+                            }
+
+
+                            svg {
+                                margin-right: 5px;
+
+                                @media only screen and (min-width: 480px) {
+                                    margin-right: 3px;
+                                }
+                            }
+
+                            & > * {
+                                padding: 0 5px;
+
+                                @media only screen and (min-width: 480px) {
+                                    padding: 0 3px;
+                                }
+                            }
+                        }
+
+                        @media only screen and (min-width: 320px) {
+                            display: block;
+                            width: 40%;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            display: block;
+                            width: 35%;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            display: block;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            display: block;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            display: block;
+                        }
+                    }
+
+                    @media only screen and (min-width: 320px) {
+                        width: 320px;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        width: 480px;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        width: 640px;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        width: 768px;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        width: 1024px;
+                    }
+                }
+
+                @media only screen and (min-width: 320px) {
+                    height: auto;
+                }
+
+                @media only screen and (min-width: 480px) {
+                    height: 200px;
+                }
+
+                @media only screen and (min-width: 640px) {
+                    height: 269px;
+                }
+
+                @media only screen and (min-width: 768px) {
+                    height: 322px;
+                }
+
+                @media only screen and (min-width: 1024px) {
+                    height: 430px;
+                }
+            }
+        }
+
+        .bottombanner {
+            display: flex;
+            float: right;
+            width: 100%;
+
+            @media only screen and (min-width: 320px) {
+                height: auto;
+            }
+
+            @media only screen and (min-width: 480px) {
+                height: 250px;
+            }
+
+            @media only screen and (min-width: 640px) {
+                height: 269px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                height: 322px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                background-position: center 440px;
+                height: 430px;
+            }
+        }
+    }
+}
+
+
+.bottombanner .realtor_data {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

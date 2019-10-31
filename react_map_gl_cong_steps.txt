@@ -1,0 +1,14 @@
+** add .env.local to .gitignore
+
+create account here: https://account.mapbox.com/auth/signup/
+
+create a token.
+
+put it in .env.local file as a variable named REACT_APP_MAPBOX_TOKEN
+
+go to https://www.mapbox.com/gallery/ then choose a design and add it to your account
+
+go to https://studio.mapbox.com/ then click to your choosing style option and copy the style url
+
+set the link copied in mapStyle parameter in MapContainer.js container
+

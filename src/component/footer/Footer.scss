@@ -1,0 +1,170 @@
+footer{
+    background-color: #333333;
+    background-image: url(../images/footer/bg-footer.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #999999;
+    float: left;
+    width: 100%;
+    .wrapper{
+        margin: 0 auto;
+
+        @media only screen and (min-width: 320px) {
+            width: 320px;
+        }
+
+        @media only screen and (min-width: 480px) {
+            width: 480px;
+        }
+
+        @media only screen and (min-width: 640px) {
+            width: 640px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            width: 768px;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            width: 1024px;
+        }
+
+        .realtor_info{
+            float: left;
+            font-size: 13px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .newsletter_and_social_links{
+            display: flex;
+            width: 100%;
+
+            @media only screen and (min-width: 320px) {
+                flex-wrap: wrap;
+            }
+    
+            @media only screen and (min-width: 480px) {
+                flex-wrap: wrap;
+            }
+    
+            @media only screen and (min-width: 640px) {
+                flex-wrap: wrap;
+            }
+    
+            @media only screen and (min-width: 768px) {
+                flex-wrap: inherit;
+            }
+    
+            @media only screen and (min-width: 1024px) {
+                flex-wrap: inherit;
+            }
+            .newsletter, .social_links{
+
+                @media only screen and (min-width: 320px) {
+                    flex-basis: 100%;
+                    margin-bottom: 15px;
+                }
+        
+                @media only screen and (min-width: 480px) {
+                    flex-basis: 100%;
+                    margin-bottom: 15px;
+                }
+        
+                @media only screen and (min-width: 640px) {
+                    flex-basis: 100%;
+                    margin-bottom: 15px;
+                }
+        
+                @media only screen and (min-width: 768px) {
+                    flex-basis: 50%;
+                    margin-bottom: 0;
+                }
+        
+                @media only screen and (min-width: 1024px) {
+                    flex-basis: 50%;
+                    margin-bottom: 0;
+                }
+            }
+            .newsletter{
+                
+            }
+            .social_links{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .social_link{
+                    flex-basis: 33%;
+                    height: 100px;
+                    margin: auto;
+                    text-align: center;
+                    a{
+                        color: #99997f;
+                        display: inline-table;
+                        font-weight: bold;
+                        opacity: 0.7;
+                        text-decoration: none;
+                        svg{
+                            height: 60px;
+                            width: 60px;
+                            &[data-icon=facebook]{
+                                color: #2f4b89;
+                            }
+                            &[data-icon=google-plus]{
+                                color: red;
+                            }
+                            &[data-icon=instagram]{
+                                color: #ca35b1;
+                            }
+                            &[data-icon=linkedin]{
+                                color: #5986e9;
+                            }
+                            &[data-icon=twitter]{
+                                color: #007bff;
+                            }
+                            &[data-icon=youtube]{
+                                color: red;
+                            }
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .powered_by, .copyright{
+            color: #111;;
+            display: flex;
+            float: left;
+            font-size: 15px;
+            height: auto;
+            justify-content: center;
+            width: 100%;
+            .site_name{
+                margin-left: 5px;
+            }
+        }
+        .copyright{
+            margin-bottom: 15px;
+            svg{
+                margin: auto 2px;
+            }
+        }
+        .powered_by{
+            margin-bottom: 5px;
+            .site_name{
+                a{
+                    color: #111;
+                    text-decoration: underline;
+                    &:hover{
+                        color: #9FC22B;
+                    }
+                }
+            }
+        }
+    }
+}

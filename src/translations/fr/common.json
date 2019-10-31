@@ -1,0 +1,198 @@
+{
+  "buyorsell": {
+    "buy_create": {
+      "coordinates": "Coordonnées",
+      "details": "Details"
+    },
+    "intro": "Si vous souhaitez acheter ou vendre une propriété, complétez et envoyez-nous le formulaire de demande ci-dessous et nous vous contacterons dans les plus brefs délais.",
+    "sell_a_property": "Vendre une propriété",
+    "to_buy": "Acheter",
+    "to_sell": "Vendre"
+  },
+  "contact": {
+    "contact_create": {
+      "contact_form": "Formulaire de contact",
+      "feedback_message_1": "Une erreur est survenue!",
+      "feedback_message_2": "Veuillez réessayer ultérieurement.",
+      "get_informations": "Obtenir des informations",
+      "message": "Message",
+      "message_sent": "Votre message a été envoyé.",
+      "object": "Objet",
+      "reference_number": "Numéro de réference: ",
+      "will_answer_client": "Nous vous répondrons dans les meilleurs délais!"
+    }
+  },
+  "footer": {
+    "all_rights_reserved": "Tous les droits sont réservés.",
+    "powered_by": "Alimenté par ",
+    "newsletter": {
+      "create": {
+        "information_updated_message_1": "Vous êtes déjà abonné.",
+        "information_updated_message_2": "Vos informations ont été modifiées.",
+        "reactivated_message_1": "Votre abonnement a été réactivé.",
+        "reactivated_message_2": "Bienvenue à notre newsletter.",
+        "title": "Rejoignez notre newsletter",
+        "welcome_message_1": "Bienvenue à notre newsletter.",
+        "welcome_message_2": "Et merci pour votre inscription!"
+      }
+    }
+  },
+  "global": {
+    "cancel": "Annuler",
+    "city": "Ville",
+    "email": "Email",
+    "field_required": "Ce champ est obligatoire!",
+    "first_name": "Prénom: ",
+    "invalid_email": "Ce email est invalide!",
+    "invalid_phone": "Ce numéro est invalide!",
+    "last_name": "Nom: ",
+    "no": "Non",
+    "phone": "Numéro du téléphone:",
+    "search_placeholder": "Chercher...",
+    "select_bathrooms_number_choice_0": "Choisir un nombre",
+    "select_bedrooms_number_choice_0": "Choisir un nombre",
+    "select_building_type_choice_0": "Choisir un type",
+    "select_choice_0": "Choisir",
+    "select_city_choice_0": "Choisir une ville",
+    "select_construction_age_choice_0": "Choisir un age",
+    "select_price_ranges_choice_0": "Non précisé",
+    "select_property_type_choice_0": "Choisir un type",
+    "submit": "Soumettre",
+    "title_page": {
+      "contact": "Contactez-nous",
+      "home": "Page d'accueil",
+      "properties": "Propriétés",
+      "testimonial": "Témoignages",
+      "useful_links": "Liens utils"
+    },
+    "yes": "Oui"
+  },
+  "header": {
+    "languages": {
+      "english": "Anglais",
+      "french": "Français"
+    },
+    "nav": {
+      "buy_sell": "Acheter/Vendre",
+      "contact": "Contactez-nous",
+      "home": "Accueil",
+      "properties": "Propriétés",
+      "testimonial": "Témoignage",
+      "useful_links": "Liens utils"
+    }
+  },
+  "home": {
+    "bottom_side_1": {
+      "title": "Statistique et notre expérience",
+      "p1": "<0>Pour l'année 2018, en moyenne, nos propriétés se sont vendues à 98% de leur prix demandé et délai de 33 jours!</0> (source : CIGM – Chambre de l'immobilier du Grand Montréal).",
+      "p2": "La philosophie de notre équipe repose sur l'intégrité, la collaboration, la transparence et un service à la clientèle hors pair. C'est cette approche qui nous a permis de nous distinguer et d'obtenir d'excellents résultats.",
+      "p3": "Les éléments qui ont permis à l'équipe de se distinguer sont : la qualité photographique, les outils de la mise en marché uniques et une visibilité internationale.",
+      "p4": "Pour la vente de votre résidence, vous recevrez une évaluation véritable et sincère de votre propriété, des échéanciers réalistes et une stratégie de marché sur mesure ainsi que le meilleur service."
+    },
+    "bottom_side_2": {
+      "title": "Notre plan de la mise du marché local et international",
+      "p1": "<0>CENTURY 21</0> est la marque la plus reconnue dans le monde de l'immobilier dans <1>78 pays</1> du monde entier, et travaille actuellement à étendre sa part du marché grâce à des activités menées <2>à l'échelle canadienne et internationale</2> en Amérique du Nord, en Europe, en Amérique latine, au Moyen-Orient et en Asie.",
+      "p2": "Site internet en 16 langues : Anglais, Allemand, Russe, Japonais, Coréen, Néerlandais, Espagnol (Amérique latine), Espagnol (Europe), Français, Portugais et trois dialectes Chinois!",
+      "p3": "Pour avoir la visibilité maximale sur le marché canadien et mondial, bénéficiez de cette opportunité car les acheteurs viennent."
+    },
+    "left_side": {
+      "title": "Mme KEBLI",
+      "p1": "est détentrice d'un baccalauréat universitaire en architecture donc elle possède des connaissances approfondies en construction qui lui permettent de donner de bons conseils techniques à ses clients.",
+      "p2": "<0>YevGeniya</0> est un courtier immobilier dévoué et expérimenté dans les transactions de propriétés résidentielles et d'immeubles à revenus. Elle se démarque notamment par son sens développé de la diplomatie.",
+      "p3": "Sa grande expérience dans la vente et les relations humaines dans le marché des affaires internationales l'a aidée à devenir une bonne négociatrice lorsqu'il s'agit d'achat ou de vente d'une propriété."
+    },
+    "right_side": {
+      "title": "Mme IVAKHNO",
+      "p1": "est titulaire d'un B.A en éducation, M.A en urbanisme et environnement, AEC et le certificat de HEC de Montréal en comptabilité et finance.",
+      "p2": "<0>Natalia</0> est un courtier dynamique et experte du marché immobilier montréalais et particulièrement fière du fait que ses affaires proviennent de références d'anciens clients satisfaits. Ses talents de négociatrice seront des atouts précieux dans votre transaction. Son efficacité est désarmante et son professionnalisme est remarquable.",
+      "p3": "C'est l'excellence qui a animé ses nombreuses années d'expérience. La combinaison unique de son enthousiasme et d'expertise de Natalia saura vous faire réaliser vos rêves."
+    },
+    "title": {
+      "title_1": "Maîtres - vendeurs de l'année prix d'excellence",
+      "title_2": "Notre objectif est de garantir votre satisfaction par un service exceptionnel"
+    }
+  },
+  "map_container": {
+    "marker_icon": "Icône de marqueur"
+  },
+  "pdf_container": {
+    "download": "Télécharger",
+    "print": "Imprimer"
+  },
+  "properties": {
+    "advanced_filter": "Filtre avancé",
+    "bathrooms_number": "Nombre de salles de bain",
+    "bedrooms_number": "Nombre de chambres",
+    "building_type": "Type de bâtiment",
+    "card_item": {
+      "bathrooms": {
+        "one": "1 salle de bain",
+        "two": " salles de bain",
+        "more_than_two": "Plus que 2 salles de bain"
+      },
+      "bedrooms": {
+        "one": "1 chambre",
+        "two_four": " chambres",
+        "more_than_four": "Plus que 4 chambres"
+      },
+      "dining_room": "Salle à manger",
+      "fireplace": "Cheminée",
+      "garage": "Garage",
+      "garden": "Jardin",
+      "other_characteristics": "Autres caractéristiques",
+      "swimming_pool": "Piscine"
+    },
+    "construction_age": "Âge de la construction",
+    "has_dining_room": "Avec salle à manger?",
+    "has_fireplace": "Avec cheminée?",
+    "has_garage": "Avec garage?",
+    "has_garden": "Avec jardin?",
+    "has_swimming_pool": "Avec piscine?",
+    "occupation_date": "Date d'occupation",
+    "price_ranges": "Gammes de prix",
+    "property_type": "Type de propriété",
+    "search_result": {
+      "bathrooms_number": "Nombre de salles de bain: ",
+      "bedrooms_number": "Nombre de chambres: ",
+      "message_no_items_exist": "Aucun élément n'existe pour l'instant, merci de nous rendre visite une fois le problème résolu. Merci.",
+      "message_no_result_matches": "Désolé, nous n'avons pas de propriétés correspondant à ces critères:",
+      "message_try_with_other_criteria": "Essayez avec d'autres critères!",
+      "nothing_found": "Aucun résultat trouvé!",
+      "building_type": "Type de bâtiment: ",
+      "construction_age": "Âge de la construction: ",
+      "price_ranges": "Gammes de prix: ",
+      "property_type": "Type de propriété: ",
+      "searched_city": "Ville cherchée: ",
+      "searched_word": "Etiquete cherchée: ",
+      "status": "Statut: ",
+      "with_dining_room": "Avec salle à manger.",
+      "with_fireplace": "Avec cheminée.",
+      "with_garage": "Avec garage.",
+      "with_garden": "Avec jardin.",
+      "with_swimming_pool": "Avec piscine."
+    },
+    "status": "Statut"
+  },
+  "property": {
+    "description": "Description",
+    "general_information": "Informations générales",
+    "lot_size": "Taille",
+    "print_version": "Version imprimée",
+    "price": "Prix",
+    "request_for_information": "Demande d'informations"
+  },
+  "property_details_print": {
+    "contact": "Contact",
+    "front_view_alt": "La vue de face de la propriété",
+    "photos": "Photos",
+    "property_alt": "Propriété"
+  },
+  "testimonial": {
+    "add_testimonial": "Ajouter un témoignage",
+    "testimonial": "Témoignage"
+  },
+  "useful_links": {
+    "no_useful_link": "Il n'y a aucun lien utile pour l'instant!",
+    "guides": "Guides"
+  }
+}

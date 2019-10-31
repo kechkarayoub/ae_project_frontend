@@ -1,0 +1,198 @@
+{
+  "buyorsell": {
+    "buy_create": {
+      "coordinates": "Coordinates",
+      "details": "Details"
+    },
+    "intro": "If you want to buy or sell a property, please complete and send us the application form below and we will contact you as soon as possible.",
+    "sell_a_property": "Sell a property",
+    "to_buy": "To buy",
+    "to_sell": "To sell"
+  },
+  "contact": {
+    "contact_create": {
+      "contact_form": "Contact form",
+      "feedback_message_1": "An error has occured!",
+      "feedback_message_2": "Please re-try later.",
+      "get_informations": "Get informations",
+      "message": "Message",
+      "message_sent": "Your message has been sent.",
+      "object": "Object",
+      "reference_number": "Reference number: ",
+      "will_answer_client": "We will answer you as soon as possible!"
+    }
+  },
+  "footer": {
+    "all_rights_reserved": "All rights reserved.",
+    "powered_by": "Powered by ",
+    "newsletter": {
+      "create": {
+        "information_updated_message_1": "You are already subscribed.",
+        "information_updated_message_2": "Your information has been modified.",
+        "reactivated_message_1": "Your subscription has been reactivated.",
+        "reactivated_message_2": "Welcome back to our newsletter.",
+        "title": "Join our newsletter",
+        "welcome_message_1": "Welcome to our newsletter.",
+        "welcome_message_2": "And thank you for subscribing!"
+      }
+    }
+  },
+  "global": {
+    "cancel": "Cancel",
+    "city": "City",
+    "email": "Email",
+    "field_required": "This field is required!",
+    "first_name": "First name: ",
+    "invalid_email": "Please enter a valid email!",
+    "invalid_phone": "Please enter a valid number phone!",
+    "last_name": "Last name: ",
+    "no": "No",
+    "phone": "Phone number",
+    "search_placeholder": "Search...",
+    "select_bathrooms_number_choice_0": "Select a number",
+    "select_bedrooms_number_choice_0": "Select a number",
+    "select_building_type_choice_0": "Select a type",
+    "select_choice_0": "Select",
+    "select_city_choice_0": "Select city",
+    "select_construction_age_choice_0": "Select an age",
+    "select_price_ranges_choice_0": "Not specified",
+    "select_property_type_choice_0": "Select a type",
+    "submit": "Submit",
+    "title_page": {
+      "contact": "Contact",
+      "home": "Home page",
+      "properties": "Properties",
+      "testimonial": "Testimonials",
+      "useful_links": "Useful links"
+    },
+    "yes": "Yes"
+  },
+  "header": {
+    "languages": {
+      "english": "English",
+      "french": "French"
+    },
+    "nav": {
+      "buy_sell": "BUY/SELL",
+      "contact": "Contact",
+      "home": "Home",
+      "properties": "Properties",
+      "testimonial": "Testimonial",
+      "useful_links": "Useful links"
+    }
+  },
+  "home": {
+    "bottom_side_1": {
+      "title": "Statistics and our experience",
+      "p1": "<0>For the year 2018, on average, our properties were sold for 98% of their asking price and in less than 33 days!</0> (Source: CIGM - Real Estate Board of Greater Montreal).",
+      "p2": "Our team's philosophy is based on integrity, collaboration, transparency and unparalleled customer service. It is this approach that has allowed us to distinguish ourselves and obtain excellent results.",
+      "p3": "The elements that made the team stand out include: photography quality, unique marketing tools and international visibility.",
+      "p4": "For the sale of your home, you will receive a true and honest evaluation of your property, realistic deadlines and a tailored market strategy as well as the best service."
+    },
+    "bottom_side_2": {
+      "title": "Our plan to market the local and international market",
+      "p1": "<0>CENTURY 21</0> is the most recognized brand in the real estate world in <1>79 countries</1> worldwide, and is currently working to expand its market share through <2>Canadian and international</2> operations in North America, Europe, Latin America, the Middle East and Asia.",
+      "p2": "Website is accessible in 16 languages: English, German, Russian, Japanese, Korean, Dutch, Spanish (Latin America), Spanish (Europe), French, Portuguese and three Chinese dialects!",
+      "p3": "For maximum visibility in the Canadian and global markets, take advantage of this opportunity as buyers come."
+    },
+    "left_side": {
+      "title": "Mrs KEBLI",
+      "p1": "By holding a Bachelor of Architecture degree, Mrs Kebli has an extensive knowledge in the construction field that allows her to provide good technical advice to her clients.",
+      "p2": "<0>YevGeniya</0> is a dedicated and experienced real estate broker in residential property and income property transactions. Her work stands out particularly by her developed sense of diplomacy.",
+      "p3": "Her great experience in sales and human relations in the international business market has helped her become a good negotiator when it comes to buying or selling a property."
+    },
+    "right_side": {
+      "title": "Mrs IVAKHNO",
+      "p1": "Holds a B.A in Education, M.A in Urban Planning and Environment, AEC and the Montreal HEC Certificate in Accounting and Finance.",
+      "p2": "<0>Natalia</0> is a dynamic broker and expert on the Montreal real estate market and particularly proud of the fact that her business comes from references from former satisfied clients. Her negotiating skills will be valuable assets in your transaction. Her effectiveness is disarming and its professionalism is remarkable.",
+      "p3": "Excellence has driven her many years of experience. The unique combination of Natalia's enthusiasm and expertise will make you realize your dreams."
+    },
+    "title": {
+      "title_1": "Masters - Vendors of the Year Award of Excellence",
+      "title_2": "Our goal is to guarantee your satisfaction with an exceptional service"
+    }
+  },
+  "map_container": {
+    "marker_icon": "Marker icon"
+  },
+  "pdf_container": {
+    "download": "Download",
+    "print": "Print"
+  },
+  "properties": {
+    "advanced_filter": "Avanced filter",
+    "bathrooms_number": "Bathrooms number",
+    "bedrooms_number": "Bedrooms number",
+    "building_type": "Building type",
+    "card_item": {
+      "bathrooms": {
+        "one": "1 bathroom",
+        "two": " bathrooms",
+        "more_than_two": "More than 2 bathrooms"
+      },
+      "bedrooms": {
+        "one": "1 bedroom",
+        "two_four": " bedrooms",
+        "more_than_foor": "More than 4 bedrooms"
+      },
+      "dining_room": "Dining room",
+      "fireplace": "Fireplace",
+      "garage": "Garage",
+      "garden": "Garden",
+      "other_characteristics": "Other characteristics",
+      "swimming_pool": "Swimming pool"
+    },
+    "construction_age": "Construction age",
+    "has_dining_room": "With dining room?",
+    "has_fireplace": "With fireplace?",
+    "has_garage": "With garage?",
+    "has_garden": "With garden?",
+    "has_swimming_pool": "With swimming pool?",
+    "occupation_date": "Occupation date",
+    "price_ranges": "Price ranges",
+    "property_type": "Property type",
+    "search_result": {
+      "bathrooms_number": "Number of bathrooms: ",
+      "bedrooms_number": "Number of bedrooms: ",
+      "message_no_items_exist": "No item exists for now, thank you for visiting us once we solve the problem. Thank you.",
+      "message_no_result_matches": "Sorry, we have no properties that match these criteria:",
+      "message_try_with_other_criteria": "Try with other criteria!",
+      "nothing_found": "Nothing found!",
+      "building_type": "Building type: ",
+      "construction_age": "Construction age: ",
+      "price_ranges": "Price ranges: ",
+      "property_type": "Property type: ",
+      "searched_city": "Searched City: ",
+      "searched_word": "Searched word: ",
+      "status": "Status: ",
+      "with_dining_room": "With dining room.",
+      "with_fireplace": "With fireplace.",
+      "with_garage": "With garage.",
+      "with_garden": "With garden.",
+      "with_swimming_pool": "With swimming pool."
+    },
+    "status": "Status"
+  },
+  "property": {
+    "description": "Description",
+    "general_information": "General information",
+    "lot_size": "Lot size",
+    "print_version": "Print version",
+    "price": "Price",
+    "request_for_information": "Request for information"
+  },
+  "property_details_print": {
+    "contact": "Contact",
+    "front_view_alt": "The front view of the Property",
+    "photos": "Photos",
+    "property_alt": "Property"
+  },
+  "testimonial": {
+    "add_testimonial": "Add a testimonial",
+    "testimonial": "Testimonial"
+  },
+  "useful_links": {
+    "no_useful_link": "There in any useful link for now!",
+    "guides": "Guides"
+  }
+}

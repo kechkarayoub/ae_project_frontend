@@ -1,0 +1,255 @@
+.container-property{
+    margin-right: 0%;
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 639px) {
+        margin-bottom: 14px !important;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 640px) and (max-width: 769px) {
+        margin-bottom: 10px;
+        width: 50%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        margin-bottom: 10px;
+        width: 50%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        margin-bottom: 10px;
+        width: 33.33%;
+    }
+    .property-details-link {
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            text-decoration: none;
+            color: inherit;
+        }
+        .card{
+            &.property{
+                background-color: #FFF;
+                border: 1px solid #7F7F7F;
+                margin: 14px;
+                padding: 11px;
+                &>*{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .item_id{
+                    font-size: 15px;
+                    height: 25px;
+                    span{
+                    }
+                }
+                .img-property{
+                    position: relative;
+                    margin-bottom: 5px;
+                    width: 100%;
+                    @media only screen and (min-width: 320px) {
+                        height: 210px;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        height: 220px;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        height: 204px;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        height: 243px;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        height: 210px;
+                    }
+                    .card-img-top{
+                        width: 100%;
+                        @media only screen and (min-width: 320px) {
+                            height: 210px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            height: 220px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            height: 204px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            height: 243px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            height: 210px;
+                        }
+                    }
+                    .img-item-new, .img-item-sold{
+                        height: 100px;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 150px;
+                    }
+                }
+                .city-property, .type-property, .short-description-property, .info-property, .price-property{
+                    color: #333;
+                    float: left;
+                    min-height: 25px;
+                    text-decoration: none;
+                    width: 100%;
+                    @media only screen and (min-width: 320px) {
+                        font-size: 17px;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        font-size: 15px;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        font-size: 17px;
+                    }
+                }
+                .city-property{
+                    color: #0080FF;
+                    font-weight: bold;
+                    @media only screen and (min-width: 320px) {
+                        font-size: 1.5em;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        font-size: 1.4em;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        font-size: 1.4em;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        font-size: 1.4em;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        font-size: 1.5em;
+                    }
+                }
+                .type-property{
+                    height: auto;
+                    margin-bottom: 5px;
+                    @media only screen and (min-width: 320px) {
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                    }
+                }
+                .short-description-property{
+                    height: auto;
+                    margin-bottom: 5px;
+                    @media only screen and (min-width: 320px) {
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                    }
+                }
+                .info-property{
+                    border-bottom: 1px solid #D1D1D1;
+                    display: flex;
+                    height: auto;
+                    justify-content: flex-start;
+                    margin-bottom: 5px;
+                    min-height: 27px;
+                    @media only screen and (min-width: 320px) {
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                    }
+                    &>div{
+                        text-align: center;
+                        width: 14.28%;
+                        &.bathrooms-number{
+                            color: #8a9999;
+                        }
+                        &.garage{
+                            color: red;
+                        }
+                        &.garden{
+                            color: green;
+                        }
+                        &.fireplace{
+                            color: #ff6e00;
+                        }
+                        &.swimming_pool{
+                            color: #00d3ff;
+                        }
+                    }
+                }
+                .price-property{
+                    color: #C03;
+                    outline: none;
+                    text-align: right;
+                    @media only screen and (min-width: 320px) {
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                    }
+                }
+                &:hover{
+                    box-shadow: 0px 0px 6px 3px #B9B9B9;
+                }
+            }
+        }
+    }
+}

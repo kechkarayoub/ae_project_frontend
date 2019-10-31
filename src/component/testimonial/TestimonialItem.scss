@@ -1,0 +1,110 @@
+.testimonial{
+    border: 1px solid gray;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    @media only screen and (min-width: 320px) {
+        margin-right: inherit; 
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 480px) {
+        margin-right: inherit; 
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 640px) {
+        margin-right: 1%; 
+        width: 49%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        margin-right: 1%; 
+        width: 49%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        margin-right: 1%; 
+        width: 49%;
+    }
+    &:nth-child(2n){
+
+        @media only screen and (min-width: 320px) {
+            margin-left: inherit;
+            margin-right: inherit; 
+        }
+    
+        @media only screen and (min-width: 480px) {
+            margin-left: inherit;
+            margin-right: inherit; 
+        }
+    
+        @media only screen and (min-width: 640px) {
+            margin-left: 1%;
+            margin-right: inherit; 
+        }
+    
+        @media only screen and (min-width: 768px) {
+            margin-left: 1%;
+            margin-right: inherit; 
+        }
+    
+        @media only screen and (min-width: 1024px) {
+            margin-left: 1%;
+            margin-right: inherit; 
+        }
+    }
+    .name_el{
+        background-color: #c1bebe;
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        padding: 7px;
+        width: 100%;
+        .initials{
+            border-radius: 100%;
+            font-size: 22px;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 40px;
+        }
+        .name{
+            font-size: 22px;
+            text-transform: capitalize;
+            width: calc(100% - 55px);
+        }
+    }
+    .testimonial_content{
+        padding: 7px;
+        text-align: justify;
+        width: 100%;
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
+    .testimonial_time_el{
+        color: gray;
+        display: flex;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: flex-end;
+        padding: 7px;
+        width: 100%;
+        .testimonial_city{
+            margin-right: 5px; 
+        }
+    }
+}
+
+.actions{
+    text-align: center;
+    width: 100%;
+    button{
+        background-color: #25bed5;
+        margin: 0 10px;
+    }
+}

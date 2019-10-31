@@ -1,0 +1,93 @@
+npm init -y
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/react-fontawesome
+
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+
+npm install --save bootstrap
+
+npm install --save reactstrap react react-dom
+
+npm install react-router-dom
+
+npm i webpack webpack-cli --save-dev
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react babel-plugin-transform-class-properties --save-dev
+
+npm i react react-dom prop-types --save-dev
+
+npm i weak-key --save-dev
+
+npm i cypress --save-dev
+
+npm install react-bootstrap -- save
+npm install bootstrap@3 -- save
+
+npm install react-image-gallery
+
+npm install --save google-map-react
+
+(api maps:  suit ce lien https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+
+npm install --save react-map-gl
+(view react_map_gl_cong_steps.txt)
+
+npm install --save-dev dotenv
+
+npm install react-phone-input-2 --save
+
+npm install html2canvas --save
+
+npm install jspdf --save
+
+npm install pdfmake --save
+
+npm install @progress/kendo-react-pdf --save
+npm install @progress/kendo-drawing --save
+
+
+npm install react-select --save
+npm install react-search-field --save
+
+npm install node-sass --save
+
+npm install react-collapsible --save
+
+npm install react-device-detect --save
+npm install react-datepicker --save
+
+
+** if error sass run: npm rebuild node-sass
+
+
+
+
+** tests:
+
+** coverage report: npm test -- --coverage
+
+
+npm install --save-dev jest@22.4.3
+npm install --save-dev enzyme
+** if not exists: npm install --save-dev jest-enzyme@7.1.1
+npm install --save-dev enzyme-adapter-react-16@1.14.0
+npm install --save-dev react-test-renderer@16.10.1
+npm install --save-dev react-testing-library
+npm install --save-dev @testing-library/react
+npm install --save @ishawnwang/withunmounted
+npm install --save-dev enzyme-to-json
+npm install --save-dev jest-dom
+npm install --save-dev async-wait-until
+npm install --save-dev nock
+
+
+
+** i18n
+npm install --save i18next
+npm install --save react-i18next
+npm install --save iotex-react-language-dropdown
+npm install --save reactjs-localstorage

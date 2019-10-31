@@ -1,0 +1,49 @@
+.testimonials_container{
+    background-color: #FFF;
+    float: left;
+    height: auto;
+    width: 100%;
+
+    @media only screen and (min-width: 320px) {
+        padding: 4px;
+    }
+
+    @media only screen and (min-width: 480px) {
+        padding: 6px;
+    }
+
+    @media only screen and (min-width: 640px) {
+        padding: 8px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding: 12px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        padding: 14px;
+    }
+    .add_testemonial_btn{
+        text-align: right;
+        margin: 20px 15px;
+        margin-right: 0;
+        width: calc(100% - 15px);
+        button{
+            background-color: orange;
+            border: 0;
+            border-radius: 100%;
+            color: black;
+            cursor: pointer;
+            padding: 4px 10px;
+
+            &:hover{
+                color: white !important;
+            }
+        }
+    }
+    .testimonials_content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

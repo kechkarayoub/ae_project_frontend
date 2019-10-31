@@ -1,0 +1,35 @@
+div#root {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    section.pdf-container{
+        section.pdf-toolbar {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            button{
+                background-color: #eee;
+                border: 0px solid #555;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-right: 15px;
+                min-width: 140px;
+                padding: 8px;
+                position: relative;
+                svg{
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                &:hover, &:focus{
+                    background-color: #15babf;
+                    color: #fff;
+                }
+            }
+        }
+        section.pdf-body {
+            padding: 16px;
+            background-color: #eee;
+            height: 100%;
+        }
+    }
+}
