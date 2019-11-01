@@ -26,10 +26,10 @@ import {I18nextProvider} from 'react-i18next';
 import i18next from 'i18next';
 import common_fr from "./../../../translations/fr/common.json";
 import common_en from "./../../../translations/en/common.json";
-import {reactLocalStorage} from 'reactjs-localstorage';
+import store from 'store';
 i18next.init({
     interpolation: { escapeValue: false },
-    lng: reactLocalStorage.get('current_langue') || "en",
+    lng: store.get('current_langue') || "en",
     resources: {
         en: {
             common: common_en
@@ -46,8 +46,8 @@ const setUp = (props) => {
 
 describe('Header component', () => {
     it("Should renders correctly", () => {
-        reactLocalStorage.set("current_langue", "en");
-        const {container, getAllByTestId, getByTestId} = render(<I18nextProvider i18n={i18next}><LanguagesList t={key => key} on_click={(langue) => reactLocalStorage.set("current_langue", "fr")} /></I18nextProvider>);
+        store.set("current_langue", "en");
+        const {container, getAllByTestId, getByTestId} = render(<I18nextProvider i18n={i18next}><LanguagesList t={key => key} on_click={(langue) => store.set("current_langue", "fr")} /></I18nextProvider>);
         const languages_button = getAllByTestId('languages_button');
         expect(languages_button.length).toBe(1);
         expect(getByTestId('languages_button')).not.toBeNull();

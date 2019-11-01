@@ -27,7 +27,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {reactLocalStorage} from 'reactjs-localstorage';
+import store from 'store';
 import  './App.css';
 
 library.add(
@@ -48,8 +48,8 @@ class App extends Component {
             ready: false
         };
         this.hasUnmounted = false;
-        if(!reactLocalStorage.get('current_langue')){
-            reactLocalStorage.set('current_langue', "en");
+        if(!store.get('current_langue')){
+            store.set('current_langue', "en");
         }
     }
     componentDidMount() {

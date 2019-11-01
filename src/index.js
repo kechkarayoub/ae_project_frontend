@@ -6,11 +6,11 @@ import {I18nextProvider} from 'react-i18next';
 import i18next from 'i18next';
 import common_fr from "./translations/fr/common.json";
 import common_en from "./translations/en/common.json";
-import {reactLocalStorage} from 'reactjs-localstorage';
+import store from 'store';
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
     framework: "react-i18next",
-    lng: reactLocalStorage.get('current_langue') || "en",
+    lng: store.get('current_langue') || "en",
     resources: {
         en: {
             common: common_en    // 'common' is our custom namespace

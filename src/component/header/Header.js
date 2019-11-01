@@ -14,7 +14,7 @@ import slideHeader3 from '../images/header/slide_header_3.jpg';
 import realtor_img from '../images/header/realtor_img.jpg';
 import LanguagesList from '../utils/LanguagesList';
 import { BrowserRouter, Link } from 'react-router-dom';
-import {reactLocalStorage} from 'reactjs-localstorage';
+import store from 'store';
 import { withTranslation, Trans } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
@@ -118,7 +118,7 @@ class Header extends Component {
         </BrowserRouter>
     }
     handleLanguageChange(selected_language){
-        reactLocalStorage.set("current_langue", selected_language);
+        store.set("current_langue", selected_language);
         window.location.reload();
         // this.props.i18n.changeLanguage(selected_language);
 

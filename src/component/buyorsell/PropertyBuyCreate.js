@@ -5,12 +5,12 @@ import React, { Component } from 'react';
 import ReactPhoneInput from 'react-phone-input-2';
 import Select from 'react-select';
 import { formated_select_options, is_empty, is_valid_email } from '../../utils.js';
-import {reactLocalStorage} from 'reactjs-localstorage';
+import store from 'store';
 import "react-datepicker/dist/react-datepicker.css";
 import 'react-phone-input-2/dist/style.css';
 import "./PropertyBuyCreate.scss";
 
-const current_langue = reactLocalStorage.get('current_langue');
+const current_langue = store.get('current_langue');
 if(current_langue === "fr"){
     registerLocale('fr', fr)
 }

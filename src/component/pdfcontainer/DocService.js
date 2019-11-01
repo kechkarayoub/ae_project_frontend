@@ -1,6 +1,6 @@
-import {reactLocalStorage} from 'reactjs-localstorage';
 import{ savePDF } from '@progress/kendo-react-pdf';
-const current_langue = reactLocalStorage.get('current_langue');
+import store from 'store';
+const current_langue = store.get('current_langue');
 class DocService{
     createPdf = (html, filename) =>{
         savePDF(html,{
