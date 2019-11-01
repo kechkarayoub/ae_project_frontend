@@ -51,7 +51,6 @@ npm install @progress/kendo-drawing --save
 
 
 npm install react-select --save
-npm install react-search-field --save
 
 npm install node-sass --save
 

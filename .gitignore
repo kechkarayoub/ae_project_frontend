@@ -29,8 +29,8 @@ docs/_build/
 
 
 # Environments
-.env
-.env.*
+#.env
+#.env.*
 
 
 # Spyder project settings

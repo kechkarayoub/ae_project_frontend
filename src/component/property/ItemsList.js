@@ -2,7 +2,6 @@ import  React, { Component } from  'react';
 import ItemsService from "../../services/ItemsService";
 import Item from './Item';
 import './ItemsList.scss';
-import SearchField from "react-search-field";
 import Select from 'react-select';
 import { formated_select_options } from '../../utils.js';
 import TitlePage from '../utils/TitlePage';
@@ -67,7 +66,6 @@ class ItemsList extends Component {
         this.nextPage = this.nextPage.bind(this);
         this.prevPage = this.prevPage.bind(this);
         this.toggleFilterCollapse = this.toggleFilterCollapse.bind(this);
-        this.handleSearchInput = this.handleSearchInput.bind(this);
         this.refreshProperties = this.refreshProperties.bind(this);
         this.handleHasDiningRoomYesChange = this.handleHasDiningRoomYesChange.bind(this);
         this.handleHasDiningRoomNoChange = this.handleHasDiningRoomNoChange.bind(this);
@@ -206,11 +204,11 @@ class ItemsList extends Component {
         });
     }
 
-    handleSearchInput(input_text) {
+    handleSearchInput(evt) {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
-        properties_params.searched_txt = input_text;
-        properties_params_values.searched_txt = input_text;
+        properties_params.searched_txt = evt.target.value;
+        properties_params_values.searched_txt = evt.target.value;
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values });
         this.refreshProperties();
     }
@@ -447,10 +445,10 @@ class ItemsList extends Component {
                         <div className="section_search_and_filter" >
                             <div className="section_search" >
                                 <div className="search_field">
-                                    <SearchField
+                                    <input
                                         placeholder={this.props.t('global.search_placeholder')}
-                                        onChange={this.handleSearchInput}
-                                        classNames="search_input"
+                                        onChange={(evt) => this.handleSearchInput(evt)}
+                                        className="search_input"
                                     />
                                     <div className="select city-filter">
                                         <label>{this.props.t('global.city')}:</label>
