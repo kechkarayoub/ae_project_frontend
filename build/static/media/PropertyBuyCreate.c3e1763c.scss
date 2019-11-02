@@ -1,0 +1,525 @@
+.contact_buy_form{
+    background-color: #FFF;
+    background-color: #ece9db;
+    border-radius: 15px;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+
+    @media only screen and (min-width: 320px) {
+        padding: 4px;
+    }
+
+    @media only screen and (min-width: 480px) {
+        padding: 6px;
+    }
+
+    @media only screen and (min-width: 640px) {
+        padding: 8px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding: 12px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        padding: 14px;
+    }
+    form{
+        .left-side{
+            float: left;
+
+            @media only screen and (min-width: 320px) {
+                margin: 4px;
+                padding-right: 6px;
+                width: 304px;
+            }
+
+            @media only screen and (min-width: 480px) {
+                margin: 6px;
+                padding-right: 8px;
+                width: 456px;
+            }
+
+            @media only screen and (min-width: 640px) {
+                margin: 8px;
+                padding-right: 10px;
+                width: 608px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                margin: 12px;
+                padding-right: inherit;
+                width: 286px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                margin: 14px;
+                padding-left: inherit;
+                width: 387px;
+            }
+        }
+        .right-side{
+
+            @media only screen and (min-width: 320px) {
+                float: left;
+                margin: 4px;
+                padding-right: 6px;
+                width: 304px;
+            }
+
+            @media only screen and (min-width: 480px) {
+                float: left;
+                margin: 6px;
+                padding-right: 8px;
+                width: 456px;
+            }
+
+            @media only screen and (min-width: 640px) {
+                float: left;
+                margin: 8px;
+                padding-right: 10px;
+                width: 608px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                float: right;
+                margin: 12px;
+                padding-right: inherit;
+                width: 348px;
+            }
+
+            @media only screen and (min-width: 1024px) {
+                float: right;
+                margin: 14px;
+                padding-right: inherit;
+                width: 470px;
+            }
+        }
+        .coordinates, .general_information, .details{
+            h2{
+                color: #6E6E6E;
+                font-family: "Arial", Helvetica, sans-serif;
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 10px;
+            }
+            .form_entry{
+                float: left;
+                height: auto;
+                margin-bottom: 5px;
+                position: relative;
+                width: 100%;
+                label{
+                    float: left;
+                    height: 30px;
+                    margin-bottom: 0;
+
+                    @media only screen and (min-width: 320px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        width: 30%;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        width: 30%;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        width: 100%;
+                    }
+                }
+                input, textarea{
+                    border: 1px solid #8A8A8A;
+                    color: #555555;
+                    float: left;
+                    font-family: "Arial", Helvetica, sans-serif;
+                    font-size: 15px;
+                    font-weight: normal;
+                    padding: 5px;
+                    text-align: left;
+
+                    @media only screen and (min-width: 320px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        width: 100%;
+                    }
+                }
+                .checkmark {
+                    background-color: #c5c5c4;
+                    border-radius: 100%;
+                    height: 25px;
+                    left: 60%;
+                    position: absolute;
+                    top: 0;
+                    width: 25px;
+                    &:after{
+                        border: solid white;
+                        border-width: 0 3px 3px 0;
+                        content: "";
+                        display: none;
+                        height: 12px;
+                        left: 10px;
+                        position: absolute;
+                        top: 6px;
+                        transform: rotate(45deg);
+                        width: 7px;
+                    }
+                }
+                input{
+                    height: 42px;
+                    line-height: 10px;
+                    &[type=checkbox]{
+                        cursor: pointer;
+                        height: 25px;
+                        left: 60%;
+                        opacity: 0;
+                        position: absolute;
+                        top: 0;
+                        width: 25px;
+                        z-index: 1;
+
+                        &:hover ~ .checkmark{
+                            background-color: #aba9a9;
+                        }
+                        &:checked ~ .checkmark{
+                            background-color: #2196F3;
+                        }
+                        &:checked ~ .checkmark:after{
+                            display: block;
+                        }
+                    }
+                }
+                .react-tel-input{
+                    float: left;
+
+                    @media only screen and (min-width: 320px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        width: 100%;
+                    }
+                    input{
+                        padding-left: 45px;
+                        width: 100%;
+                    }
+                }
+                .react-datepicker-wrapper{
+                    float: left;
+
+                    @media only screen and (min-width: 320px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        width: 70%;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        width: 100%;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        width: 100%;
+                    }
+                    input{
+                        border-radius: 0.25em;
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+                .field_required{
+                    background-color: #e3e0e0;
+                    border-radius: 5px;
+                    color: red;
+                    @media only screen and (min-width: 320px) {
+                        left: unset;
+                        margin: 4px auto;
+                        padding: 8px;
+                        position: absolute;
+                        text-align: center;
+                        top: 65px;
+                        width: 100%;
+                        z-index: 1;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        margin: unset;
+                        margin-left: 30%;
+                        padding: 8px;
+                        position: absolute;
+                        text-align: center;
+                        top: 35px;
+                        width: 70%;
+                        z-index: 1;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        margin: unset;
+                        margin-left: 30%;
+                        padding: 8px;
+                        position: absolute;
+                        text-align: center;
+                        top: 35px;
+                        width: 70%;
+                        z-index: 1;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        left: 100%;
+                        margin: inherit;
+                        padding: 5px;
+                        position: absolute;
+                        top: 35px;
+                        width: max-content;
+                        z-index: 100;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        left: 100%;
+                        margin: inherit;
+                        padding: 5px;
+                        position: absolute;
+                        top: 35px;
+                        width: max-content;
+                        z-index: 100;
+                    }
+
+                    &:before{
+                        border-style: solid;
+                        border-width: 6px;
+                        content: "";
+                        margin-top: -6px;
+                        position: absolute;
+
+                        @media only screen and (min-width: 320px) {
+                            border-color: transparent transparent #e3e0e0 transparent;
+                            right: 50%;
+                            top: -6px;
+                            transform: translateX(50%);
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            border-color: transparent transparent #e3e0e0 transparent;
+                            right: 50%;
+                            top: -6px;
+                            transform: translateX(50%);
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            border-color: transparent transparent #e3e0e0 transparent;
+                            right: 50%;
+                            top: -6px;
+                            transform: translateX(50%);
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            border-color: transparent #e3e0e0 transparent transparent;
+                            left: unset;
+                            right: 100%;
+                            top: 50%;
+                            transform: unset;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            border-color: transparent #e3e0e0 transparent transparent;
+                            left: unset;
+                            right: 100%;
+                            top: 50%;
+                            transform: unset;
+                        }
+                    }
+                }
+                .select_container{
+                    &>div:first-child>div{
+                        height: 40px;
+                    }
+                }
+                &.message{
+                    .field_required{
+                        top: calc(50% + 15px);
+
+                        @media only screen and (min-width: 320px) {
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            transform: translateY(-50%);
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            transform: translateY(-50%);
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            transform: translateY(-50%);
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            transform: translateY(-50%);
+                        }
+                    }
+                }
+                &.has_error{
+                    @media only screen and (min-width: 320px) {
+                        height: 105px;
+                    }
+
+                    @media only screen and (min-width: 480px) {
+                        height: 75px;
+                    }
+
+                    @media only screen and (min-width: 640px) {
+                        height: 75px;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                        height: auto;
+                    }
+
+                    @media only screen and (min-width: 1024px) {
+                        height: auto;
+                    }
+                }
+            }
+        }
+        .action_buy{
+            float: left;
+            height: auto;
+            text-align: center;
+            width: 100%;
+            input{
+                background-color: #666666;
+                border: 1px solid #8A8A8A;
+                border-radius: 15px;
+                color: #E6E6E6;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                height: auto;
+                margin-bottom: 10px;
+                padding: 6px;
+                padding-left: 40px;
+                padding-right: 40px;
+                width: auto;
+            }
+        }
+    }
+    .feedback{
+        background-color: #b5b2b2eb;
+        border-radius: 15px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        @media only screen and (min-width: 320px) {
+            height: 300px;
+            position: fixed;
+            width: 300px;
+        }
+
+        @media only screen and (min-width: 480px) {
+            height: 250px;
+            position: fixed;
+            width: 400px;
+        }
+
+        @media only screen and (min-width: 640px) {
+            height: 250px;
+            position: absolute;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 768px) {
+            height: 250px;
+            position: absolute;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            height: 250px;
+            position: absolute;
+            width: 100%;
+        }
+        .close_feedback{
+            background-color: #595656;
+            border: 0;
+            border-radius: 100%;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            transform: translate(25%, -25%);
+            width: 40px;
+        }
+        .content_{
+            height: calc(100% - 4em);
+            margin: 2em;
+            position: relative;
+            .message{
+                font-size: 18px;
+                font-weight: bold;
+                padding-top: 2em;
+                text-align: center
+            }
+            .action{
+                bottom: 0;
+                left: 50%;
+                position: absolute;
+                transform: translateX(-50%);
+                button{
+                    background-color: #595656;
+                    border: 0;
+                    border-radius: 15px;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 18px;
+                    font-weight: bold;
+                    height: 35px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}

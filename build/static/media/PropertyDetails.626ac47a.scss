@@ -1,0 +1,409 @@
+.property_container{
+    background-color: #FFF;
+    float: left;
+    height: auto;
+    width: 100%;
+
+    @media only screen and (min-width: 320px) {
+        padding: 4px;
+    }
+
+    @media only screen and (min-width: 480px) {
+        padding: 6px;
+    }
+
+    @media only screen and (min-width: 640px) {
+        padding: 8px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding: 12px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        padding: 14px;
+    }
+    .property_details{
+        float: left;
+        width: 100%;
+        .property_details-header{
+            .title{
+                background-color: #FFFFFF;
+                color: #6E6E6E;
+                display: inline-flex;
+                font-family: "Georgia", Times New Roman, Times, serif;
+                font-weight: normal;
+                width: auto;
+
+                @media only screen and (min-width: 320px) {
+                    font-size: 28px;
+                    margin-bottom: 11px;
+                    padding: 4px;
+                }
+
+                @media only screen and (min-width: 480px) {
+                    font-size: 28px;
+                    margin-bottom: 9px;
+                    padding: 6px;
+                }
+
+                @media only screen and (min-width: 640px) {
+                    font-size: 30px;
+                    margin-bottom: 7px;
+                    padding: 8px;
+                }
+
+                @media only screen and (min-width: 768px) {
+                    font-size: 30px;
+                    margin-bottom: 3px;
+                    padding: 12px;
+                }
+
+                @media only screen and (min-width: 1024px) {
+                    font-size: 30px;
+                    margin-bottom: 1px;
+                    padding: 14px;
+                }
+            }
+            .h-actions{
+                color: #348ABE;
+                float: left;
+                font-size: 13px;
+                text-align: right;
+                width: 100%;
+                a{
+                    color: #348ABE;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    text-decoration: none;
+                    svg{
+                        direction: ltr;
+                        display: inline-block;
+                        font-family: 'Material Icons';
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: normal;
+                        letter-spacing: normal;
+                        line-height: 1;
+                        margin-right: 5px;
+                        text-transform: none;
+                        vertical-align: middle;
+                        white-space: nowrap;
+                        word-wrap: normal;
+                        -webkit-font-feature-settings: 'liga';
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+            }
+        }
+        .property_details-content{
+            display: flex;
+            flex-wrap: wrap;
+            float: left;
+            width: 100%;
+            .property_details-information{
+                float: left;
+                @media only screen and (min-width: 320px) {
+                    margin: 4px;
+                    width: 304px;
+                }
+
+                @media only screen and (min-width: 480px) {
+                    margin: 6px;
+                    width: 456px;
+                }
+
+                @media only screen and (min-width: 640px) {
+                    margin: 5px 8px;
+                    width: 608px;
+                }
+
+                @media only screen and (min-width: 768px) {
+                    margin: 12px;
+                    width: 348px;
+                }
+
+                @media only screen and (min-width: 1024px) {
+                    margin: 14px;
+                    width: 470px;
+                }
+                &.images_map{
+                    .property_details-slider{
+                        border: 1px solid #CCCCCC;
+                        float: left;
+                        padding: 5px;
+                        width: 100%;
+                        .card-img-top{
+                            border: 1px solid #f1f0f0;
+                        }
+                    }
+                    .card_maps{
+                        .map_card{
+                            padding: 0 !important;
+                            margin: 0 !important;
+                            margin-top: 20px !important;
+                        }
+                    }
+                }
+                &.infos{
+                    &>div{
+                        float: left;
+                        height: auto;
+                        width: 100%;
+                    }
+                    .key{
+                        color: #8A8A8A;
+                        font-weight: bold;
+                        min-width: 200px;
+                        @media only screen and (min-width: 320px) {
+                            margin-right: 10px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            margin-right: 15px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            margin-right: 30px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            margin-right: 15px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            margin-right: 20px;
+                        }
+                    }
+                    .value{
+                        svg{
+                            color: green;
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                    .property_city{
+                        background-color: #8A8A8A;
+                        color: #FFFFFF;
+                        font-family: "Arial", Helvetica, sans-serif;
+                        font-size: 18px;
+                        font-weight: normal;
+                        margin-bottom: 10px;
+                        padding: 3px;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                    .property_address{
+                        color: #555555;
+                        margin-bottom: 20px;
+                        margin-top: 0px;
+                        text-align: center;
+                        @media only screen and (min-width: 320px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            font-size: 14px;
+                        }
+                    }
+                    .property_id{
+                        color: #555555;
+                        display: flex;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                        margin-top: 0px;
+                        @media only screen and (min-width: 320px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            font-size: 14px;
+                        }
+                    }
+                    .property_price{
+                        color: #555555;
+                        display: flex;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                        margin-top: 0px;
+                        @media only screen and (min-width: 320px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            font-size: 13px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            font-size: 14px;
+                        }
+                        .value{
+                            color: #C03;
+                            font-size: 17px;
+                        }
+                    }
+                    .property_short_description{
+                        color: #555555;
+                        display: flex;
+                        margin-bottom: 20px;
+                        margin-top: 0px;
+                        text-align: justify;
+                        @media only screen and (min-width: 320px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 480px) {
+                            font-size: 14px;
+                        }
+
+                        @media only screen and (min-width: 640px) {
+                            font-size: 15px;
+                        }
+
+                        @media only screen and (min-width: 768px) {
+                            font-size: 15px;
+                        }
+
+                        @media only screen and (min-width: 1024px) {
+                            font-size: 15px;
+                        }
+                    }
+                    .property_general_information{
+                        display: flex;
+                        flex-wrap: wrap;
+                        float: left;
+                        margin-bottom: 10px;
+                        width: 100%;
+                        .gi_title{
+                            border-bottom: 1px solid #8A8A8A;
+                            border-top: 1px solid #8A8A8A;
+                            color: #5A5A5A;
+                            float: left;
+                            font-size: 17px;
+                            font-weight: bold;
+                            height: auto;
+                            margin-bottom: 10px;
+                            padding: 2px;
+                            text-align: center;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            width: 100%;
+                        }
+                        .property_type, .item_status, .building_type,
+                        .property_construction_age, .property_lot_size, .property_bedrooms_number,
+                        .property_bedrooms_number, .property_has_dining_room, .property_has_fireplace,
+                        .property_has_swimming_pool, .property_has_garden, .property_has_garage{
+                            color: #555555;
+                            display: flex;
+                            margin-bottom: 10px;
+                            width: 100%;
+                        }
+                        .property_type, .item_status, .building_type, .property_construction_age{
+                            @media only screen and (min-width: 320px) {
+                                flex-wrap: wrap;
+                            }
+
+                            @media only screen and (min-width: 480px) {
+                                flex-wrap: inherit;
+                            }
+
+                            @media only screen and (min-width: 640px) {
+                                flex-wrap: inherit;
+                            }
+
+                            @media only screen and (min-width: 768px) {
+                                flex-wrap: wrap;
+                            }
+
+                            @media only screen and (min-width: 1024px) {
+                                flex-wrap: inherit;
+                            }
+                                .value{
+                                    @media only screen and (min-width: 320px) {
+                                        margin-left: auto;
+                                    }
+
+                                    @media only screen and (min-width: 480px) {
+                                        margin-left: inherit;
+                                    }
+
+                                    @media only screen and (min-width: 640px) {
+                                        margin-left: inherit;
+                                    }
+
+                                    @media only screen and (min-width: 768px) {
+                                        margin-left: auto;
+                                    }
+
+                                    @media only screen and (min-width: 1024px) {
+                                        margin-left: inherit;
+                                    }
+                                }
+                        }
+                    }
+                    .property_description{
+                        display: flex;
+                        flex-wrap: wrap;
+                        float: left;
+                        margin-bottom: 10px;
+                        width: 100%;
+                        .d_title{
+                            border-bottom: 1px solid #8A8A8A;
+                            border-top: 1px solid #8A8A8A;
+                            color: #5A5A5A;
+                            float: left;
+                            font-size: 17px;
+                            font-weight: bold;
+                            height: auto;
+                            margin-bottom: 10px;
+                            padding: 2px;
+                            text-align: center;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            width: 100%;
+                        }
+                        .description{
+                            color: #555555;
+                            display: flex;
+                            margin-bottom: 20px;
+                            margin-top: 0px;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
