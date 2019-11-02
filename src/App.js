@@ -64,8 +64,8 @@ class App extends Component {
                 ready: true
             });
         })
-        .catch(function(err){
-            console.log(err);
+        .catch(function(message, file, line, col, error){
+            console.log(error);
         });
     }
     componentWillUnmount() {
