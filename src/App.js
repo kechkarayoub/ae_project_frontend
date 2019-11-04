@@ -28,7 +28,7 @@ import {
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import store from 'store';
-import  './App.css';
+import  './App.scss';
 
 library.add(
     fab, faBath, faBed, faCar, faCopyright, faDownload, faFacebook, faGooglePlus, faInstagram, faLinkedin, faPrint, faTwitter, faYoutube

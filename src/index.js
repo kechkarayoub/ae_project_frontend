@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.css';
+import './index.scss';
 import {I18nextProvider} from 'react-i18next';
 import i18next from 'i18next';
 import common_fr from "./translations/fr/common.json";

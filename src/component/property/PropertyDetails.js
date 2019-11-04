@@ -5,7 +5,7 @@ import no_image from '../images/item/no_image.png';
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "react-image-gallery/styles/css/image-gallery.css";
-import './AddedSiliderCss.css';
+import './AddedSiliderCss.scss';
 import './PropertyDetails.scss';
 
 

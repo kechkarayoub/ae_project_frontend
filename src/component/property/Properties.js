@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ItemsList from './ItemsList';
-import './Properties.css';
+import './Properties.scss';
 
 
 class Properties extends Component {
