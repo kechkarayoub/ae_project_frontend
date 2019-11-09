@@ -147,6 +147,10 @@ module.exports = {
         )
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
       },
+//      {
+//        test: /\.scss$/,
+//        loader: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
+//      },
       {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract(
