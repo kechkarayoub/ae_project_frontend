@@ -15,7 +15,7 @@ import Testimonial from './component/testimonial/Testimonial';
 import UsefulLinks from './component/usefullinks/UsefulLinks';
 import withUnmounted from '@ishawnwang/withunmounted';
 import { withTranslation, Trans } from 'react-i18next';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, hashHistory } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
     faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faBath, faBed, faCar, faCheckCircle, faCopyright, faDownload, faFax, faFire,
@@ -76,7 +76,7 @@ class App extends Component {
             <div className="global_container">
                 {ready ?
                 <div className="page_content">
-                    <BrowserRouter>
+                    <BrowserRouter history={hashHistory}>
                         <Header/>
                         <div className="body">
                             <div className="content">
