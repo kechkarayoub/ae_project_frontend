@@ -59,7 +59,10 @@ class TestimonialsList extends Component {
     }
 
     handleTestimonialAdded(testimonial){
-        this.setState({ testimonials: [testimonial].concat(this.state.testimonials) });
+        this.setState({ 
+            collapsed: true,
+            testimonials: [testimonial].concat(this.state.testimonials) 
+        });
     }
 
     render() {
@@ -75,6 +78,9 @@ class TestimonialsList extends Component {
                 </div> 
                 {ready ?
                     <div className="testimonials_content">
+                        {testimonials.length === 0 &&
+                            <div>{this.props.t('testimonial.no_testimonial')}</div>
+                        }
                         {testimonials.map((testimonialItem, i) =>
                             <TestimonialItem t={this.props.t} testimonialItem={testimonialItem} key={i} />
                         )}

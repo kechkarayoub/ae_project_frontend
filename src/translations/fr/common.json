@@ -189,6 +189,7 @@
   },
   "testimonial": {
     "add_testimonial": "Ajouter un témoignage",
+    "no_testimonial": "Il n'y a aucun témoignage pour l'instant!",
     "testimonial": "Témoignage"
   },
   "useful_links": {
