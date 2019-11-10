@@ -1,0 +1,31 @@
+.realtor-data {
+  color: #000;
+  font-family: "Arial", Helvetica, sans-serif; }
+  .realtor-data .full-name, .realtor-data .agency-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; }
+  .realtor-data .agency-name {
+    font-size: 14px; }
+  .realtor-data .address, .realtor-data .email, .realtor-data .tel, .realtor-data .fax {
+    float: left;
+    font-size: 12px;
+    line-height: 8px;
+    text-align: center;
+    margin-bottom: 2px;
+    width: 100%; }
+    .realtor-data .address svg, .realtor-data .email svg, .realtor-data .tel svg, .realtor-data .fax svg {
+      margin-right: 10px; }
+  .realtor-data.contact_page {
+    color: #6E6E6E; }
+    .realtor-data.contact_page .full-name, .realtor-data.contact_page .agency-name {
+      font-size: 23px;
+      margin-bottom: 10px; }
+    .realtor-data.contact_page .agency-name {
+      font-size: 20px; }
+    .realtor-data.contact_page .address, .realtor-data.contact_page .email, .realtor-data.contact_page .tel, .realtor-data.contact_page .fax {
+      font-size: 16px;
+      line-height: 15px;
+      margin-bottom: 10px; }
+      .realtor-data.contact_page .address svg, .realtor-data.contact_page .email svg, .realtor-data.contact_page .tel svg, .realtor-data.contact_page .fax svg {
+        margin-right: 10px; }

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import pageNotFoundImg from '../images/notfound/pageNotFoundImg.png';
-import './NotFoundPage.scss';
+import './NotFoundPage.css';
 
 class NotFoundPage extends React.Component{
     render(){

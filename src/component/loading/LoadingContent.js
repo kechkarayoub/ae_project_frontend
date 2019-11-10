@@ -1,6 +1,6 @@
 import React from 'react';
 import gif_loading from "../images/loading/gif_loading.gif";
-import './LoadingContent.scss';
+import './LoadingContent.css';
 
 const LoadingContent = () => (
     <div className="loading_container">

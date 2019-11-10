@@ -1,5 +1,5 @@
 import React from 'react';
-import './FeedbackServer.scss';
+import './FeedbackServer.css';
 
 const FeedbackServer = ({showFeedback, feedback_success, feedback_messages, handleCloseFeedback}) => (
     

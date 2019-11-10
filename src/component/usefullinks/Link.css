@@ -1,0 +1,14 @@
+.link {
+  cursor: pointer;
+  padding: 0 30px; }
+  .link a {
+    color: #008bff;
+    text-decoration: none !important; }
+    .link a .link_url {
+      border-bottom: 1px solid #ddd;
+      font-weight: bold;
+      padding: 10px 0px; }
+  .link:hover {
+    background-color: #ddd; }
+    .link:hover a {
+      color: #5454f0; }

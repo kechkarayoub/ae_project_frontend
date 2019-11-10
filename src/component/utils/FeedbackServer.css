@@ -1,0 +1,69 @@
+.feedback {
+  background-color: #b5b2b2eb;
+  border-radius: 15px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100; }
+  @media only screen and (min-width: 320px) {
+    .feedback {
+      height: 300px;
+      position: fixed;
+      width: 300px; } }
+  @media only screen and (min-width: 480px) {
+    .feedback {
+      height: 250px;
+      position: fixed;
+      width: 400px; } }
+  @media only screen and (min-width: 640px) {
+    .feedback {
+      height: 250px;
+      position: absolute;
+      width: 100%; } }
+  @media only screen and (min-width: 768px) {
+    .feedback {
+      height: 250px;
+      position: absolute;
+      width: 100%; } }
+  @media only screen and (min-width: 1024px) {
+    .feedback {
+      height: 250px;
+      position: absolute;
+      width: 100%; } }
+  .feedback .close_feedback {
+    background-color: #595656;
+    border: 0;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    transform: translate(25%, -25%);
+    width: 40px; }
+  .feedback .content_ {
+    height: calc(100% - 4em);
+    margin: 2em;
+    position: relative; }
+    .feedback .content_ .message {
+      font-size: 18px;
+      font-weight: bold;
+      padding-top: 2em;
+      text-align: center; }
+    .feedback .content_ .action {
+      bottom: 0;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%); }
+      .feedback .content_ .action button {
+        background-color: #595656;
+        border: 0;
+        border-radius: 15px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        height: 35px;
+        width: 100px; }

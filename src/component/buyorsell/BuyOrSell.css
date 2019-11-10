@@ -1,0 +1,56 @@
+.buyorsell {
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  height: auto;
+  width: 100%; }
+  @media only screen and (min-width: 320px) {
+    .buyorsell {
+      padding: 4px; } }
+  @media only screen and (min-width: 480px) {
+    .buyorsell {
+      padding: 6px; } }
+  @media only screen and (min-width: 640px) {
+    .buyorsell {
+      padding: 8px; } }
+  @media only screen and (min-width: 768px) {
+    .buyorsell {
+      padding: 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .buyorsell {
+      padding: 14px; } }
+  .buyorsell .intr {
+    width: 100%; }
+    .buyorsell .intr p {
+      color: #6E6E6E;
+      float: left;
+      font-size: 16px;
+      line-height: 15px;
+      margin-bottom: 11px;
+      margin-top: 12px;
+      padding: 10px;
+      text-align: justify;
+      width: 100%; }
+      @media only screen and (min-width: 320px) {
+        .buyorsell .intr p {
+          width: 312px; } }
+      @media only screen and (min-width: 480px) {
+        .buyorsell .intr p {
+          width: 462px; } }
+      @media only screen and (min-width: 640px) {
+        .buyorsell .intr p {
+          width: 624px; } }
+      @media only screen and (min-width: 768px) {
+        .buyorsell .intr p {
+          width: 744px; } }
+      @media only screen and (min-width: 1024px) {
+        .buyorsell .intr p {
+          width: 996px; } }
+  .buyorsell .tabs_buy_sell {
+    width: 100%; }
+  .buyorsell .tab-content {
+    width: 100%; }
+    .buyorsell .tab-content .content_tab {
+      float: left;
+      width: 100%; }

@@ -8,7 +8,7 @@ import { formated_select_options, is_empty, is_valid_email } from '../../utils.j
 import store from 'store';
 import "react-datepicker/dist/react-datepicker.css";
 import 'react-phone-input-2/dist/style.css';
-import "./PropertyBuyCreate.scss";
+import "./PropertyBuyCreate.css";
 
 const current_langue = store.get('current_langue');
 if(current_langue === "fr"){

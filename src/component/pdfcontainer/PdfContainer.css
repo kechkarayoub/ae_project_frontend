@@ -1,0 +1,27 @@
+div#root {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+  div#root section.pdf-container section.pdf-toolbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px; }
+    div#root section.pdf-container section.pdf-toolbar button {
+      background-color: #eee;
+      border: 0px solid #555;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 15px;
+      min-width: 140px;
+      padding: 8px;
+      position: relative; }
+      div#root section.pdf-container section.pdf-toolbar button svg {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%); }
+      div#root section.pdf-container section.pdf-toolbar button:hover, div#root section.pdf-container section.pdf-toolbar button:focus {
+        background-color: #15babf;
+        color: #fff; }
+  div#root section.pdf-container section.pdf-body {
+    padding: 16px;
+    background-color: #eee;
+    height: 100%; }

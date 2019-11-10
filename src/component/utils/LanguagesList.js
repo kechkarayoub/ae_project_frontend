@@ -1,5 +1,5 @@
 import React from 'react';
-import './LanguagesList.scss';
+import './LanguagesList.css';
 import franceFlag from '../images/flags/France.png';
 import unitedStatesFlag from '../images/flags/UnitedStates.png';
 import { DropdownButton, Dropdown } from 'react-bootstrap';

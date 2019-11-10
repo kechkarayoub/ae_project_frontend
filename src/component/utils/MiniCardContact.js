@@ -1,5 +1,5 @@
 import React from 'react';
-import './MiniCardContact.scss';
+import './MiniCardContact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

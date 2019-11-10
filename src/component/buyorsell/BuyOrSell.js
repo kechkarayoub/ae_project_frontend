@@ -6,7 +6,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import TitlePage from '../utils/TitlePage';
 import { withTranslation, Trans } from 'react-i18next';
-import './BuyOrSell.scss';
+import './BuyOrSell.css';
 
 
 

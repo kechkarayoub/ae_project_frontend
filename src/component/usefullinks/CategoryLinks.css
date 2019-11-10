@@ -1,0 +1,19 @@
+.category_links .category_name {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  line-height: 1.5;
+  padding: 1rem;
+  position: relative;
+  -webkit-tap-highlight-color: transparent; }
+  .category_links .category_name svg {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.category_links .Collapsible {
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }

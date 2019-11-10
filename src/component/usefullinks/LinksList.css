@@ -1,0 +1,78 @@
+.links--container {
+  background-color: #FFF;
+  float: left;
+  height: auto;
+  width: 100%;
+  padding-bottom: 15px !important; }
+  @media only screen and (min-width: 320px) {
+    .links--container {
+      padding: 4px; } }
+  @media only screen and (min-width: 480px) {
+    .links--container {
+      padding: 6px; } }
+  @media only screen and (min-width: 640px) {
+    .links--container {
+      padding: 8px; } }
+  @media only screen and (min-width: 768px) {
+    .links--container {
+      padding: 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .links--container {
+      padding: 14px; } }
+  .links--container .list_links {
+    color: #6E6E6E;
+    float: left; }
+    @media only screen and (min-width: 320px) {
+      .links--container .list_links {
+        margin: 4px;
+        width: 304px; } }
+    @media only screen and (min-width: 480px) {
+      .links--container .list_links {
+        margin: 6px;
+        width: 456px; } }
+    @media only screen and (min-width: 640px) {
+      .links--container .list_links {
+        margin: 8px;
+        width: 346px; } }
+    @media only screen and (min-width: 768px) {
+      .links--container .list_links {
+        margin: 12px;
+        width: 450px; } }
+    @media only screen and (min-width: 1024px) {
+      .links--container .list_links {
+        margin: 14px;
+        width: 553px; } }
+    .links--container .list_links .usefullinks {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      margin: .5rem 0 1rem 0; }
+  .links--container .list_guides {
+    color: #6E6E6E;
+    float: left; }
+    @media only screen and (min-width: 320px) {
+      .links--container .list_guides {
+        margin: 4px;
+        width: 304px; } }
+    @media only screen and (min-width: 480px) {
+      .links--container .list_guides {
+        margin: 6px;
+        width: 456px; } }
+    @media only screen and (min-width: 640px) {
+      .links--container .list_guides {
+        margin: 8px;
+        width: 246px; } }
+    @media only screen and (min-width: 768px) {
+      .links--container .list_guides {
+        margin: 12px;
+        width: 246px; } }
+    @media only screen and (min-width: 1024px) {
+      .links--container .list_guides {
+        margin: 14px;
+        width: 387px; } }
+    .links--container .list_guides .links_img {
+      margin-top: 15px;
+      max-width: 360px;
+      width: 100%; }
+      .links--container .list_guides .links_img img {
+        width: 100%; }

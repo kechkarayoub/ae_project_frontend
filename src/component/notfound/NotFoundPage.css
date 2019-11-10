@@ -1,0 +1,76 @@
+#notFound {
+  background: #030005;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+  #notFound * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+  #notFound .notFound {
+    left: 50%;
+    line-height: 1.4;
+    max-width: 767px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+    #notFound .notFound .notFound-404 {
+      height: 180px;
+      margin-bottom: 35px;
+      position: relative;
+      z-index: -1; }
+      #notFound .notFound .notFound-404 h1 {
+        color: #030005;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 140px;
+        font-weight: 900;
+        left: 50%;
+        letter-spacing: -20px;
+        margin-bottom: 0px;
+        margin-left: -12px;
+        margin-top: 0px;
+        position: absolute;
+        text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+        text-transform: uppercase;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); }
+        @media only screen and (min-width: 480px) {
+          #notFound .notFound .notFound-404 h1 {
+            font-size: 182px; } }
+      #notFound .notFound .notFound-404 h2 {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        left: 0;
+        letter-spacing: 13px;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        text-shadow: 0px 2px 0px #8400ff;
+        text-transform: uppercase;
+        top: 150px; }
+        @media only screen and (min-width: 767px) {
+          #notFound .notFound .notFound-404 h2 {
+            font-size: 24px; } }
+      #notFound .notFound .notFound-404 a {
+        background: transparent;
+        border: 2px solid;
+        color: #ff005a;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all; }
+        #notFound .notFound .notFound-404 a:hover {
+          color: #8400ff; }

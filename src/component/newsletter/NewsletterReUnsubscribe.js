@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NewsletterService from '../../services/NewsletterService';
-import './NewsletterReUnsubscribe.scss';
+import './NewsletterReUnsubscribe.css';
 import { is_valid_email } from '../../utils.js';
 import TitlePage from '../utils/TitlePage';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import no_image from '../images/item/no_image.png';
 import img_item_new from '../images/item/img_item_new.png';
 import img_item_sold from '../images/item/img_item_sold.png';
-import './Item.scss';
+import './Item.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

@@ -1,0 +1,242 @@
+.newsletter-page {
+  background-color: #FFF;
+  float: left;
+  height: auto;
+  width: 100%;
+  padding-bottom: 15px !important; }
+  @media only screen and (min-width: 320px) {
+    .newsletter-page {
+      padding: 4px; } }
+  @media only screen and (min-width: 480px) {
+    .newsletter-page {
+      padding: 6px; } }
+  @media only screen and (min-width: 640px) {
+    .newsletter-page {
+      padding: 8px; } }
+  @media only screen and (min-width: 768px) {
+    .newsletter-page {
+      padding: 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .newsletter-page {
+      padding: 14px; } }
+  .newsletter-page .newsletter-page-content {
+    width: 100%; }
+    .newsletter-page .newsletter-page-content .result_container {
+      font-size: 17px; }
+      .newsletter-page .newsletter-page-content .result_container .success {
+        color: #42f4a6; }
+      .newsletter-page .newsletter-page-content .result_container .unsuccess {
+        color: #f0430a; }
+    .newsletter-page .newsletter-page-content .form-group {
+      float: left;
+      margin-top: 20px; }
+      @media only screen and (min-width: 320px) {
+        .newsletter-page .newsletter-page-content .form-group {
+          width: 100%; } }
+      @media only screen and (min-width: 480px) {
+        .newsletter-page .newsletter-page-content .form-group {
+          width: 100%; } }
+      @media only screen and (min-width: 640px) {
+        .newsletter-page .newsletter-page-content .form-group {
+          width: 100%; } }
+      @media only screen and (min-width: 768px) {
+        .newsletter-page .newsletter-page-content .form-group {
+          width: 60%; } }
+      @media only screen and (min-width: 1024px) {
+        .newsletter-page .newsletter-page-content .form-group {
+          width: 60%; } }
+      .newsletter-page .newsletter-page-content .form-group .form_entry {
+        float: left;
+        height: auto;
+        margin-bottom: 5px;
+        position: relative;
+        width: 100%; }
+        .newsletter-page .newsletter-page-content .form-group .form_entry label {
+          float: left;
+          height: 30px;
+          margin-bottom: 0; }
+          @media only screen and (min-width: 320px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry label {
+              width: 100%; } }
+          @media only screen and (min-width: 480px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry label {
+              width: 100%; } }
+          @media only screen and (min-width: 640px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry label {
+              width: 30%; } }
+          @media only screen and (min-width: 768px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry label {
+              width: 30%; } }
+          @media only screen and (min-width: 1024px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry label {
+              width: 30%; } }
+        .newsletter-page .newsletter-page-content .form-group .form_entry input {
+          border: 1px solid #8A8A8A;
+          color: #555555;
+          float: left;
+          font-family: "Arial", Helvetica, sans-serif;
+          font-size: 15px;
+          font-weight: normal;
+          height: 35px;
+          line-height: 10px;
+          padding: 5px;
+          text-align: left; }
+          @media only screen and (min-width: 320px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry input {
+              width: 100%; } }
+          @media only screen and (min-width: 480px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry input {
+              width: 100%; } }
+          @media only screen and (min-width: 640px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry input {
+              width: 70%; } }
+          @media only screen and (min-width: 768px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry input {
+              width: 70%; } }
+          @media only screen and (min-width: 1024px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry input {
+              width: 70%; } }
+        .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+          background-color: #e3e0e0;
+          border-radius: 5px;
+          color: red; }
+          @media only screen and (min-width: 320px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+              left: unset;
+              margin: 4px auto;
+              padding: 8px;
+              position: absolute;
+              text-align: center;
+              top: 100%;
+              width: 100%;
+              z-index: 1; } }
+          @media only screen and (min-width: 480px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+              margin: unset;
+              margin-left: 0%;
+              padding: 8px;
+              position: absolute;
+              text-align: center;
+              top: 100%;
+              width: 100%;
+              z-index: 1; } }
+          @media only screen and (min-width: 640px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+              margin: unset;
+              margin-left: 0%;
+              padding: 8px;
+              position: absolute;
+              text-align: center;
+              top: 100%;
+              width: 100%;
+              z-index: 1; } }
+          @media only screen and (min-width: 768px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+              left: 100%;
+              margin: inherit;
+              padding: 5px;
+              position: absolute;
+              right: 100%;
+              top: 0%;
+              width: max-content;
+              z-index: 100; } }
+          @media only screen and (min-width: 1024px) {
+            .newsletter-page .newsletter-page-content .form-group .form_entry .field_required {
+              left: 100%;
+              padding: 5px;
+              position: absolute;
+              right: 100%;
+              top: 0%;
+              width: max-content;
+              z-index: 100; } }
+          .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+            border-style: solid;
+            border-width: 6px;
+            content: "";
+            margin-top: -6px;
+            position: absolute; }
+            @media only screen and (min-width: 320px) {
+              .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+                border-color: transparent transparent #e3e0e0 transparent;
+                right: 50%;
+                top: -6px;
+                transform: translateX(50%); } }
+            @media only screen and (min-width: 480px) {
+              .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+                border-color: transparent transparent #e3e0e0 transparent;
+                right: 50%;
+                top: -6px;
+                transform: translateX(50%); } }
+            @media only screen and (min-width: 640px) {
+              .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+                border-color: transparent transparent #e3e0e0 transparent;
+                right: 50%;
+                top: -6px;
+                transform: translateX(50%); } }
+            @media only screen and (min-width: 768px) {
+              .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+                border-color: transparent #e3e0e0 transparent transparent;
+                left: unset;
+                right: 100%;
+                top: 50%;
+                transform: unset; } }
+            @media only screen and (min-width: 1024px) {
+              .newsletter-page .newsletter-page-content .form-group .form_entry .field_required:before {
+                border-color: transparent #e3e0e0 transparent transparent;
+                left: unset;
+                right: 100%;
+                top: 50%;
+                transform: unset; } }
+        @media only screen and (min-width: 320px) {
+          .newsletter-page .newsletter-page-content .form-group .form_entry.has_error {
+            margin-bottom: 45px; } }
+        @media only screen and (min-width: 480px) {
+          .newsletter-page .newsletter-page-content .form-group .form_entry.has_error {
+            margin-bottom: 45px; } }
+        @media only screen and (min-width: 640px) {
+          .newsletter-page .newsletter-page-content .form-group .form_entry.has_error {
+            margin-bottom: 45px; } }
+        @media only screen and (min-width: 768px) {
+          .newsletter-page .newsletter-page-content .form-group .form_entry.has_error {
+            margin-bottom: 5px; } }
+        @media only screen and (min-width: 1024px) {
+          .newsletter-page .newsletter-page-content .form-group .form_entry.has_error {
+            margin-bottom: 5px; } }
+      .newsletter-page .newsletter-page-content .form-group .action {
+        float: left;
+        height: auto;
+        margin-top: 20px;
+        text-align: center; }
+        @media only screen and (min-width: 320px) {
+          .newsletter-page .newsletter-page-content .form-group .action {
+            width: 100%; } }
+        @media only screen and (min-width: 480px) {
+          .newsletter-page .newsletter-page-content .form-group .action {
+            margin-left: 0%;
+            width: 100%; } }
+        @media only screen and (min-width: 640px) {
+          .newsletter-page .newsletter-page-content .form-group .action {
+            margin-left: 0%;
+            width: 100%; } }
+        @media only screen and (min-width: 768px) {
+          .newsletter-page .newsletter-page-content .form-group .action {
+            margin-left: 30%;
+            width: 70%; } }
+        @media only screen and (min-width: 1024px) {
+          .newsletter-page .newsletter-page-content .form-group .action {
+            margin-left: 30%;
+            width: 70%; } }
+        .newsletter-page .newsletter-page-content .form-group .action input {
+          background-color: #666666;
+          border: 1px solid #8A8A8A;
+          border-radius: 15px;
+          color: #E6E6E6;
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          height: auto;
+          margin-bottom: 10px;
+          padding: 6px;
+          padding-left: 40px;
+          padding-right: 40px;
+          width: auto; }

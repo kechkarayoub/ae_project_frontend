@@ -1,5 +1,5 @@
 import React from 'react';
-import './SocialLink.scss';
+import './SocialLink.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const SocialLink = (props) => (

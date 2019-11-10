@@ -5,7 +5,7 @@ import TestimonialItem from './TestimonialItem';
 import TitlePage from '../utils/TitlePage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withTranslation, Trans } from 'react-i18next';
-import './TestimonialsList.scss';
+import './TestimonialsList.css';
 
 const testimonialService = new TestimonialService();
 

@@ -1,0 +1,521 @@
+header {
+  background: #808080;
+  float: left;
+  width: 100%; }
+  @media only screen and (min-width: 320px) {
+    header {
+      height: auto; } }
+  @media only screen and (min-width: 480px) {
+    header {
+      height: 290px; } }
+  @media only screen and (min-width: 640px) {
+    header {
+      height: 344px; } }
+  @media only screen and (min-width: 768px) {
+    header {
+      height: 415px; } }
+  @media only screen and (min-width: 1024px) {
+    header {
+      height: 510px; } }
+  header .bg-header {
+    background-image: url(../images/header/bg-header.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: left;
+    width: 100%; }
+    @media only screen and (min-width: 320px) {
+      header .bg-header {
+        background-size: auto 170px;
+        height: 208px; } }
+    @media only screen and (min-width: 480px) {
+      header .bg-header {
+        background-size: auto 224px;
+        height: 258px; } }
+    @media only screen and (min-width: 640px) {
+      header .bg-header {
+        background-size: auto 294px;
+        height: 344px; } }
+    @media only screen and (min-width: 768px) {
+      header .bg-header {
+        background-size: auto 355px;
+        height: 415px; } }
+    @media only screen and (min-width: 1024px) {
+      header .bg-header {
+        background-size: auto 440px;
+        height: 510px; } }
+    header .bg-header .bg-header-2 {
+      background-image: url(../images/header/bg-header-2.png);
+      background-repeat: repeat-x;
+      background-position: left top;
+      display: inline-grid;
+      float: left;
+      width: 100%; }
+      @media only screen and (min-width: 320px) {
+        header .bg-header .bg-header-2 {
+          background-position: center 170px;
+          height: 208px; } }
+      @media only screen and (min-width: 480px) {
+        header .bg-header .bg-header-2 {
+          background-position: center 224px;
+          height: 258px; } }
+      @media only screen and (min-width: 640px) {
+        header .bg-header .bg-header-2 {
+          background-position: center 294px;
+          height: 344px; } }
+      @media only screen and (min-width: 768px) {
+        header .bg-header .bg-header-2 {
+          background-position: center 355px;
+          height: 415px; } }
+      @media only screen and (min-width: 1024px) {
+        header .bg-header .bg-header-2 {
+          background-position: center 440px;
+          height: 510px; } }
+      header .bg-header .bg-header-2 .topbanner {
+        float: left;
+        width: 100%; }
+        header .bg-header .bg-header-2 .topbanner .menubanner {
+          float: left;
+          height: 100%;
+          width: 100%;
+          min-width: 320px; }
+          header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+            height: 100%;
+            margin: 0 auto;
+            min-width: 320px;
+            width: 100%; }
+            header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos {
+              height: 35px;
+              margin: 0 auto;
+              min-width: 320px;
+              width: 100%; }
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue {
+                display: inherit;
+                float: right;
+                padding-top: 5px;
+                font-family: Verdana, Geneva, sans-serif;
+                color: #E1E1E1;
+                font-size: 1.3em;
+                text-align: right; }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue {
+                    height: 30px;
+                    width: 90px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue {
+                    height: 34px;
+                    width: 100px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue {
+                    height: 34px;
+                    width: 100px; } }
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue a {
+                  color: #E1E1E1;
+                  text-decoration: none; }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos .changelangue a:hover {
+                    color: #990033; }
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper .langues-infos.rightinfos {
+                text-align: right; }
+            header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar {
+              background: #333333;
+              height: calc(100% - 35px);
+              padding: 0;
+              width: 100%;
+              z-index: 2; }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar {
+                  flex-flow: row nowrap;
+                  justify-content: flex-start;
+                  -ms-flex-pack: start;
+                  -ms-flex-flow: row nowrap;
+                  -webkit-box-direction: normal;
+                  -webkit-box-orient: horizontal;
+                  -webkit-box-pack: start; } }
+              @media only screen and (max-width: 767px) {
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar {
+                  background-color: #000;
+                  padding: 3px 0; } }
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-toggler {
+                border-color: rgba(255, 255, 255, 0.1); }
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-toggler .navbar-toggler-icon {
+                  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-toggler {
+                    display: none; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse {
+                  display: flex !important;
+                  display: -ms-flexbox !important;
+                  display: -webkit-box !important;
+                  flex-basis: auto;
+                  -ms-flex-preferred-size: auto; } }
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav {
+                float: left;
+                height: auto;
+                justify-content: space-between;
+                position: relative;
+                width: 100%; }
+                header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited {
+                  border: none;
+                  border-right: 1px solid #CCCCCC;
+                  color: #E1E1E1;
+                  display: table-cell;
+                  font-weight: normal;
+                  outline: none;
+                  text-align: center;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  vertical-align: middle;
+                  width: 16.66%; }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
+                    display: block;
+                    padding-bottom: 2px; }
+                    header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
+                      outline: none;
+                      border: none; }
+                    @media only screen and (min-width: 1024px) {
+                      header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
+                        display: none; } }
+                    @media only screen and (max-width: 767px) {
+                      header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
+                        margin-right: 10px; } }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-text {
+                    display: block; }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited:last-child {
+                    border-right: 0px; }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link:hover, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active:hover, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited:hover {
+                    color: #FFFFFF;
+                    background-image: url(../images/header/bg-menu-bt.png);
+                    background-repeat: repeat-x;
+                    background-position: center top; }
+                  @media only screen and (max-width: 767px) {
+                    header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited {
+                      border-bottom: 1px solid #333;
+                      border-right: 0;
+                      display: inline-flex;
+                      justify-content: flex-start;
+                      margin-left: 40px;
+                      width: calc(100% - 80px); } }
+                  @media only screen and (min-width: 640px) {
+                    header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited {
+                      height: 40px; } }
+                  @media only screen and (min-width: 768px) {
+                    header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited {
+                      font-size: 0.8em;
+                      height: 50px; } }
+                  @media only screen and (min-width: 1024px) {
+                    header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited {
+                      font-size: 1em;
+                      height: 40px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav {
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+                    -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+            @media only screen and (min-width: 320px) {
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+                width: 320px; } }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+                width: 480px; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+                width: 640px; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+                width: 768px; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .topbanner .menubanner .wrapper {
+                width: 1024px; } }
+      header .bg-header .bg-header-2 .header-bottom {
+        margin: 0 auto;
+        width: 100%; }
+        header .bg-header .bg-header-2 .header-bottom .wrapper {
+          height: 100%;
+          margin: 0 auto;
+          position: relative; }
+          header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides {
+            list-style: none; }
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
+              float: right;
+              /*width: 100%;*/ }
+              @media only screen and (min-width: 640px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
+                  height: 269px; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
+                  height: 322px; } }
+              @media only screen and (min-width: 1024px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
+                  height: 430px; } }
+          @media only screen and (min-width: 320px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
+              display: none; } }
+          @media only screen and (min-width: 480px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
+              display: none; } }
+          @media only screen and (min-width: 640px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
+              background-repeat: no-repeat;
+              background-size: 100% 269px;
+              display: inherit;
+              float: right;
+              height: 269px;
+              width: 100%; } }
+          @media only screen and (min-width: 768px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
+              background-repeat: no-repeat;
+              background-size: 100% 322px;
+              display: inherit;
+              float: right;
+              height: 322px;
+              width: 100%; } }
+          @media only screen and (min-width: 1024px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
+              background-repeat: no-repeat;
+              background-size: 100% 430px;
+              display: inherit;
+              float: right;
+              height: 430px;
+              width: 100%; } }
+          header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+            background-image: url(../images/header/slide_header_1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            display: inherit;
+            float: right;
+            width: 100%; }
+            @media only screen and (min-width: 320px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+                height: 120px; } }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+                height: 200px; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+                display: none; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+                display: none; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
+                display: none; } }
+          header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            width: 30%; }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a {
+              display: block;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%); }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a img {
+                width: 100%; }
+            @media only screen and (min-width: 320px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                display: block;
+                width: 40%; } }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                display: block;
+                width: 35%; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                display: block; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                display: block; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                display: block; } }
+          header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+            display: block;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            width: 30%; }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
+              height: 75%;
+              width: 100%; }
+              @media only screen and (max-width: 479px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
+                  height: 62%; } }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+              color: #3b3127;
+              font-weight: bold;
+              margin-top: 5px;
+              width: 100%; }
+              @media only screen and (min-width: 320px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+                  height: 38%;
+                  line-height: 9px; } }
+              @media only screen and (min-width: 480px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+                  height: 25%;
+                  line-height: 10px; } }
+              @media only screen and (min-width: 640px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+                  height: 25%;
+                  line-height: 15px; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+                  height: 25%;
+                  line-height: 19px; } }
+              @media only screen and (min-width: 1024px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
+                  height: 25%;
+                  line-height: 25px; } }
+              @media only screen and (min-width: 320px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
+                  font-size: 11px; } }
+              @media only screen and (min-width: 480px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
+                  font-size: 12px; } }
+              @media only screen and (min-width: 640px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
+                  font-size: 16px; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
+                  font-size: 20px; } }
+              @media only screen and (min-width: 1024px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
+                  font-size: 25px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                font-size: 15px; }
+                @media only screen and (min-width: 320px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                    font-size: 9px; } }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                    font-size: 11px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                    font-size: 13px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
+                    font-size: 15px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                font-size: 15px; }
+                @media only screen and (min-width: 320px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                    font-size: 9px; } }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                    font-size: 10px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                    font-size: 13px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
+                    font-size: 15px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                display: flex;
+                font-size: 20px;
+                justify-content: space-between; }
+                @media only screen and (min-width: 320px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                    font-size: 8px; } }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                    font-size: 10px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                    font-size: 15px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
+                    font-size: 20px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data svg {
+                margin-right: 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data svg {
+                    margin-right: 3px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data > * {
+                padding: 0 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data > * {
+                    padding: 0 3px; } }
+            @media only screen and (min-width: 320px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+                display: block;
+                width: 40%; } }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+                display: block;
+                width: 35%; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+                display: block; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+                display: block; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
+                display: block; } }
+          @media only screen and (min-width: 320px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper {
+              width: 320px; } }
+          @media only screen and (min-width: 480px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper {
+              width: 480px; } }
+          @media only screen and (min-width: 640px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper {
+              width: 640px; } }
+          @media only screen and (min-width: 768px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper {
+              width: 768px; } }
+          @media only screen and (min-width: 1024px) {
+            header .bg-header .bg-header-2 .header-bottom .wrapper {
+              width: 1024px; } }
+        @media only screen and (min-width: 320px) {
+          header .bg-header .bg-header-2 .header-bottom {
+            height: auto; } }
+        @media only screen and (min-width: 480px) {
+          header .bg-header .bg-header-2 .header-bottom {
+            height: 200px; } }
+        @media only screen and (min-width: 640px) {
+          header .bg-header .bg-header-2 .header-bottom {
+            height: 269px; } }
+        @media only screen and (min-width: 768px) {
+          header .bg-header .bg-header-2 .header-bottom {
+            height: 322px; } }
+        @media only screen and (min-width: 1024px) {
+          header .bg-header .bg-header-2 .header-bottom {
+            height: 430px; } }
+    header .bg-header .bottombanner {
+      display: flex;
+      float: right;
+      width: 100%; }
+      @media only screen and (min-width: 320px) {
+        header .bg-header .bottombanner {
+          height: auto; } }
+      @media only screen and (min-width: 480px) {
+        header .bg-header .bottombanner {
+          height: 250px; } }
+      @media only screen and (min-width: 640px) {
+        header .bg-header .bottombanner {
+          height: 269px; } }
+      @media only screen and (min-width: 768px) {
+        header .bg-header .bottombanner {
+          height: 322px; } }
+      @media only screen and (min-width: 1024px) {
+        header .bg-header .bottombanner {
+          background-position: center 440px;
+          height: 430px; } }
+
+.bottombanner .realtor_data {
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }

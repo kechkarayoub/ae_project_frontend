@@ -4,7 +4,7 @@ import MiniCardContact from '../utils/MiniCardContact';
 import React, { Component } from 'react';
 import TitlePage from '../utils/TitlePage';
 import { withTranslation, Trans } from 'react-i18next';
-import './Contact.scss';
+import './Contact.css';
 
 class Contact extends Component {
 

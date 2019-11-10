@@ -1,0 +1,153 @@
+.container-property {
+  margin-right: 0%; }
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+    .container-property {
+      width: 100%; } }
+  @media only screen and (min-width: 480px) and (max-width: 639px) {
+    .container-property {
+      margin-bottom: 14px !important;
+      max-width: 320px;
+      width: 100%; } }
+  @media only screen and (min-width: 640px) and (max-width: 769px) {
+    .container-property {
+      margin-bottom: 10px;
+      width: 50%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-property {
+      margin-bottom: 10px;
+      width: 50%; } }
+  @media only screen and (min-width: 1024px) {
+    .container-property {
+      margin-bottom: 10px;
+      width: 33.33%; } }
+  .container-property .property-details-link {
+    text-decoration: none;
+    color: inherit; }
+    .container-property .property-details-link:hover {
+      text-decoration: none;
+      color: inherit; }
+    .container-property .property-details-link .card.property {
+      background-color: #FFF;
+      border: 1px solid #7F7F7F;
+      margin: 14px;
+      padding: 11px; }
+      .container-property .property-details-link .card.property > * {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .container-property .property-details-link .card.property .item_id {
+        font-size: 15px;
+        height: 25px; }
+      .container-property .property-details-link .card.property .img-property {
+        position: relative;
+        margin-bottom: 5px;
+        width: 100%; }
+        @media only screen and (min-width: 320px) {
+          .container-property .property-details-link .card.property .img-property {
+            height: 210px; } }
+        @media only screen and (min-width: 480px) {
+          .container-property .property-details-link .card.property .img-property {
+            height: 220px; } }
+        @media only screen and (min-width: 640px) {
+          .container-property .property-details-link .card.property .img-property {
+            height: 204px; } }
+        @media only screen and (min-width: 768px) {
+          .container-property .property-details-link .card.property .img-property {
+            height: 243px; } }
+        @media only screen and (min-width: 1024px) {
+          .container-property .property-details-link .card.property .img-property {
+            height: 210px; } }
+        .container-property .property-details-link .card.property .img-property .card-img-top {
+          width: 100%; }
+          @media only screen and (min-width: 320px) {
+            .container-property .property-details-link .card.property .img-property .card-img-top {
+              height: 210px; } }
+          @media only screen and (min-width: 480px) {
+            .container-property .property-details-link .card.property .img-property .card-img-top {
+              height: 220px; } }
+          @media only screen and (min-width: 640px) {
+            .container-property .property-details-link .card.property .img-property .card-img-top {
+              height: 204px; } }
+          @media only screen and (min-width: 768px) {
+            .container-property .property-details-link .card.property .img-property .card-img-top {
+              height: 243px; } }
+          @media only screen and (min-width: 1024px) {
+            .container-property .property-details-link .card.property .img-property .card-img-top {
+              height: 210px; } }
+        .container-property .property-details-link .card.property .img-property .img-item-new, .container-property .property-details-link .card.property .img-property .img-item-sold {
+          height: 100px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 150px; }
+      .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+        color: #333;
+        float: left;
+        min-height: 25px;
+        text-decoration: none;
+        width: 100%; }
+        @media only screen and (min-width: 320px) {
+          .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+            font-size: 17px; } }
+        @media only screen and (min-width: 480px) {
+          .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+            font-size: 15px; } }
+        @media only screen and (min-width: 640px) {
+          .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+            font-size: 15px; } }
+        @media only screen and (min-width: 768px) {
+          .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+            font-size: 15px; } }
+        @media only screen and (min-width: 1024px) {
+          .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
+            font-size: 17px; } }
+      .container-property .property-details-link .card.property .city-property {
+        color: #0080FF;
+        font-weight: bold; }
+        @media only screen and (min-width: 320px) {
+          .container-property .property-details-link .card.property .city-property {
+            font-size: 1.5em; } }
+        @media only screen and (min-width: 480px) {
+          .container-property .property-details-link .card.property .city-property {
+            font-size: 1.4em; } }
+        @media only screen and (min-width: 640px) {
+          .container-property .property-details-link .card.property .city-property {
+            font-size: 1.4em; } }
+        @media only screen and (min-width: 768px) {
+          .container-property .property-details-link .card.property .city-property {
+            font-size: 1.4em; } }
+        @media only screen and (min-width: 1024px) {
+          .container-property .property-details-link .card.property .city-property {
+            font-size: 1.5em; } }
+      .container-property .property-details-link .card.property .type-property {
+        height: auto;
+        margin-bottom: 5px; }
+      .container-property .property-details-link .card.property .short-description-property {
+        height: auto;
+        margin-bottom: 5px; }
+      .container-property .property-details-link .card.property .info-property {
+        border-bottom: 1px solid #D1D1D1;
+        display: flex;
+        height: auto;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+        min-height: 27px; }
+        .container-property .property-details-link .card.property .info-property > div {
+          text-align: center;
+          width: 14.28%; }
+          .container-property .property-details-link .card.property .info-property > div.bathrooms-number {
+            color: #8a9999; }
+          .container-property .property-details-link .card.property .info-property > div.garage {
+            color: red; }
+          .container-property .property-details-link .card.property .info-property > div.garden {
+            color: green; }
+          .container-property .property-details-link .card.property .info-property > div.fireplace {
+            color: #ff6e00; }
+          .container-property .property-details-link .card.property .info-property > div.swimming_pool {
+            color: #00d3ff; }
+      .container-property .property-details-link .card.property .price-property {
+        color: #C03;
+        outline: none;
+        text-align: right; }
+      .container-property .property-details-link .card.property:hover {
+        box-shadow: 0px 0px 6px 3px #B9B9B9; }

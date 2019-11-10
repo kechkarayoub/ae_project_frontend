@@ -1,5 +1,5 @@
 import React from 'react';
-import './TestimonialItem.scss';
+import './TestimonialItem.css';
 
 
 const TestimonialItem = (props) => (

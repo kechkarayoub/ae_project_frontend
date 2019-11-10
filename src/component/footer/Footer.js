@@ -3,7 +3,7 @@ import Newsletter from '../newsletter/Newsletter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialLink from './SocialLink';
 import { withTranslation, Trans } from 'react-i18next';
-import './Footer.scss';
+import './Footer.css';
 
 const today = new Date();
 const Footer = (props) => (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NewsletterCreate from './NewsletterCreate';
 import NewsletterReUnsubscribe from './NewsletterReUnsubscribe';
-import './Newsletter.scss';
+import './Newsletter.css';
 
 
 class Newsletter extends Component {

@@ -1,0 +1,422 @@
+.contact_buy_form {
+  background-color: #ece9db;
+  border-radius: 15px;
+  float: left;
+  height: auto;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%; }
+  @media only screen and (min-width: 320px) {
+    .contact_buy_form {
+      padding: 4px; } }
+  @media only screen and (min-width: 480px) {
+    .contact_buy_form {
+      padding: 6px; } }
+  @media only screen and (min-width: 640px) {
+    .contact_buy_form {
+      padding: 8px; } }
+  @media only screen and (min-width: 768px) {
+    .contact_buy_form {
+      padding: 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .contact_buy_form {
+      padding: 14px; } }
+  .contact_buy_form form .left-side {
+    float: left; }
+    @media only screen and (min-width: 320px) {
+      .contact_buy_form form .left-side {
+        margin: 4px;
+        padding-right: 6px;
+        width: 304px; } }
+    @media only screen and (min-width: 480px) {
+      .contact_buy_form form .left-side {
+        margin: 6px;
+        padding-right: 8px;
+        width: 456px; } }
+    @media only screen and (min-width: 640px) {
+      .contact_buy_form form .left-side {
+        margin: 8px;
+        padding-right: 10px;
+        width: 608px; } }
+    @media only screen and (min-width: 768px) {
+      .contact_buy_form form .left-side {
+        margin: 12px;
+        padding-right: inherit;
+        width: 286px; } }
+    @media only screen and (min-width: 1024px) {
+      .contact_buy_form form .left-side {
+        margin: 14px;
+        padding-left: inherit;
+        width: 387px; } }
+  @media only screen and (min-width: 320px) {
+    .contact_buy_form form .right-side {
+      float: left;
+      margin: 4px;
+      padding-right: 6px;
+      width: 304px; } }
+  @media only screen and (min-width: 480px) {
+    .contact_buy_form form .right-side {
+      float: left;
+      margin: 6px;
+      padding-right: 8px;
+      width: 456px; } }
+  @media only screen and (min-width: 640px) {
+    .contact_buy_form form .right-side {
+      float: left;
+      margin: 8px;
+      padding-right: 10px;
+      width: 608px; } }
+  @media only screen and (min-width: 768px) {
+    .contact_buy_form form .right-side {
+      float: right;
+      margin: 12px;
+      padding-right: inherit;
+      width: 348px; } }
+  @media only screen and (min-width: 1024px) {
+    .contact_buy_form form .right-side {
+      float: right;
+      margin: 14px;
+      padding-right: inherit;
+      width: 470px; } }
+  .contact_buy_form form .coordinates h2, .contact_buy_form form .general_information h2, .contact_buy_form form .details h2 {
+    color: #6E6E6E;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px; }
+  .contact_buy_form form .coordinates .form_entry, .contact_buy_form form .general_information .form_entry, .contact_buy_form form .details .form_entry {
+    float: left;
+    height: auto;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%; }
+    .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+      float: left;
+      height: 30px;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 320px) {
+        .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+          width: 100%; } }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+          width: 30%; } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+          width: 30%; } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+          width: 100%; } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry label, .contact_buy_form form .general_information .form_entry label, .contact_buy_form form .details .form_entry label {
+          width: 100%; } }
+    .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+      border: 1px solid #8A8A8A;
+      color: #555555;
+      float: left;
+      font-family: "Arial", Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: normal;
+      padding: 5px;
+      text-align: left; }
+      @media only screen and (min-width: 320px) {
+        .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+          width: 100%; } }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+          width: 70%; } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+          width: 70%; } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+          width: 100%; } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .coordinates .form_entry textarea, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .general_information .form_entry textarea, .contact_buy_form form .details .form_entry input, .contact_buy_form form .details .form_entry textarea {
+          width: 100%; } }
+    .contact_buy_form form .coordinates .form_entry .checkmark, .contact_buy_form form .general_information .form_entry .checkmark, .contact_buy_form form .details .form_entry .checkmark {
+      background-color: #c5c5c4;
+      border-radius: 100%;
+      height: 25px;
+      left: 60%;
+      position: absolute;
+      top: 0;
+      width: 25px; }
+      .contact_buy_form form .coordinates .form_entry .checkmark:after, .contact_buy_form form .general_information .form_entry .checkmark:after, .contact_buy_form form .details .form_entry .checkmark:after {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        content: "";
+        display: none;
+        height: 12px;
+        left: 10px;
+        position: absolute;
+        top: 6px;
+        transform: rotate(45deg);
+        width: 7px; }
+    .contact_buy_form form .coordinates .form_entry input, .contact_buy_form form .general_information .form_entry input, .contact_buy_form form .details .form_entry input {
+      height: 42px;
+      line-height: 10px; }
+      .contact_buy_form form .coordinates .form_entry input[type=checkbox], .contact_buy_form form .general_information .form_entry input[type=checkbox], .contact_buy_form form .details .form_entry input[type=checkbox] {
+        cursor: pointer;
+        height: 25px;
+        left: 60%;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        width: 25px;
+        z-index: 1; }
+        .contact_buy_form form .coordinates .form_entry input[type=checkbox]:hover ~ .checkmark, .contact_buy_form form .general_information .form_entry input[type=checkbox]:hover ~ .checkmark, .contact_buy_form form .details .form_entry input[type=checkbox]:hover ~ .checkmark {
+          background-color: #aba9a9; }
+        .contact_buy_form form .coordinates .form_entry input[type=checkbox]:checked ~ .checkmark, .contact_buy_form form .general_information .form_entry input[type=checkbox]:checked ~ .checkmark, .contact_buy_form form .details .form_entry input[type=checkbox]:checked ~ .checkmark {
+          background-color: #2196F3; }
+        .contact_buy_form form .coordinates .form_entry input[type=checkbox]:checked ~ .checkmark:after, .contact_buy_form form .general_information .form_entry input[type=checkbox]:checked ~ .checkmark:after, .contact_buy_form form .details .form_entry input[type=checkbox]:checked ~ .checkmark:after {
+          display: block; }
+    .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+      float: left; }
+      @media only screen and (min-width: 320px) {
+        .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+          width: 100%; } }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+          width: 70%; } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+          width: 70%; } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+          width: 100%; } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry .react-tel-input, .contact_buy_form form .general_information .form_entry .react-tel-input, .contact_buy_form form .details .form_entry .react-tel-input {
+          width: 100%; } }
+      .contact_buy_form form .coordinates .form_entry .react-tel-input input, .contact_buy_form form .general_information .form_entry .react-tel-input input, .contact_buy_form form .details .form_entry .react-tel-input input {
+        padding-left: 45px;
+        width: 100%; }
+    .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+      float: left; }
+      @media only screen and (min-width: 320px) {
+        .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+          width: 100%; } }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+          width: 70%; } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+          width: 70%; } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+          width: 100%; } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper, .contact_buy_form form .details .form_entry .react-datepicker-wrapper {
+          width: 100%; } }
+      .contact_buy_form form .coordinates .form_entry .react-datepicker-wrapper input, .contact_buy_form form .general_information .form_entry .react-datepicker-wrapper input, .contact_buy_form form .details .form_entry .react-datepicker-wrapper input {
+        border-radius: 0.25em;
+        text-align: center;
+        width: 100%; }
+    .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+      background-color: #e3e0e0;
+      border-radius: 5px;
+      color: red; }
+      @media only screen and (min-width: 320px) {
+        .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+          left: unset;
+          margin: 4px auto;
+          padding: 8px;
+          position: absolute;
+          text-align: center;
+          top: 65px;
+          width: 100%;
+          z-index: 1; } }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+          margin: unset;
+          margin-left: 30%;
+          padding: 8px;
+          position: absolute;
+          text-align: center;
+          top: 35px;
+          width: 70%;
+          z-index: 1; } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+          margin: unset;
+          margin-left: 30%;
+          padding: 8px;
+          position: absolute;
+          text-align: center;
+          top: 35px;
+          width: 70%;
+          z-index: 1; } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+          left: 100%;
+          margin: inherit;
+          padding: 5px;
+          position: absolute;
+          top: 35px;
+          width: max-content;
+          z-index: 100; } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry .field_required, .contact_buy_form form .general_information .form_entry .field_required, .contact_buy_form form .details .form_entry .field_required {
+          left: 100%;
+          margin: inherit;
+          padding: 5px;
+          position: absolute;
+          top: 35px;
+          width: max-content;
+          z-index: 100; } }
+      .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+        border-style: solid;
+        border-width: 6px;
+        content: "";
+        margin-top: -6px;
+        position: absolute; }
+        @media only screen and (min-width: 320px) {
+          .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+            border-color: transparent transparent #e3e0e0 transparent;
+            right: 50%;
+            top: -6px;
+            transform: translateX(50%); } }
+        @media only screen and (min-width: 480px) {
+          .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+            border-color: transparent transparent #e3e0e0 transparent;
+            right: 50%;
+            top: -6px;
+            transform: translateX(50%); } }
+        @media only screen and (min-width: 640px) {
+          .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+            border-color: transparent transparent #e3e0e0 transparent;
+            right: 50%;
+            top: -6px;
+            transform: translateX(50%); } }
+        @media only screen and (min-width: 768px) {
+          .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+            border-color: transparent #e3e0e0 transparent transparent;
+            left: unset;
+            right: 100%;
+            top: 50%;
+            transform: unset; } }
+        @media only screen and (min-width: 1024px) {
+          .contact_buy_form form .coordinates .form_entry .field_required:before, .contact_buy_form form .general_information .form_entry .field_required:before, .contact_buy_form form .details .form_entry .field_required:before {
+            border-color: transparent #e3e0e0 transparent transparent;
+            left: unset;
+            right: 100%;
+            top: 50%;
+            transform: unset; } }
+    .contact_buy_form form .coordinates .form_entry .select_container > div:first-child > div, .contact_buy_form form .general_information .form_entry .select_container > div:first-child > div, .contact_buy_form form .details .form_entry .select_container > div:first-child > div {
+      height: 40px; }
+    .contact_buy_form form .coordinates .form_entry.message .field_required, .contact_buy_form form .general_information .form_entry.message .field_required, .contact_buy_form form .details .form_entry.message .field_required {
+      top: calc(50% + 15px); }
+      @media only screen and (min-width: 480px) {
+        .contact_buy_form form .coordinates .form_entry.message .field_required, .contact_buy_form form .general_information .form_entry.message .field_required, .contact_buy_form form .details .form_entry.message .field_required {
+          transform: translateY(-50%); } }
+      @media only screen and (min-width: 640px) {
+        .contact_buy_form form .coordinates .form_entry.message .field_required, .contact_buy_form form .general_information .form_entry.message .field_required, .contact_buy_form form .details .form_entry.message .field_required {
+          transform: translateY(-50%); } }
+      @media only screen and (min-width: 768px) {
+        .contact_buy_form form .coordinates .form_entry.message .field_required, .contact_buy_form form .general_information .form_entry.message .field_required, .contact_buy_form form .details .form_entry.message .field_required {
+          transform: translateY(-50%); } }
+      @media only screen and (min-width: 1024px) {
+        .contact_buy_form form .coordinates .form_entry.message .field_required, .contact_buy_form form .general_information .form_entry.message .field_required, .contact_buy_form form .details .form_entry.message .field_required {
+          transform: translateY(-50%); } }
+    @media only screen and (min-width: 320px) {
+      .contact_buy_form form .coordinates .form_entry.has_error, .contact_buy_form form .general_information .form_entry.has_error, .contact_buy_form form .details .form_entry.has_error {
+        height: 105px; } }
+    @media only screen and (min-width: 480px) {
+      .contact_buy_form form .coordinates .form_entry.has_error, .contact_buy_form form .general_information .form_entry.has_error, .contact_buy_form form .details .form_entry.has_error {
+        height: 75px; } }
+    @media only screen and (min-width: 640px) {
+      .contact_buy_form form .coordinates .form_entry.has_error, .contact_buy_form form .general_information .form_entry.has_error, .contact_buy_form form .details .form_entry.has_error {
+        height: 75px; } }
+    @media only screen and (min-width: 768px) {
+      .contact_buy_form form .coordinates .form_entry.has_error, .contact_buy_form form .general_information .form_entry.has_error, .contact_buy_form form .details .form_entry.has_error {
+        height: auto; } }
+    @media only screen and (min-width: 1024px) {
+      .contact_buy_form form .coordinates .form_entry.has_error, .contact_buy_form form .general_information .form_entry.has_error, .contact_buy_form form .details .form_entry.has_error {
+        height: auto; } }
+  .contact_buy_form form .action_buy {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%; }
+    .contact_buy_form form .action_buy input {
+      background-color: #666666;
+      border: 1px solid #8A8A8A;
+      border-radius: 15px;
+      color: #E6E6E6;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      height: auto;
+      margin-bottom: 10px;
+      padding: 6px;
+      padding-left: 40px;
+      padding-right: 40px;
+      width: auto; }
+  .contact_buy_form .feedback {
+    background-color: #b5b2b2eb;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; }
+    @media only screen and (min-width: 320px) {
+      .contact_buy_form .feedback {
+        height: 300px;
+        position: fixed;
+        width: 300px; } }
+    @media only screen and (min-width: 480px) {
+      .contact_buy_form .feedback {
+        height: 250px;
+        position: fixed;
+        width: 400px; } }
+    @media only screen and (min-width: 640px) {
+      .contact_buy_form .feedback {
+        height: 250px;
+        position: absolute;
+        width: 100%; } }
+    @media only screen and (min-width: 768px) {
+      .contact_buy_form .feedback {
+        height: 250px;
+        position: absolute;
+        width: 100%; } }
+    @media only screen and (min-width: 1024px) {
+      .contact_buy_form .feedback {
+        height: 250px;
+        position: absolute;
+        width: 100%; } }
+    .contact_buy_form .feedback .close_feedback {
+      background-color: #595656;
+      border: 0;
+      border-radius: 100%;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+      height: 40px;
+      position: absolute;
+      right: 0;
+      transform: translate(25%, -25%);
+      width: 40px; }
+    .contact_buy_form .feedback .content_ {
+      height: calc(100% - 4em);
+      margin: 2em;
+      position: relative; }
+      .contact_buy_form .feedback .content_ .message {
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 2em;
+        text-align: center; }
+      .contact_buy_form .feedback .content_ .action {
+        bottom: 0;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%); }
+        .contact_buy_form .feedback .content_ .action button {
+          background-color: #595656;
+          border: 0;
+          border-radius: 15px;
+          color: white;
+          cursor: pointer;
+          font-size: 18px;
+          font-weight: bold;
+          height: 35px;
+          width: 100px; }

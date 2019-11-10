@@ -1,5 +1,5 @@
 import React from 'react';
-import './PdfContainer.scss';
+import './PdfContainer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default (props) => {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TestimonialList from './TestimonialsList';
-import './Testimonial.scss';
+import './Testimonial.css';
 
 
 class Testimonial extends Component {

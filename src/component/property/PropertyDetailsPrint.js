@@ -6,7 +6,7 @@ import PdfContainer from '../pdfcontainer/PdfContainer';
 import React, { Component } from 'react';
 import StaticMapContainer from '../map/StaticMapContainer';
 import {isMobile} from 'react-device-detect';
-import './PropertyDetailsPrint.scss';
+import './PropertyDetailsPrint.css';
 
 const itemsService = new ItemsService();
 class PropertyDetailsPrint extends Component {

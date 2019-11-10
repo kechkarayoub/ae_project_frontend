@@ -1,7 +1,7 @@
 import  React, { Component } from  'react';
 import ItemsService from "../../services/ItemsService";
 import Item from './Item';
-import './ItemsList.scss';
+import './ItemsList.css';
 import Select from 'react-select';
 import { formated_select_options } from '../../utils.js';
 import TitlePage from '../utils/TitlePage';

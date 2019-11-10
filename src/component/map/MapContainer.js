@@ -2,7 +2,7 @@ import  React, { useState, useEffect } from  'react';
 import ReactMapGl, {Marker, Popup} from 'react-map-gl';
 import markerImg from './marker_image.png';
 
-import './MapContainer.scss';
+import './MapContainer.css';
 
 const MapContainer = (props) => {
     const params = props;

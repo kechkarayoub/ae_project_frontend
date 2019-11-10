@@ -1,0 +1,125 @@
+footer {
+  background-color: #333333;
+  background-image: url(../images/footer/bg-footer.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #999999;
+  float: left;
+  width: 100%; }
+  footer .wrapper {
+    margin: 0 auto; }
+    @media only screen and (min-width: 320px) {
+      footer .wrapper {
+        width: 320px; } }
+    @media only screen and (min-width: 480px) {
+      footer .wrapper {
+        width: 480px; } }
+    @media only screen and (min-width: 640px) {
+      footer .wrapper {
+        width: 640px; } }
+    @media only screen and (min-width: 768px) {
+      footer .wrapper {
+        width: 768px; } }
+    @media only screen and (min-width: 1024px) {
+      footer .wrapper {
+        width: 1024px; } }
+    footer .wrapper .realtor_info {
+      float: left;
+      font-size: 13px;
+      height: auto;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      text-align: center;
+      width: 100%; }
+    footer .wrapper .newsletter_and_social_links {
+      display: flex;
+      width: 100%; }
+      @media only screen and (min-width: 320px) {
+        footer .wrapper .newsletter_and_social_links {
+          flex-wrap: wrap; } }
+      @media only screen and (min-width: 480px) {
+        footer .wrapper .newsletter_and_social_links {
+          flex-wrap: wrap; } }
+      @media only screen and (min-width: 640px) {
+        footer .wrapper .newsletter_and_social_links {
+          flex-wrap: wrap; } }
+      @media only screen and (min-width: 768px) {
+        footer .wrapper .newsletter_and_social_links {
+          flex-wrap: inherit; } }
+      @media only screen and (min-width: 1024px) {
+        footer .wrapper .newsletter_and_social_links {
+          flex-wrap: inherit; } }
+      @media only screen and (min-width: 320px) {
+        footer .wrapper .newsletter_and_social_links .newsletter, footer .wrapper .newsletter_and_social_links .social_links {
+          flex-basis: 100%;
+          margin-bottom: 15px; } }
+      @media only screen and (min-width: 480px) {
+        footer .wrapper .newsletter_and_social_links .newsletter, footer .wrapper .newsletter_and_social_links .social_links {
+          flex-basis: 100%;
+          margin-bottom: 15px; } }
+      @media only screen and (min-width: 640px) {
+        footer .wrapper .newsletter_and_social_links .newsletter, footer .wrapper .newsletter_and_social_links .social_links {
+          flex-basis: 100%;
+          margin-bottom: 15px; } }
+      @media only screen and (min-width: 768px) {
+        footer .wrapper .newsletter_and_social_links .newsletter, footer .wrapper .newsletter_and_social_links .social_links {
+          flex-basis: 50%;
+          margin-bottom: 0; } }
+      @media only screen and (min-width: 1024px) {
+        footer .wrapper .newsletter_and_social_links .newsletter, footer .wrapper .newsletter_and_social_links .social_links {
+          flex-basis: 50%;
+          margin-bottom: 0; } }
+      footer .wrapper .newsletter_and_social_links .social_links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        footer .wrapper .newsletter_and_social_links .social_links .social_link {
+          flex-basis: 33%;
+          height: 100px;
+          margin: auto;
+          text-align: center; }
+          footer .wrapper .newsletter_and_social_links .social_links .social_link a {
+            color: #99997f;
+            display: inline-table;
+            font-weight: bold;
+            opacity: 0.7;
+            text-decoration: none; }
+            footer .wrapper .newsletter_and_social_links .social_links .social_link a svg {
+              height: 60px;
+              width: 60px; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=facebook] {
+                color: #2f4b89; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=google-plus] {
+                color: red; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=instagram] {
+                color: #ca35b1; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=linkedin] {
+                color: #5986e9; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=twitter] {
+                color: #007bff; }
+              footer .wrapper .newsletter_and_social_links .social_links .social_link a svg[data-icon=youtube] {
+                color: red; }
+            footer .wrapper .newsletter_and_social_links .social_links .social_link a:hover {
+              opacity: 1; }
+    footer .wrapper .powered_by, footer .wrapper .copyright {
+      color: #111;
+      display: flex;
+      float: left;
+      font-size: 15px;
+      height: auto;
+      justify-content: center;
+      width: 100%; }
+      footer .wrapper .powered_by .site_name, footer .wrapper .copyright .site_name {
+        margin-left: 5px; }
+    footer .wrapper .copyright {
+      margin-bottom: 15px; }
+      footer .wrapper .copyright svg {
+        margin: auto 2px; }
+    footer .wrapper .powered_by {
+      margin-bottom: 5px; }
+      footer .wrapper .powered_by .site_name a {
+        color: #111;
+        text-decoration: underline; }
+        footer .wrapper .powered_by .site_name a:hover {
+          color: #9FC22B; }

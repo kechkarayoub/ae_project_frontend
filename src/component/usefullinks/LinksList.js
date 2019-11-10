@@ -1,7 +1,7 @@
 import  React, { Component } from  'react';
 import LinksService from "../../services/LinksService";
 import CategoryLinks from './CategoryLinks';
-import './LinksList.scss';
+import './LinksList.css';
 import GuideLink from './GuideLink';
 import TitlePage from '../utils/TitlePage';
 import links_img from '../images/usefullinks/links_img.jpg';

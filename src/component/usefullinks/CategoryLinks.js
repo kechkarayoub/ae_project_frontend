@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './CategoryLinks.scss';
+import './CategoryLinks.css';
 import Link from './Link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

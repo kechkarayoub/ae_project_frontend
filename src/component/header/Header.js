@@ -17,7 +17,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import store from 'store';
 import { withTranslation, Trans } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Header.scss';
+import './Header.css';
 
 const globalParamsService = new GlobalParamsService();
 const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleLanguageChange}) => (

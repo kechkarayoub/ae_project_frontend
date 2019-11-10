@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 import TestimonialService from '../../services/TestimonialService';
 import { is_empty, formated_select_options } from '../../utils.js';
-import './TestimonialCreate.scss';
+import './TestimonialCreate.css';
 
 const testimonialService = new TestimonialService();
 

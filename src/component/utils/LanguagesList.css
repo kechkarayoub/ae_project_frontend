@@ -1,0 +1,31 @@
+.languages_dropdown .list_languages button {
+  background-color: transparent !important;
+  border: 0;
+  padding: 0; }
+  .languages_dropdown .list_languages button:focus {
+    box-shadow: none !important; }
+
+.languages_dropdown .list_languages .dropdown-menu {
+  border-radius: 7px;
+  left: inherit !important;
+  min-width: inherit;
+  padding: 0;
+  right: 0px;
+  transform: translate3d(2px, 27px, 0px) !important;
+  width: max-content; }
+  .languages_dropdown .list_languages .dropdown-menu .dropdown-item {
+    background-color: white;
+    color: #808080;
+    padding: 3px 10px; }
+    .languages_dropdown .list_languages .dropdown-menu .dropdown-item:hover {
+      background-color: #808080;
+      color: white !important; }
+    .languages_dropdown .list_languages .dropdown-menu .dropdown-item.active {
+      background-color: #808080;
+      color: white !important; }
+    .languages_dropdown .list_languages .dropdown-menu .dropdown-item:first-child {
+      border-radius: 5px 5px 0 0; }
+    .languages_dropdown .list_languages .dropdown-menu .dropdown-item:last-child {
+      border-radius: 0 0 5px 5px; }
+    .languages_dropdown .list_languages .dropdown-menu .dropdown-item img {
+      margin-right: 5px; }

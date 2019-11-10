@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.scss';
+import './Home.css';
 import TitlePage from '../utils/TitlePage';
 
 import { withTranslation, Trans } from 'react-i18next';
