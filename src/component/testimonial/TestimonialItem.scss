@@ -71,11 +71,6 @@
             text-transform: uppercase;
             text-align: center;
             width: 40px;
-            img{
-                border-radius: 50%;
-                height: 100%;
-                width: 100%;
-            }
         }
         .testimonial_image{
             border-radius: 100%;
@@ -87,6 +82,11 @@
             text-transform: uppercase;
             text-align: center;
             width: 40px;
+            img{
+                border-radius: 50%;
+                height: 100%;
+                width: 100%;
+            }
         }
         .name{
             font-size: 22px;

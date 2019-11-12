@@ -70,6 +70,10 @@
       text-transform: uppercase;
       text-align: center;
       width: 40px; }
+      .testimonial .name_el .testimonial_image img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%; }
     .testimonial .name_el .name {
       font-size: 22px;
       text-transform: capitalize;
