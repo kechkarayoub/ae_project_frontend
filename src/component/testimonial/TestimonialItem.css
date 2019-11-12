@@ -60,6 +60,16 @@
       text-transform: uppercase;
       text-align: center;
       width: 40px; }
+    .testimonial .name_el .testimonial_image {
+      border-radius: 100%;
+      font-size: 22px;
+      font-weight: bold;
+      height: 40px;
+      line-height: 40px;
+      margin-right: 15px;
+      text-transform: uppercase;
+      text-align: center;
+      width: 40px; }
     .testimonial .name_el .name {
       font-size: 22px;
       text-transform: capitalize;

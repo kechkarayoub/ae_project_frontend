@@ -71,6 +71,22 @@
             text-transform: uppercase;
             text-align: center;
             width: 40px;
+            img{
+                border-radius: 50%;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .testimonial_image{
+            border-radius: 100%;
+            font-size: 22px;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 40px;
         }
         .name{
             font-size: 22px;

@@ -17,13 +17,13 @@ class TestimonialsList extends Component {
             testimonials: [],
             ready: false,
             cities: props.cities,
-            nextPageURL: '',
+            /*nextPageURL: '',
             prevPageURL: '',
-            collapsed: true
+            collapsed: true*/
         };
-        this.toggleCollapse = this.toggleCollapse.bind(this);
+        /*this.toggleCollapse = this.toggleCollapse.bind(this);
         this.nextPage = this.nextPage.bind(this);
-        this.prevPage = this.prevPage.bind(this);
+        this.prevPage = this.prevPage.bind(this);*/
     }
 
     componentDidMount() {
@@ -31,14 +31,14 @@ class TestimonialsList extends Component {
         testimonialService.getTestimonials().then(function (result) {
             self.setState({
                 testimonials: result.data,
-                nextPageURL: result.nextLink,
-                prevPageURL: result.prevLink,
+                /*nextPageURL: result.nextLink,
+                prevPageURL: result.prevLink,*/
                 ready: true
             })
         });
     }
 
-    nextPage(){
+    /*nextPage(){
         var  self  =  this;
         testimonialService.getTestimonialsByURL(this.state.nextPageURL).then((result) => {
             self.setState({ testimonials: result.data, nextPageURL: result.nextLink, prevPageURL: result.prevLink })
@@ -56,7 +56,7 @@ class TestimonialsList extends Component {
         testimonialService.getTestimonialsByURL(this.state.prevPageURL).then((result) => {
             self.setState({ testimonials: result.data, nextPageURL: result.nextLink, prevPageURL: result.prevLink })
         });
-    }
+    }*/
 
     handleTestimonialAdded(testimonial){
         this.setState({ 
@@ -66,28 +66,28 @@ class TestimonialsList extends Component {
     }
 
     render() {
-        const { testimonials, ready, cities, nextPageURL, prevPageURL, collapsed } = this.state;
+        const { testimonials, ready, cities, /*nextPageURL, prevPageURL, collapsed*/ } = this.state;
         return (
             <div className="testimonials_container">
                 <TitlePage title={this.props.t('global.title_page.testimonial')}/>
-                <div className="add_testemonial_btn">
+                {/*<div className="add_testemonial_btn">
                     <button data-toggle="collapse" data-target="#testimonial_form" onClick={this.toggleCollapse} className={collapsed ? "" : "hidden"}><FontAwesomeIcon icon="plus" /></button>
                 </div>
                 <div className={collapsed ? "collapse" : ""}>
                     <TestimonialCreate t={this.props.t} cities={cities} handleTestimonialAdded={this.handleTestimonialAdded.bind(this)} toggleCollapse={this. onClick=this.toggleCollapse} collapsed={collapsed}/>
-                </div> 
+                </div> */}
                 {ready ?
                     <div className="testimonials_content">
                         {testimonials.length === 0 &&
                             <div>{this.props.t('testimonial.no_testimonial')}</div>
                         }
                         {testimonials.map((testimonialItem, i) =>
-                            <TestimonialItem t={this.props.t} testimonialItem={testimonialItem} key={i} />
+                            <TestimonialItem t={this.props.t} testimonialItem={testimonialItem} key={i} cities={cities} />
                         )}
-                        <div className="actions">
+                        {/*<div className="actions">
                             {prevPageURL && <button className="btn btn-primary" onClick={this.prevPage}><FontAwesomeIcon icon="angle-double-left" /></button>}
                             {nextPageURL && <button className="btn btn-primary" onClick={this.nextPage}><FontAwesomeIcon icon="angle-double-right" /></button>}
-                        </div>
+                        </div>*/}
                     </div>
 
                     :

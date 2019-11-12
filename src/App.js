@@ -119,7 +119,7 @@ class App extends Component {
                                         t={this.props.t}
                                     />
                                     <Route path="/testimonial" exact render={(props) => <Testimonial
-                                        cities={global_params.selects_choices.CITIES} />}
+                                        cities={global_params.selects_choices_dict.CITIES} />}
                                         t={this.props.t}
                                     />
                                     <Route component={NotFoundPage} />
