@@ -185,9 +185,4 @@ export default class GlobalParamsService{
             resolve(fakeGlobalParams);
         });
     }
-    async getHeaderParams() {
-        return await new Promise(resolve => {
-            resolve(fakeHeaderParams);
-        });
-    }
 }

@@ -95,18 +95,13 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            header_params: {},
+            header_params: props.header_params,
             showMobileMenu: false
         };
         this.toggleNavigation = this.toggleNavigation.bind(this);
 
     }
     componentDidMount() {
-        globalParamsService.getHeaderParams().then(result => {
-            this.setState({
-                header_params: result
-            });
-        });
     }
     toggleNavigation(){
         this.setState({showMobileMenu: !this.state.showMobileMenu});
@@ -144,9 +139,7 @@ class Header extends Component {
                             <div className="wrapper">
                                 <div id="slide_show">
                                     <ul className="rslides" id="slider1">
-                                        <li style={{display: "none"}}><img src={slideHeader1} alt="Slideshow" /></li>
-                                        <li><img src={slideHeader2} alt="Slideshow" /></li>
-                                        <li style={{ display: "none" }}><img src={slideHeader3} alt="Slideshow" /></li>
+                                        <li><img src={header_params.header_settings.header_bg || slideHeader2} alt="Slideshow" /></li>
                                     </ul>
                                 </div>
                                 <div className="nweb_header_img">
@@ -154,7 +147,11 @@ class Header extends Component {
                                 </div>
                                 <div className="logo_el" data-test="logo_el">
                                     <a href="/">
-                                        <img src={logo} alt="Logo" />
+                                        {header_params.header_settings && header_params.header_settings.logo ?
+                                            <img src={header_params.header_settings.logo} alt="Logo" />
+                                        :
+                                            <img src={logo} alt="Logo" />
+                                        }
                                     </a>
                                 </div>
                                 <div className="realtor_el">

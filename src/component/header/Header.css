@@ -306,7 +306,7 @@ header {
           header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
             display: block;
             height: 100%;
-            left: 0;
+            right: 0;
             position: absolute;
             width: 30%; }
             header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a {
@@ -337,7 +337,7 @@ header {
             display: block;
             height: 100%;
             position: absolute;
-            right: 0;
+            left: 0;
             width: 30%; }
             header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
               height: 75%;

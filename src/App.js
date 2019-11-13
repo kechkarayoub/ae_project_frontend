@@ -77,11 +77,12 @@ class App extends Component {
                 {ready ?
                 <div className="page_content">
                     <HashRouter>
-                        <Header/>
+                        <Header header_params={global_params.header_params}/>
                         <div className="body">
                             <div className="content">
                                 <Switch>
-                                    <Route path="/" exact render={(props) => <Home 
+                                    <Route path="/" exact render={(props) => <Home
+                                        home_page_data={global_params.home_page_data} 
                                         t={this.props.t}
                                     />} />
                                     <Route path="/properties" exact render={(props) => <Properties
