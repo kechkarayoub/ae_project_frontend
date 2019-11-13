@@ -158,8 +158,12 @@ class Header extends Component {
                                     </a>
                                 </div>
                                 <div className="realtor_el">
+                                    {header_params.realtor_data && header_params.realtor_data.image ?
+                                        <img src={header_params.realtor_data.image} alt="Realtor" />
+                                    :
+                                        <img src={realtor_img} alt="Realtor" />
+                                    }
 
-                                    <img src={realtor_img} alt="Realtor" />
                                     <div className="realtor_data">
                                         {header_params.realtor_data && header_params.realtor_data.full_name &&
                                             <div className="full-name">
