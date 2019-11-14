@@ -311,10 +311,13 @@ header {
             width: 30%; }
             header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a {
               display: block;
+              height: 100%;
               position: absolute;
               top: 50%;
-              transform: translateY(-50%); }
+              transform: translateY(-50%);
+              width: 100%; }
               header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a img {
+                height: 100%;
                 width: 100%; }
             @media only screen and (min-width: 320px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
