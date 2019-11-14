@@ -3,6 +3,7 @@ import no_image from '../images/item/no_image.png';
 import img_item_new from '../images/item/img_item_new.png';
 import img_item_sold from '../images/item/img_item_sold.png';
 import './Item.css';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -10,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Item = (props) => (
 
     <div className="container-property">
-        <a className="property-details-link" href={"/property/" + props.item.pk}>
+        <Link className="property-details-link" to={"/property/" + props.item.pk}>
             <div className="card property" data-id={props.item.pk}>
                 <div className="item_id">ID: <span>{props.item.pk}</span></div>
                 <div className="img-property">
@@ -74,7 +75,7 @@ const Item = (props) => (
                     {props.item.price}$
                 </div>
             </div>
-        </a>
+        </Link>
     </div>
 )
 export default Item;
