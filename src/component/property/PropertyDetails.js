@@ -4,6 +4,7 @@ import MapContainer from '../map/MapContainer';
 import no_image from '../images/item/no_image.png';
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import "react-image-gallery/styles/css/image-gallery.css";
 import './AddedSiliderCss.css';
 import './PropertyDetails.css';
@@ -57,8 +58,8 @@ class PropertyDetails extends Component {
                         <div className="property_details-header">
                             <div className="title">{property.label}</div>
                             <div className="h-actions">
-                                <a href={print_url} target="_blank"><FontAwesomeIcon icon="print" />{this.props.t('property.print_version')}</a>
-                                <a href={contact_url}><FontAwesomeIcon icon="address-card" />{this.props.t('property.request_for_information')}</a>
+                                <Link to={print_url} target="_blank"><FontAwesomeIcon icon="print" />{this.props.t('property.print_version')}</Link>
+                                <Link to={contact_url}><FontAwesomeIcon icon="address-card" />{this.props.t('property.request_for_information')}</Link>
                             </div>
                         </div>
                         <div className="property_details-content">
