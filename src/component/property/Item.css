@@ -75,11 +75,11 @@
             .container-property .property-details-link .card.property .img-property .card-img-top {
               height: 210px; } }
         .container-property .property-details-link .card.property .img-property .img-item-new, .container-property .property-details-link .card.property .img-property .img-item-sold {
-          height: 100px;
+          height: 35px;
           position: absolute;
           right: 0;
           top: 0;
-          width: 150px; }
+          width: 100px; }
       .container-property .property-details-link .card.property .city-property, .container-property .property-details-link .card.property .type-property, .container-property .property-details-link .card.property .short-description-property, .container-property .property-details-link .card.property .info-property, .container-property .property-details-link .card.property .price-property {
         color: #333;
         float: left;
