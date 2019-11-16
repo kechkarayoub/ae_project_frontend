@@ -75,21 +75,5 @@
                 text-align: center;
             }
         }
-
-        &.half{
-        
-            @media only screen and (min-width: 768px) {
-                margin: 12px;
-                width: 348px;
-            }
-        
-            @media only screen and (min-width: 1024px) {
-                margin: 14px;
-                width: 470px;
-            }
-            &.half2{
-                float: right;
-            }
-        }
     }
 }

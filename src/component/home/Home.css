@@ -58,13 +58,3 @@
     .home--container .home_child.subtitle h2 {
       font-weight: bold;
       text-align: center; }
-    @media only screen and (min-width: 768px) {
-      .home--container .home_child.half {
-        margin: 12px;
-        width: 348px; } }
-    @media only screen and (min-width: 1024px) {
-      .home--container .home_child.half {
-        margin: 14px;
-        width: 470px; } }
-    .home--container .home_child.half.half2 {
-      float: right; }

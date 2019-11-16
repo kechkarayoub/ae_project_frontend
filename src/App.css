@@ -14,7 +14,6 @@
     background: -webkit-linear-gradient(top, #CCCCCC 0%,#ffffff 100%);
     background: linear-gradient(to bottom, #CCCCCC 0%,#ffffff 100%);
     background: #CCCCCC;
-    background-image: url(component/images/body/main-bg.jpg);
     background-size: 100% auto;
     background-position: top center;
     background-repeat: no-repeat;

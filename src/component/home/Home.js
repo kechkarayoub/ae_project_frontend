@@ -25,44 +25,6 @@ class Home extends Component {
                             </Trans>
                         </h2>
                     </div>
-                    <div className="home_child half">
-                        <h2>
-                            <Trans i18nKey="common:home.left_side.title">
-                            </Trans>
-                        </h2>
-                        <p>
-                            <Trans i18nKey="common:home.left_side.p1">
-                            </Trans>
-                        </p>
-                        <p>
-                            <Trans i18nKey="common:home.left_side.p2">
-                                <b>YevGeniya</b> is a dedicated and experienced real estate broker in residential property and income property transactions. Her work stands out particularly by her developed sense of diplomacy.
-                            </Trans>
-                        </p>
-                        <p>
-                            <Trans i18nKey="common:home.left_side.p3">
-                            </Trans>
-                        </p>
-                    </div>
-                    <div className="home_child half half2">
-                        <h2>
-                            <Trans i18nKey="common:home.right_side.title">
-                            </Trans>
-                        </h2>
-                        <p>
-                            <Trans i18nKey="common:home.right_side.p1">
-                            </Trans>
-                        </p>
-                        <p>
-                            <Trans i18nKey="common:home.right_side.p2">
-                                <b>Natalia</b> is a dynamic broker and expert on the Montreal real estate market and particularly proud of the fact that her business comes from references from former satisfied clients. Her negotiating skills will be valuable assets in your transaction. Her effectiveness is disarming and its professionalism is remarkable.
-                            </Trans>
-                        </p>
-                        <p>
-                            <Trans i18nKey="common:home.right_side.p3">
-                            </Trans>
-                        </p>
-                    </div>
                     <div className="home_child">
                         <h2>
                             <Trans i18nKey="common:home.bottom_side_1.title">
@@ -105,6 +67,25 @@ class Home extends Component {
                             </Trans>
                         </p>
                     </div>
+                    <div className="home_child">
+                        <h2>
+                            <Trans i18nKey="common:home.bottom_side_3.title">
+                            </Trans>
+                        </h2>
+                        <p>
+                            <Trans i18nKey="common:home.bottom_side_3.p1">
+                                <b>CENTURY 21</b> is the most recognized brand in the real estate world in <b>79 countries</b> worldwide, and is currently working to expand its market share through <b>Canadian and international</b> operations in North America, Europe, Latin America, the Middle East and Asia.
+                            </Trans>
+                        </p>
+                        <p>
+                            <Trans i18nKey="common:home.bottom_side_3.p2">
+                            </Trans>
+                        </p>
+                        <p>
+                            <Trans i18nKey="common:home.bottom_side_3.p3">
+                            </Trans>
+                        </p>
+                    </div>
                 </div>
                 :
                 <div>
@@ -115,34 +96,6 @@ class Home extends Component {
                         <h2>
                             {this.props.home_page_data.home_page_title_2}
                         </h2>
-                    </div>
-                    <div className="home_child half">
-                        <h2>
-                            {this.props.home_page_data.home_page_left_column_title}
-                        </h2>
-                        <p>
-                            {this.props.home_page_data.home_page_left_column_p_1}
-                        </p>
-                        <p>
-                            {this.props.home_page_data.home_page_left_column_p_2}
-                        </p>
-                        <p>
-                            {this.props.home_page_data.home_page_left_column_p_3}
-                        </p>
-                    </div>
-                    <div className="home_child half half2">
-                        <h2>
-                            {this.props.home_page_data.home_page_right_column_title}
-                        </h2>
-                        <p>
-                            {this.props.home_page_data.home_page_right_column_p_1}
-                        </p>
-                        <p>
-                            {this.props.home_page_data.home_page_right_column_p_2}
-                        </p>
-                        <p>
-                            {this.props.home_page_data.home_page_right_column_p_3}
-                        </p>
                     </div>
                     <div className="home_child">
                         <h2>
@@ -170,6 +123,20 @@ class Home extends Component {
                         </p>
                         <p>
                             {this.props.home_page_data.home_page_row_2_p_3}
+                        </p>
+                    </div>
+                    <div className="home_child">
+                        <h2>
+                            {this.props.home_page_data.home_page_row_3_title}
+                        </h2>
+                        <p>
+                            {this.props.home_page_data.home_page_row_3_p_1}
+                        </p>
+                        <p>
+                            {this.props.home_page_data.home_page_row_3_p_2}
+                        </p>
+                        <p>
+                            {this.props.home_page_data.home_page_row_3_p_3}
                         </p>
                     </div>
                 </div>

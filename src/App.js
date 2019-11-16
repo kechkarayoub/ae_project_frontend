@@ -13,6 +13,7 @@ import PropertyDetailsPrint from './component/property/PropertyDetailsPrint';
 import React, { Component } from 'react';
 import Testimonial from './component/testimonial/Testimonial';
 import UsefulLinks from './component/usefullinks/UsefulLinks';
+import mainBgImage from './component/images/body/main-bg.jpg';
 import withUnmounted from '@ishawnwang/withunmounted';
 import { withTranslation, Trans } from 'react-i18next';
 import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
@@ -78,7 +79,7 @@ class App extends Component {
                 <div className="page_content">
                     <HashRouter>
                         <Header header_params={global_params.header_params}/>
-                        <div className="body">
+                        <div className="body" style={{backgroundImage: "url(" + (global_params.header_params.header_settings.mainBgImage || mainBgImage) + ")"}}>
                             <div className="content">
                                 <Switch>
                                     <Route path="/" exact render={(props) => <Home

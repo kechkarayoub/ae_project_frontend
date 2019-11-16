@@ -7,10 +7,8 @@ import btLinks from '../images/header/bt-links.png';
 import btProperties from '../images/header/bt-properties.png';
 import btSellers from '../images/header/bt-sellers.png';
 import btTestimonials from '../images/header/bt-testimonial.png';
-import logo from '../images/logo.png';
-import slideHeader1 from '../images/header/slide_header_1.jpg';
-import slideHeader2 from '../images/header/slide_header_2.jpg';
-import slideHeader3 from '../images/header/slide_header_3.jpg';
+import logo from '../images/logo.jpg';
+import headerBg from '../images/header/header_bg.jpg';
 import realtor_img from '../images/header/realtor_img.jpg';
 import LanguagesList from '../utils/LanguagesList';
 import { BrowserRouter, Link } from 'react-router-dom';
@@ -137,31 +135,11 @@ class Header extends Component {
                         </div>
                         <div className="header-bottom">
                             <div className="wrapper">
-                                <div id="slide_show">
-                                    <ul className="rslides" id="slider1">
-                                        <li><img src={header_params.header_settings.header_bg || slideHeader2} alt="Slideshow" /></li>
-                                    </ul>
-                                </div>
-                                <div className="nweb_header_img">
-
-                                </div>
                                 <div className="logo_el" data-test="logo_el">
-                                    <a href="/">
-                                        {header_params.header_settings && header_params.header_settings.logo ?
-                                            <img src={header_params.header_settings.logo} alt="Logo" />
-                                        :
-                                            <img src={logo} alt="Logo" />
-                                        }
-                                    </a>
-                                </div>
-                                <div className="realtor_el">
-                                    {header_params.realtor_data && header_params.realtor_data.image ?
-                                        <img src={header_params.realtor_data.image} alt="Realtor" />
-                                    :
-                                        <img src={realtor_img} alt="Realtor" />
-                                    }
-
-                                    <div className="realtor_data">
+                                    <Link to="/">
+                                        <img src={header_params.header_settings.logo || logo} alt="Header background" />
+                                    </Link>
+                                    <div className="realtor_data" style={{color: header_params.header_settings.header_text_color}}>
                                         {header_params.realtor_data && header_params.realtor_data.full_name &&
                                             <div className="full-name">
                                                 {header_params.realtor_data.full_name}
@@ -197,7 +175,60 @@ class Header extends Component {
                                         }
                                     </div>
                                 </div>
+                                <div className="nweb_header_img">
 
+                                </div>
+                                <div className="header_bg_el">
+                                    {header_params.header_settings && header_params.header_settings.header_bg ?
+                                        <img src={header_params.header_settings.header_bg} alt="Logo" />
+                                    :
+                                        <img src={headerBg} alt="Logo" />
+                                    }
+                                </div>
+                                <div className="realtor_el">
+                                    {header_params.realtor_data && header_params.realtor_data.image ?
+                                        <img src={header_params.realtor_data.image} alt="Realtor" />
+                                    :
+                                        <img src={realtor_img} alt="Realtor" />
+                                    }
+                                </div>
+                                <div className="header_txt">
+                                    <div className="realtor_data" style={{color: header_params.header_settings.header_text_color}}>
+                                        {header_params.realtor_data && header_params.realtor_data.full_name &&
+                                            <div className="full-name">
+                                                {header_params.realtor_data.full_name}
+                                            </div>
+                                        }
+                                        {header_params.realtor_data && header_params.realtor_data.agency_name &&
+                                            <div className="agency-name">
+                                                {header_params.realtor_data.agency_name}
+                                            </div>
+                                        }
+                                        {header_params.realtor_data &&
+                                        (header_params.realtor_data.tel || header_params.realtor_data.fax) &&
+                                            <div className="tel_fax">
+                                                {header_params.realtor_data.tel &&
+                                                    <div className="tel">
+                                                        <FontAwesomeIcon icon="phone-alt" />
+                                                        {header_params.realtor_data.tel}
+                                                    </div>
+                                                }
+                                                {header_params.realtor_data.fax &&
+                                                    <div className="fax">
+                                                        <FontAwesomeIcon icon="fax" />
+                                                        {header_params.realtor_data.fax}
+                                                    </div>
+                                                }
+                                            </div>
+                                        }
+                                        {header_params.realtor_data && header_params.realtor_data.email &&
+                                            <div className="email">
+                                                <FontAwesomeIcon icon="at" />
+                                                {header_params.realtor_data.email}
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

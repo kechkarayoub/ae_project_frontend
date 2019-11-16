@@ -26,7 +26,7 @@ header {
     @media only screen and (min-width: 320px) {
       header .bg-header {
         background-size: auto 170px;
-        height: 208px; } }
+        height: 288px; } }
     @media only screen and (min-width: 480px) {
       header .bg-header {
         background-size: auto 224px;
@@ -53,7 +53,7 @@ header {
       @media only screen and (min-width: 320px) {
         header .bg-header .bg-header-2 {
           background-position: center 170px;
-          height: 208px; } }
+          height: 288px; } }
       @media only screen and (min-width: 480px) {
         header .bg-header .bg-header-2 {
           background-position: center 224px;
@@ -237,52 +237,8 @@ header {
           height: 100%;
           margin: 0 auto;
           position: relative; }
-          header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides {
-            list-style: none; }
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
-              float: right;
-              /*width: 100%;*/ }
-              @media only screen and (min-width: 640px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
-                  height: 269px; } }
-              @media only screen and (min-width: 768px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
-                  height: 322px; } }
-              @media only screen and (min-width: 1024px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show .rslides li img {
-                  height: 430px; } }
-          @media only screen and (min-width: 320px) {
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
-              display: none; } }
-          @media only screen and (min-width: 480px) {
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
-              display: none; } }
-          @media only screen and (min-width: 640px) {
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
-              background-repeat: no-repeat;
-              background-size: 100% 269px;
-              display: inherit;
-              float: right;
-              height: 269px;
-              width: 100%; } }
-          @media only screen and (min-width: 768px) {
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
-              background-repeat: no-repeat;
-              background-size: 100% 322px;
-              display: inherit;
-              float: right;
-              height: 322px;
-              width: 100%; } }
-          @media only screen and (min-width: 1024px) {
-            header .bg-header .bg-header-2 .header-bottom .wrapper #slide_show {
-              background-repeat: no-repeat;
-              background-size: 100% 430px;
-              display: inherit;
-              float: right;
-              height: 430px;
-              width: 100%; } }
           header .bg-header .bg-header-2 .header-bottom .wrapper .nweb_header_img {
-            background-image: url(../images/header/slide_header_1.jpg);
+            background-image: url(../images/header/header_bg.jpg);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             display: inherit;
@@ -305,10 +261,24 @@ header {
                 display: none; } }
           header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
             display: block;
-            height: 100%;
-            right: 0;
+            margin: 0 33%;
             position: absolute;
-            width: 30%; }
+            width: 34%; }
+            @media only screen and (min-width: 320px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                height: 60%; } }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                height: 100%; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                height: 100%; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                height: 100%; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
+                height: 100%; } }
             header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a {
               display: block;
               height: 100%;
@@ -319,155 +289,191 @@ header {
               header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el a img {
                 height: 100%;
                 width: 100%; }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+              bottom: 0;
+              font-weight: bold;
+              padding: 5px;
+              position: absolute;
+              width: 100%; }
+              @media only screen and (min-width: 320px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+                  display: none; } }
+              @media only screen and (min-width: 480px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+                  display: block; } }
+              @media only screen and (min-width: 640px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+                  display: block;
+                  height: 25%;
+                  line-height: 15px; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+                  display: block;
+                  height: 25%;
+                  line-height: 19px; } }
+              @media only screen and (min-width: 1024px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data {
+                  display: block;
+                  height: 25%;
+                  line-height: 25px; } }
+              @media only screen and (min-width: 480px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .full-name {
+                  font-size: 12px; } }
+              @media only screen and (min-width: 640px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .full-name {
+                  font-size: 16px; } }
+              @media only screen and (min-width: 768px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .full-name {
+                  font-size: 20px; } }
+              @media only screen and (min-width: 1024px) {
+                header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .full-name {
+                  font-size: 25px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .agency-name {
+                font-size: 15px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .agency-name {
+                    font-size: 11px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .agency-name {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .agency-name {
+                    font-size: 13px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .agency-name {
+                    font-size: 15px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .email {
+                font-size: 15px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .email {
+                    font-size: 10px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .email {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .email {
+                    font-size: 13px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .email {
+                    font-size: 15px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .tel_fax {
+                display: flex;
+                font-size: 20px;
+                justify-content: space-between; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .tel_fax {
+                    font-size: 10px; } }
+                @media only screen and (min-width: 640px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .tel_fax {
+                    font-size: 12px; } }
+                @media only screen and (min-width: 768px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .tel_fax {
+                    font-size: 15px; } }
+                @media only screen and (min-width: 1024px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data .tel_fax {
+                    font-size: 20px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data svg {
+                margin-right: 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data svg {
+                    margin-right: 3px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data > * {
+                padding: 0 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el .realtor_data > * {
+                    padding: 0 3px; } }
+          header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+            display: block;
+            height: 100%;
+            right: 0;
+            position: absolute;
+            width: 33%; }
             @media only screen and (min-width: 320px) {
-              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
-                display: block;
-                width: 40%; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+                height: 60%; } }
             @media only screen and (min-width: 480px) {
-              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
-                display: block;
-                width: 35%; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+                height: 100%; } }
             @media only screen and (min-width: 640px) {
-              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
-                display: block; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+                height: 100%; } }
             @media only screen and (min-width: 768px) {
-              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
-                display: block; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+                height: 100%; } }
             @media only screen and (min-width: 1024px) {
-              header .bg-header .bg-header-2 .header-bottom .wrapper .logo_el {
-                display: block; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el {
+                height: 100%; } }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .header_bg_el img {
+              height: 100%;
+              width: 100%; }
           header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
             display: block;
             height: 100%;
             position: absolute;
             left: 0;
-            width: 30%; }
-            header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
-              height: 75%;
-              width: 100%; }
-              @media only screen and (max-width: 479px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
-                  height: 62%; } }
-            header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-              color: #3b3127;
-              font-weight: bold;
-              margin-top: 5px;
-              width: 100%; }
-              @media only screen and (min-width: 320px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-                  height: 38%;
-                  line-height: 9px; } }
-              @media only screen and (min-width: 480px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-                  height: 25%;
-                  line-height: 10px; } }
-              @media only screen and (min-width: 640px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-                  height: 25%;
-                  line-height: 15px; } }
-              @media only screen and (min-width: 768px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-                  height: 25%;
-                  line-height: 19px; } }
-              @media only screen and (min-width: 1024px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data {
-                  height: 25%;
-                  line-height: 25px; } }
-              @media only screen and (min-width: 320px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
-                  font-size: 11px; } }
-              @media only screen and (min-width: 480px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
-                  font-size: 12px; } }
-              @media only screen and (min-width: 640px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
-                  font-size: 16px; } }
-              @media only screen and (min-width: 768px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
-                  font-size: 20px; } }
-              @media only screen and (min-width: 1024px) {
-                header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .full-name {
-                  font-size: 25px; } }
-              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                font-size: 15px; }
-                @media only screen and (min-width: 320px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                    font-size: 9px; } }
-                @media only screen and (min-width: 480px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                    font-size: 11px; } }
-                @media only screen and (min-width: 640px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                    font-size: 12px; } }
-                @media only screen and (min-width: 768px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                    font-size: 13px; } }
-                @media only screen and (min-width: 1024px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .agency-name {
-                    font-size: 15px; } }
-              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                font-size: 15px; }
-                @media only screen and (min-width: 320px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                    font-size: 9px; } }
-                @media only screen and (min-width: 480px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                    font-size: 10px; } }
-                @media only screen and (min-width: 640px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                    font-size: 12px; } }
-                @media only screen and (min-width: 768px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                    font-size: 13px; } }
-                @media only screen and (min-width: 1024px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .email {
-                    font-size: 15px; } }
-              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                display: flex;
-                font-size: 20px;
-                justify-content: space-between; }
-                @media only screen and (min-width: 320px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                    font-size: 8px; } }
-                @media only screen and (min-width: 480px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                    font-size: 10px; } }
-                @media only screen and (min-width: 640px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                    font-size: 12px; } }
-                @media only screen and (min-width: 768px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                    font-size: 15px; } }
-                @media only screen and (min-width: 1024px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data .tel_fax {
-                    font-size: 20px; } }
-              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data svg {
-                margin-right: 5px; }
-                @media only screen and (min-width: 480px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data svg {
-                    margin-right: 3px; } }
-              header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data > * {
-                padding: 0 5px; }
-                @media only screen and (min-width: 480px) {
-                  header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el .realtor_data > * {
-                    padding: 0 3px; } }
+            width: 33%; }
             @media only screen and (min-width: 320px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
-                display: block;
-                width: 40%; } }
+                height: 60%; } }
             @media only screen and (min-width: 480px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
-                display: block;
-                width: 35%; } }
+                height: 100%; } }
             @media only screen and (min-width: 640px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
-                display: block; } }
+                height: 100%; } }
             @media only screen and (min-width: 768px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
-                display: block; } }
+                height: 100%; } }
             @media only screen and (min-width: 1024px) {
               header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el {
-                display: block; } }
+                height: 100%; } }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .realtor_el img {
+              height: 100%;
+              width: 100%; }
+          header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt {
+            background-color: #000000;
+            bottom: 0;
+            display: inherit;
+            height: 40%;
+            padding: 2px 4%;
+            position: absolute;
+            width: 100%; }
+            @media only screen and (min-width: 480px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt {
+                display: none; } }
+            @media only screen and (min-width: 640px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt {
+                display: none; } }
+            @media only screen and (min-width: 768px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt {
+                display: none; } }
+            @media only screen and (min-width: 1024px) {
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt {
+                display: none; } }
+            header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data {
+              font-weight: bold;
+              text-align: center;
+              width: 100%; }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data .full-name {
+                font-size: 15px; }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data .agency-name {
+                font-size: 13px; }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data .email {
+                font-size: 12px; }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data .tel_fax {
+                display: flex;
+                font-size: 12px;
+                justify-content: space-around; }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data svg {
+                margin-right: 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data svg {
+                    margin-right: 3px; } }
+              header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data > * {
+                padding: 0 5px; }
+                @media only screen and (min-width: 480px) {
+                  header .bg-header .bg-header-2 .header-bottom .wrapper .header_txt .realtor_data > * {
+                    padding: 0 3px; } }
           @media only screen and (min-width: 320px) {
             header .bg-header .bg-header-2 .header-bottom .wrapper {
               width: 320px; } }
@@ -479,13 +485,14 @@ header {
               width: 640px; } }
           @media only screen and (min-width: 768px) {
             header .bg-header .bg-header-2 .header-bottom .wrapper {
+              height: 100%;
               width: 768px; } }
           @media only screen and (min-width: 1024px) {
             header .bg-header .bg-header-2 .header-bottom .wrapper {
               width: 1024px; } }
         @media only screen and (min-width: 320px) {
           header .bg-header .bg-header-2 .header-bottom {
-            height: auto; } }
+            height: 200px; } }
         @media only screen and (min-width: 480px) {
           header .bg-header .bg-header-2 .header-bottom {
             height: 200px; } }
