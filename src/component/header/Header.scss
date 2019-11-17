@@ -204,7 +204,7 @@ header {
                                         border-right: 1px solid #CCCCCC;
                                         color: #E1E1E1;
                                         display: table-cell;
-                                        font-weight: normal;
+                                        font-weight: bold;
                                         outline: none;
                                         text-align: center;
                                         text-decoration: none;
@@ -265,12 +265,12 @@ header {
                                         }
 
                                         @media only screen and (min-width: 768px) {
-                                            font-size: 0.8em;
+                                            font-size: 9px;
                                             height: 50px;
                                         }
 
                                         @media only screen and (min-width: 1024px) {
-                                            font-size: 1em;
+                                            font-size: 14px;
                                             height: 40px;
                                         }
                                     }

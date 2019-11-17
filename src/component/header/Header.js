@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOMServer from 'react-dom/server';
 import GlobalParamsService from '../../services/GlobalParamsService';
 import btContact from '../images/header/bt-contacts.png';
+import btFunding from '../images/header/bt-funding.png';
 import btHome from '../images/header/bt-home.png';
 import btLinks from '../images/header/bt-links.png';
 import btProperties from '../images/header/bt-properties.png';
@@ -63,6 +64,12 @@ const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleL
                             <img src={btSellers} alt="Home"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.buy_sell') }</span>
+                    </Link>
+                    <Link className="nav-item nav-link link-funding" to="/funding">
+                        <span className="bt-icon">
+                            <img src={btFunding} alt="Home"/>
+                        </span>
+                        <span className="bt-text">{ t('header.nav.funding') }</span>
                     </Link>
                     <Link className="nav-item nav-link link-testimonial" to="/testimonial">
                         <span className="bt-icon">

@@ -321,16 +321,22 @@
                             text-transform: uppercase;
                             width: 100%;
                         }
-                        .property_type, .item_status, .building_type,
-                        .property_construction_age, .property_lot_size, .property_bedrooms_number,
-                        .property_bedrooms_number, .property_has_dining_room, .property_has_fireplace,
-                        .property_has_swimming_pool, .property_has_garden, .property_has_garage{
+                        .added_field_1, .added_field_2, .added_field_3, .apartments_number, .property_type,
+                        .annual_income, .ccd, .cost_per_housing, .down_payment_required, .economic_value,
+                        .gross_revenue_multiplier, .housing_descriptions, .item_status, .building_type, .maximum_loan,
+                        .net_income_multiplier, .overall_rate_update, .property_construction_age, .property_lot_size,
+                        .property_bedrooms_number, .property_bedrooms_number, .property_has_dining_room,
+                        .property_has_fireplace, .property_has_swimming_pool, .property_has_garden, .property_has_garage
+                        {
                             color: #555555;
                             display: flex;
                             margin-bottom: 10px;
                             width: 100%;
                         }
-                        .property_type, .item_status, .building_type, .property_construction_age{
+                        .added_field_1, .added_field_2, .added_field_3, .apartments_number, .property_type,
+                        .annual_income, .ccd, .cost_per_housing, .down_payment_required, .economic_value,
+                        .gross_revenue_multiplier, .housing_descriptions, .item_status, .building_type, .maximum_loan,
+                        .net_income_multiplier, .overall_rate_update, .property_construction_age{
                             @media only screen and (min-width: 320px) {
                                 flex-wrap: wrap;
                             }
@@ -371,6 +377,14 @@
                                         margin-left: inherit;
                                     }
                                 }
+                        }
+                        .housing_descriptions{
+                            .value{
+                                color: #555555;
+                                display: flex;
+                                margin-top: 0px;
+                                text-align: justify;
+                            }
                         }
                     }
                     .property_description{

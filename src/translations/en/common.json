@@ -37,6 +37,10 @@
       }
     }
   },
+  "funding": {
+    "no_funding": "There is no item to show!",
+    "funding": "Funding"
+  },
   "global": {
     "cancel": "Cancel",
     "city": "City",
@@ -75,6 +79,7 @@
     "nav": {
       "buy_sell": "BUY/SELL",
       "contact": "Contact",
+      "funding": "Funding",
       "home": "Home",
       "properties": "Properties",
       "testimonial": "Testimonial",
@@ -114,6 +119,8 @@
   },
   "properties": {
     "advanced_filter": "Avanced filter",
+    "annual_income": "Annual income",
+    "apartments_number": "Apartments number",
     "bathrooms_number": "Bathrooms number",
     "bedrooms_number": "Bedrooms number",
     "building_type": "Building type",
@@ -135,13 +142,22 @@
       "other_characteristics": "Other characteristics",
       "swimming_pool": "Swimming pool"
     },
+    "ccd": "Ccd (CCD)",
     "construction_age": "Construction age",
+    "cost_per_housing": "Cost per housing (CPH)",
+    "down_payment_required": "Down payment required",
+    "economic_value": "Economic value",
+    "gross_revenue_multiplier": "Gross revenue multiplier (GRM)",
     "has_dining_room": "With dining room?",
     "has_fireplace": "With fireplace?",
     "has_garage": "With garage?",
     "has_garden": "With garden?",
     "has_swimming_pool": "With swimming pool?",
+    "housing_descriptions": "Housing descriptions",
+    "maximum_loan": "Maximum loan",
+    "net_income_multiplier": "Net income multiplier (NIM)",
     "occupation_date": "Occupation date",
+    "overall_rate_update": "Overall rate of update (ORU)",
     "price_ranges": "Price ranges",
     "property_type": "Property type",
     "search_result": {

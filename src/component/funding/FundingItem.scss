@@ -1,4 +1,4 @@
-.testimonial{
+.funding{
     border: 1px solid gray;
     border-radius: 15px 15px 0 0;
     display: flex;
@@ -37,7 +37,7 @@
             text-align: center;
             width: 40px;
         }
-        .testimonial_image{
+        .funding_image{
             border-radius: 100%;
             font-size: 22px;
             font-weight: bold;
@@ -108,7 +108,7 @@
             }
         }
     }
-    .testimonial_content{
+    .funding_content{
         padding: 7px;
         text-align: justify;
         width: 100%;
@@ -116,7 +116,7 @@
             text-transform: uppercase;
         }
     }
-    .testimonial_time_el{
+    .funding_time_el{
         color: gray;
         display: flex;
         font-size: 15px;
@@ -124,7 +124,7 @@
         justify-content: flex-end;
         padding: 7px;
         width: 100%;
-        .testimonial_city{
+        .funding_city{
             margin-right: 5px; 
         }
     }

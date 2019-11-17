@@ -108,6 +108,72 @@ class PropertyDetails extends Component {
                                         <div className="key">{this.props.t('properties.property_type')}: </div>
                                         <div className="value">{selects_choices_dict.PROPERTIES_TYPES[property.property_type]}</div>
                                     </div>
+                                    {property.apartments_number &&
+                                        <div className="apartments_number">
+                                            <div className="key">{this.props.t('properties.apartments_number')}: </div>
+                                            <div className="value">{property.apartments_number}</div>
+                                        </div>
+                                    }
+                                    {property.housing_descriptions &&
+                                        <div className="housing_descriptions">
+                                            <div className="key">{this.props.t('properties.housing_descriptions')}: </div>
+                                            <div className="value">{property.housing_descriptions}</div>
+                                        </div>
+                                    }
+                                    {property.annual_income &&
+                                        <div className="annual_income">
+                                            <div className="key">{this.props.t('properties.annual_income')}: </div>
+                                            <div className="value">{property.annual_income}$</div>
+                                        </div>
+                                    }
+                                    {property.cost_per_housing &&
+                                        <div className="cost_per_housing">
+                                            <div className="key">{this.props.t('properties.cost_per_housing')}: </div>
+                                            <div className="value">{property.cost_per_housing}$</div>
+                                        </div>
+                                    }
+                                    {property.gross_revenue_multiplier &&
+                                        <div className="gross_revenue_multiplier">
+                                            <div className="key">{this.props.t('properties.gross_revenue_multiplier')}: </div>
+                                            <div className="value">{property.gross_revenue_multiplier}</div>
+                                        </div>
+                                    }
+                                    {property.net_income_multiplier &&
+                                        <div className="net_income_multiplier">
+                                            <div className="key">{this.props.t('properties.net_income_multiplier')}: </div>
+                                            <div className="value">{property.net_income_multiplier}</div>
+                                        </div>
+                                    }
+                                    {property.overall_rate_update &&
+                                        <div className="overall_rate_update">
+                                            <div className="key">{this.props.t('properties.overall_rate_update')}: </div>
+                                            <div className="value">{property.overall_rate_update}%</div>
+                                        </div>
+                                    }
+                                    {property.ccd &&
+                                        <div className="ccd">
+                                            <div className="key">{this.props.t('properties.ccd')}: </div>
+                                            <div className="value">{property.ccd}</div>
+                                        </div>
+                                    }
+                                    {property.economic_value &&
+                                        <div className="economic_value">
+                                            <div className="key">{this.props.t('properties.economic_value')}: </div>
+                                            <div className="value">{property.economic_value}$</div>
+                                        </div>
+                                    }
+                                    {property.maximum_loan &&
+                                        <div className="maximum_loan">
+                                            <div className="key">{this.props.t('properties.maximum_loan')}: </div>
+                                            <div className="value">{property.maximum_loan}%</div>
+                                        </div>
+                                    }
+                                    {property.down_payment_required &&
+                                        <div className="down_payment_required">
+                                            <div className="key">{this.props.t('properties.down_payment_required')}: </div>
+                                            <div className="value">{property.down_payment_required}$</div>
+                                        </div>
+                                    }
                                     <div className="item_status">
                                         <div className="key">{this.props.t('properties.status')}: </div>
                                         <div className="value">{selects_choices_dict.ITEMS_STATUS[property.status]}</div>
@@ -173,6 +239,24 @@ class PropertyDetails extends Component {
                                         <div className="key">{this.props.t('properties.card_item.garden')}: </div>
                                         <div className="value"><FontAwesomeIcon icon="check-circle" /></div>
                                     </div>
+                                    }
+                                    {property.added_field_1_label && property.added_field_1_value &&
+                                        <div className="added_field_1">
+                                            <div className="key">{property.added_field_1_label}: </div>
+                                            <div className="value">{property.added_field_1_value}</div>
+                                        </div>
+                                    }
+                                    {property.added_field_2_label && property.added_field_2_value &&
+                                        <div className="added_field_2">
+                                            <div className="key">{property.added_field_2_label}: </div>
+                                            <div className="value">{property.added_field_2_value}</div>
+                                        </div>
+                                    }
+                                    {property.added_field_3_label && property.added_field_3_value &&
+                                        <div className="added_field_3">
+                                            <div className="key">{property.added_field_3_label}: </div>
+                                            <div className="value">{property.added_field_3_value}</div>
+                                        </div>
                                     }
                                 </div>
                                 <div className="property_description">

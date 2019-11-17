@@ -1,6 +1,7 @@
 import BuyOrSell from './component/buyorsell/BuyOrSell';
 import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
+import Funding from './component/funding/Funding';
 import GlobalParamsService from './services/GlobalParamsService';
 import Header from './component/header/Header';
 import Home from './component/home/Home';
@@ -86,6 +87,10 @@ class App extends Component {
                                         home_page_data={global_params.home_page_data} 
                                         t={this.props.t}
                                     />} />
+                                    <Route path="/funding" exact render={(props) => <Funding
+                                        cities={global_params.selects_choices_dict.CITIES} />}
+                                        t={this.props.t}
+                                    />
                                     <Route path="/properties" exact render={(props) => <Properties
                                         selects_choices_dict={global_params.selects_choices_dict}
                                         selects_choices={global_params.selects_choices}

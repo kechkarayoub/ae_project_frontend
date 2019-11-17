@@ -37,6 +37,10 @@
       }
     }
   },
+  "funding": {
+    "no_funding": "Il n'existe aucun element pour l'afficher!",
+    "funding": "Financement"
+  },
   "global": {
     "cancel": "Annuler",
     "city": "Ville",
@@ -75,6 +79,7 @@
     "nav": {
       "buy_sell": "Acheter/Vendre",
       "contact": "Contactez-nous",
+      "funding": "Financement",
       "home": "Accueil",
       "properties": "Propriétés",
       "testimonial": "Témoignage",
@@ -114,6 +119,8 @@
   },
   "properties": {
     "advanced_filter": "Filtre avancé",
+    "annual_income": "Les revenus annuels",
+    "apartments_number": "Nombre des appartements",
     "bathrooms_number": "Nombre de salles de bain",
     "bedrooms_number": "Nombre de chambres",
     "building_type": "Type de bâtiment",
@@ -135,13 +142,22 @@
       "other_characteristics": "Autres caractéristiques",
       "swimming_pool": "Piscine"
     },
+    "ccd": "Ccd (CCD)",
     "construction_age": "Âge de la construction",
+    "cost_per_housing": "Coût par logement (CPL)",
+    "down_payment_required": "Mise de fonds nécessaire",
+    "economic_value": "Valeur économique",
+    "gross_revenue_multiplier": "Multiplicateur de revenu brut (MRB)",
     "has_dining_room": "Avec salle à manger?",
     "has_fireplace": "Avec cheminée?",
     "has_garage": "Avec garage?",
     "has_garden": "Avec jardin?",
     "has_swimming_pool": "Avec piscine?",
+    "housing_descriptions": "Description des logements",
+    "maximum_loan": "Prêt maximal",
+    "net_income_multiplier": "Multiplicateur de revenu net (MRN)",
     "occupation_date": "Date d'occupation",
+    "overall_rate_update": "Taux global d'actualisation (TGA)",
     "price_ranges": "Gammes de prix",
     "property_type": "Type de propriété",
     "search_result": {
