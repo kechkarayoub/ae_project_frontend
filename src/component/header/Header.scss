@@ -24,7 +24,6 @@ header {
     }
 
     .bg-header {
-        background-image: url(../images/header/bg-header.png);
         background-repeat: no-repeat;
         background-position: left top;
         float: left;
@@ -56,9 +55,9 @@ header {
         }
 
         .bg-header-2 {
-            background-image: url(../images/header/bg-header-2.png);
+            /*background-image: url(../images/header/bg-header-2.png);
             background-repeat: repeat-x;
-            background-position: left top;
+            background-position: left top;*/
             display: inline-grid;
             float: left;
             width: 100%;

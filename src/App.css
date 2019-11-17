@@ -14,7 +14,7 @@
     background: -webkit-linear-gradient(top, #CCCCCC 0%,#ffffff 100%);
     background: linear-gradient(to bottom, #CCCCCC 0%,#ffffff 100%);
     background: #CCCCCC;
-    background-size: 100% auto;
+    background-size: 100% 111%;
     background-position: top center;
     background-repeat: no-repeat;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#ffffff',GradientType=0 );

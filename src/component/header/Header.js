@@ -127,7 +127,7 @@ class Header extends Component {
         const { header_params, showMobileMenu } = this.state;
         return (
             <header>
-                <div className="bg-header" data-test="bg-header">
+                <div className="bg-header" data-test="bg-header" style={{backgroundImage: header_params.header_settings.header_background_image ? "url(" + header_params.header_settings.header_background_image + ")" : "none"}}>
                     <div className="bg-header-2">
                         <div className="topbanner">
                             <div className="menubanner" data-test="menubanner">
@@ -186,8 +186,8 @@ class Header extends Component {
 
                                 </div>
                                 <div className="header_bg_el">
-                                    {header_params.header_settings && header_params.header_settings.header_bg ?
-                                        <img src={header_params.header_settings.header_bg} alt="Logo" />
+                                    {header_params.header_settings && header_params.header_settings.header_image ?
+                                        <img src={header_params.header_settings.header_image} alt="Logo" />
                                     :
                                         <img src={headerBg} alt="Logo" />
                                     }

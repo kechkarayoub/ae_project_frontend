@@ -18,7 +18,6 @@ header {
     header {
       height: 510px; } }
   header .bg-header {
-    background-image: url(../images/header/bg-header.png);
     background-repeat: no-repeat;
     background-position: left top;
     float: left;
@@ -44,9 +43,9 @@ header {
         background-size: auto 440px;
         height: 510px; } }
     header .bg-header .bg-header-2 {
-      background-image: url(../images/header/bg-header-2.png);
-      background-repeat: repeat-x;
-      background-position: left top;
+      /*background-image: url(../images/header/bg-header-2.png);
+            background-repeat: repeat-x;
+            background-position: left top;*/
       display: inline-grid;
       float: left;
       width: 100%; }
