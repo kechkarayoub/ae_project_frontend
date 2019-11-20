@@ -171,12 +171,24 @@ header {
                     header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
                       outline: none;
                       border: none; }
-                    @media only screen and (min-width: 1024px) {
-                      header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
-                        display: none; } }
+                      @media only screen and (min-width: 320px) {
+                        header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
+                          height: 16px; } }
+                      @media only screen and (min-width: 480px) {
+                        header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
+                          height: 16px; } }
+                      @media only screen and (min-width: 640px) {
+                        header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
+                          height: 16px; } }
+                      @media only screen and (max-width: 767px) {
+                        header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon img, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon img {
+                          height: 16px; } }
                     @media only screen and (max-width: 767px) {
                       header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
                         margin-right: 10px; } }
+                    @media only screen and (min-width: 1024px) {
+                      header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
+                        display: none; } }
                   header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-text {
                     display: block; }
                   header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited:last-child {
