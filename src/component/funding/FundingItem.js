@@ -17,6 +17,9 @@ const FundingItem = (props) => (
             <div className="name">
                 {props.fundingItem.first_name} {props.fundingItem.last_name }
             </div>
+            <div className="send_funding_email_btn hidden">
+                <button onClick={() => {props.send_funding_email()}}>{props.t('funding.send')}</button>
+            </div>
         </div>
         <div className="funding_content">
             {props.fundingItem.description }

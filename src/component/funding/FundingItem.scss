@@ -107,6 +107,41 @@
                 line-height: 80px;
             }
         }
+        .send_funding_email_btn{
+            button{
+                border: 0;
+                border-radius: 50%;
+                @media only screen and (min-width: 320px) {
+                    font-size: 8px;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                @media only screen and (min-width: 480px) {
+                    font-size: 10px;
+                    height: 50px;
+                    width: 50px;
+                }
+
+                @media only screen and (min-width: 640px) {
+                    font-size: 12px;
+                    height: 60px;
+                    width: 60px;
+                }
+
+                @media only screen and (min-width: 768px) {
+                    font-size: 16px;
+                    height: 70px;
+                    width: 70px;
+                }
+
+                @media only screen and (min-width: 1024px) {
+                    font-size: 18px;
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+        }
     }
     .funding_content{
         padding: 7px;

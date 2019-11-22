@@ -81,6 +81,34 @@
         .funding .name_el .name {
           font-size: 30px;
           line-height: 80px; } }
+    .funding .name_el .send_funding_email_btn button {
+      border: 0;
+      border-radius: 50%; }
+      @media only screen and (min-width: 320px) {
+        .funding .name_el .send_funding_email_btn button {
+          font-size: 8px;
+          height: 40px;
+          width: 40px; } }
+      @media only screen and (min-width: 480px) {
+        .funding .name_el .send_funding_email_btn button {
+          font-size: 10px;
+          height: 50px;
+          width: 50px; } }
+      @media only screen and (min-width: 640px) {
+        .funding .name_el .send_funding_email_btn button {
+          font-size: 12px;
+          height: 60px;
+          width: 60px; } }
+      @media only screen and (min-width: 768px) {
+        .funding .name_el .send_funding_email_btn button {
+          font-size: 16px;
+          height: 70px;
+          width: 70px; } }
+      @media only screen and (min-width: 1024px) {
+        .funding .name_el .send_funding_email_btn button {
+          font-size: 18px;
+          height: 80px;
+          width: 80px; } }
   .funding .funding_content {
     padding: 7px;
     text-align: justify;

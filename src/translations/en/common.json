@@ -38,8 +38,11 @@
     }
   },
   "funding": {
+    "email_sent": "The email is sent with success.",
+    "funding": "Funding",
     "no_funding": "There is no item to show!",
-    "funding": "Funding"
+    "send": "Send",
+    "server_error": "An error has occurred. Please try later."
   },
   "global": {
     "cancel": "Cancel",

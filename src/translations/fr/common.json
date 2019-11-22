@@ -38,8 +38,11 @@
     }
   },
   "funding": {
+    "email_sent": "L'email est envoyé avec succés.",
+    "funding": "Financement",
     "no_funding": "Il n'existe aucun element pour l'afficher!",
-    "funding": "Financement"
+    "send": "Envoyer",
+    "server_error": "Un erreur est survenu. Merci d'essayer ultérieurment."
   },
   "global": {
     "cancel": "Annuler",
