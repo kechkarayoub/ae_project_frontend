@@ -189,6 +189,9 @@ header {
                     @media only screen and (min-width: 1024px) {
                       header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-icon, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-icon {
                         display: none; } }
+                  header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link.link-contact, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active.link-contact, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited.link-contact {
+                    padding-left: .2rem;
+                    padding-right: .2rem; }
                   header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active .bt-text, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited .bt-text {
                     display: block; }
                   header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:link:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:active:last-child, header .bg-header .bg-header-2 .topbanner .menubanner .wrapper nav.navbar .navbar-collapse .navbar-nav .nav-item:visited:last-child {
