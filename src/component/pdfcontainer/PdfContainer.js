@@ -1,6 +1,6 @@
 import React from 'react';
-import './PdfContainer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './PdfContainer.css';
 
 export default (props) => {
     const bodyRef = React.createRef();

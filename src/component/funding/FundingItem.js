@@ -7,7 +7,7 @@ const FundingItem = (props) => (
         <div className="name_el">
             {props.fundingItem.image ?
             <div className="funding_image">
-                <img src={props.fundingItem.image} alt="User image"/>
+                <img src={props.fundingItem.image} alt="User"/>
             </div>
             :
             <div className="initials" style={{backgroundColor: props.fundingItem.initials_bg_color, color: props.fundingItem.initials_color}}>

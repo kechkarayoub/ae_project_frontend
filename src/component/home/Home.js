@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './Home.css';
 import TitlePage from '../utils/TitlePage';
-
 import { withTranslation, Trans } from 'react-i18next';
+import './Home.css';
+
 
 class Home extends Component {
     constructor(props){
         super(props);
+        document.title = props.t('header.nav.home');
     }
 
     render() {

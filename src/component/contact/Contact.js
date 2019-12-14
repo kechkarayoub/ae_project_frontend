@@ -3,13 +3,14 @@ import MapContainer from '../map/MapContainer';
 import MiniCardContact from '../utils/MiniCardContact';
 import React, { Component } from 'react';
 import TitlePage from '../utils/TitlePage';
-import { withTranslation, Trans } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import './Contact.css';
 
 class Contact extends Component {
 
     constructor(props) {
         super(props);
+        document.title = props.t('header.nav.contact');
         this.state = {
             property_id: props.match ? props.match.params.id : null,
             realtor_data: props.realtor_data

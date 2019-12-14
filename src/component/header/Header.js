@@ -1,6 +1,3 @@
-import React, { Component } from 'react';
-import ReactDOMServer from 'react-dom/server';
-import GlobalParamsService from '../../services/GlobalParamsService';
 import btContact from '../images/header/bt-contacts.png';
 import btFunding from '../images/header/bt-funding.png';
 import btHome from '../images/header/bt-home.png';
@@ -8,17 +5,17 @@ import btLinks from '../images/header/bt-links.png';
 import btProperties from '../images/header/bt-properties.png';
 import btSellers from '../images/header/bt-sellers.png';
 import btTestimonials from '../images/header/bt-testimonial.png';
-import logo from '../images/logo.jpg';
 import headerBg from '../images/header/header_bg.jpg';
-import realtor_img from '../images/header/realtor_img.jpg';
 import LanguagesList from '../utils/LanguagesList';
-import { BrowserRouter, Link } from 'react-router-dom';
+import logo from '../images/logo.jpg';
+import React, { Component } from 'react';
+import realtor_img from '../images/header/realtor_img.jpg';
 import store from 'store';
-import { withTranslation, Trans } from 'react-i18next';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { withTranslation } from 'react-i18next';
 import './Header.css';
 
-const globalParamsService = new GlobalParamsService();
 const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleLanguageChange}) => (
     <div className="wrapper">
         <div className="langues-infos">
@@ -45,7 +42,7 @@ const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleL
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className={`${showMobileMenu ? '' : 'collapse'}` + " navbar-collapse"} id="navbarNavAltMarkup">
+            <div className={`${showMobileMenu ? '' : 'collapse'} navbar-collapse`} id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link link-home" to="/">
                         <span className="bt-icon">

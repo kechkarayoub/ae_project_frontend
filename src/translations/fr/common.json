@@ -53,6 +53,7 @@
     "invalid_email": "Ce email est invalide!",
     "invalid_phone": "Ce numéro est invalide!",
     "last_name": "Nom: ",
+    "loading": "Chargement...",
     "no": "Non",
     "phone": "Numéro du téléphone:",
     "search_placeholder": "Chercher...",
@@ -116,6 +117,11 @@
   },
   "map_container": {
     "marker_icon": "Icône de marqueur"
+  },
+  "notFound": {
+    "message1": "Page non trouvée",
+    "message2": "Page d'accueil",
+    "title": "Page non trouvée"
   },
   "pdf_container": {
     "download": "Télécharger",
@@ -192,6 +198,8 @@
     "lot_size": "Taille",
     "print_version": "Version imprimée",
     "price": "Prix",
+    "print_property": "Imprimer la propriété",
+    "property": "Propriété",
     "request_for_information": "Demande d'informations"
   },
   "property_details_print": {

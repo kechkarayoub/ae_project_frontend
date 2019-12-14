@@ -1,10 +1,9 @@
 import FeedbackServer from '../utils/FeedbackServer';
-import React, { Component } from 'react';
-import FundingService from "../../services/FundingService";
 import FundingItem from './FundingItem';
+import FundingService from "../../services/FundingService";
+import React, { Component } from 'react';
 import TitlePage from '../utils/TitlePage';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { withTranslation, Trans } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import './FundingList.css';
 
 const fundingService = new FundingService();
@@ -35,14 +34,16 @@ class FundingList extends Component {
 
     send_funding_email = fundingItem => {
         fundingService.send_funding_email({funding_id: fundingItem.pk}).then(result => {
+            var feedback_messages = [];
+            var feedback_success = true;
             if(result.data.success){
-                var feedback_messages = [this.props.t('funding.email_sent')];
-                this.setState({showFeedback: true, feedback_success: true, feedback_messages: feedback_messages});
+                feedback_messages = [this.props.t('funding.email_sent')];
             }
             else{
-                var feedback_messages = [result.data.message];
-                this.setState({showFeedback: true, feedback_success: false, feedback_messages: feedback_messages});
+                feedback_messages = [result.data.message];
+                feedback_success = false;
             }
+            this.setState({showFeedback: true, feedback_success: feedback_success, feedback_messages: feedback_messages});
         }).catch(() => {
             var feedback_messages = [this.props.t('funding.server_error')];
             this.setState({showFeedback: true, feedback_success: false, feedback_messages: feedback_messages});

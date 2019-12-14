@@ -1,11 +1,11 @@
 import BuyOrSellService from '../../services/BuyOrSellService';
-import DatePicker, { registerLocale, setDefaultLocale } from "react-datepicker";
+import DatePicker, { registerLocale } from "react-datepicker";
 import fr from 'date-fns/locale/fr';
 import React, { Component } from 'react';
 import ReactPhoneInput from 'react-phone-input-2';
 import Select from 'react-select';
-import { formated_select_options, is_empty, is_valid_email } from '../../utils.js';
 import store from 'store';
+import { formated_select_options, is_empty, is_valid_email } from '../../utils.js';
 import "react-datepicker/dist/react-datepicker.css";
 import 'react-phone-input-2/dist/style.css';
 import "./PropertyBuyCreate.css";

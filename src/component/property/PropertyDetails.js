@@ -15,6 +15,7 @@ class PropertyDetails extends Component {
 
     constructor(props) {
         super(props);
+        document.title = `${props.t('property.property')}: ${props.match.params.id}`;
         this.state = {
             property: [],
             property_id: props.match.params.id,
@@ -42,6 +43,7 @@ class PropertyDetails extends Component {
                 original: image.image,
                 thumbnail: image.image
             });
+            return image;
         });
         return formated_images;
     }

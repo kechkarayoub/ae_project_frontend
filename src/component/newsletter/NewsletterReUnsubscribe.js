@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
 import NewsletterService from '../../services/NewsletterService';
-import './NewsletterReUnsubscribe.css';
-import { is_valid_email } from '../../utils.js';
+import React, { Component } from 'react';
 import TitlePage from '../utils/TitlePage';
+import { is_valid_email } from '../../utils.js';
+import './NewsletterReUnsubscribe.css';
 
 const newsletterService = new NewsletterService();
 class NewsletterReUnsubscribe extends Component {

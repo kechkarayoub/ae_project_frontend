@@ -1,11 +1,12 @@
-import  React, { Component } from  'react';
-import ItemsService from "../../services/ItemsService";
 import Item from './Item';
-import './ItemsList.css';
+import ItemsService from "../../services/ItemsService";
+import React, { Component } from  'react';
 import Select from 'react-select';
-import { formated_select_options } from '../../utils.js';
 import TitlePage from '../utils/TitlePage';
-import { withTranslation, Trans } from 'react-i18next';
+import { formated_select_options } from '../../utils.js';
+import { withTranslation } from 'react-i18next';
+import './ItemsList.css';
+
 const itemsService = new ItemsService();
 
 class ItemsList extends Component {
@@ -63,8 +64,8 @@ class ItemsList extends Component {
             selects_choices: props.selects_choices,
             count: 0
         };
-        this.nextPage = this.nextPage.bind(this);
-        this.prevPage = this.prevPage.bind(this);
+        // this.nextPage = this.nextPage.bind(this);
+        // this.prevPage = this.prevPage.bind(this);
         this.toggleFilterCollapse = this.toggleFilterCollapse.bind(this);
         this.refreshProperties = this.refreshProperties.bind(this);
         this.handleHasDiningRoomYesChange = this.handleHasDiningRoomYesChange.bind(this);
@@ -191,12 +192,12 @@ class ItemsList extends Component {
         });
     }
 
-    nextPage(){
-        var  self  =  this;
-        itemsService.getItemsByURL(this.state.nextPageURL, this.state.properties_params).then((result) => {
-            self.setState({ items:  result.data, nextPageURL:  result.nextLink, prevPageURL:  result.prevLink})
-        });
-    }
+    // nextPage(){
+    //     var  self  =  this;
+    //     itemsService.getItemsByURL(this.state.nextPageURL, this.state.properties_params).then((result) => {
+    //         self.setState({ items:  result.data, nextPageURL:  result.nextLink, prevPageURL:  result.prevLink})
+    //     });
+    // }
 
     toggleFilterCollapse() {
         this.setState({
@@ -433,7 +434,7 @@ class ItemsList extends Component {
 
     render() {
         const {
-            ready, filter_collapsed, items, nextPageURL, prevPageURL, selects_choices_dict, selectedCity,
+            ready, filter_collapsed, items, selects_choices_dict, selectedCity,
             selectedPropertyType, selectedStatus, selectedBuildingType, selectedConstructionAge, selectedBedroomsNumber,
             selectedBathroomsNumber, selectedPriceRange, properties_params
         } = this.state;

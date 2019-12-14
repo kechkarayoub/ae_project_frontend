@@ -1,8 +1,7 @@
-import React from 'react';
 import Newsletter from '../newsletter/Newsletter';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import SocialLink from './SocialLink';
-import { withTranslation, Trans } from 'react-i18next';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Footer.css';
 
 const today = new Date();

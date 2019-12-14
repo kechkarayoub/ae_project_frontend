@@ -1,10 +1,11 @@
-import  React, { Component } from  'react';
-import LinksService from "../../services/LinksService";
 import CategoryLinks from './CategoryLinks';
-import './LinksList.css';
 import GuideLink from './GuideLink';
-import TitlePage from '../utils/TitlePage';
 import links_img from '../images/usefullinks/links_img.jpg';
+import LinksService from "../../services/LinksService";
+import React, { Component } from  'react';
+import TitlePage from '../utils/TitlePage';
+import { withTranslation } from 'react-i18next';
+import './LinksList.css';
 
 const linksService = new LinksService();
 
@@ -12,6 +13,7 @@ class LinksList extends Component {
 
     constructor(props) {
         super(props);
+        document.title = props.t('header.nav.useful_links');
         this.state = {
             ready: false,
             categories: {},
@@ -54,7 +56,7 @@ class LinksList extends Component {
                             </div>
                             {links_img &&
                                 <div className="links_img">
-                                    <img src={links_img} />
+                                    <img src={links_img} alt={"link"}/>
                                 </div>
                             }
                         </div>
@@ -66,4 +68,4 @@ class LinksList extends Component {
         );
     }
 }
-export default LinksList;
+export default withTranslation('common')(LinksList);

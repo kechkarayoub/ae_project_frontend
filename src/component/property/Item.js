@@ -1,11 +1,10 @@
-import React from 'react';
-import no_image from '../images/item/no_image.png';
 import img_item_new from '../images/item/img_item_new.png';
 import img_item_sold from '../images/item/img_item_sold.png';
-import './Item.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import no_image from '../images/item/no_image.png';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import './Item.css';
 
 
 const Item = (props) => (
@@ -18,7 +17,7 @@ const Item = (props) => (
                     {props.item.images.length?
                     <div>
                         <img className="card-img-top" src={props.item.images[0].image} alt="Item"/>
-                        {props.item.status == "sold" && !props.item.is_new && <img className="img-item-sold" src={img_item_sold} alt="Sold item"/>}
+                        {props.item.status === "sold" && !props.item.is_new && <img className="img-item-sold" src={img_item_sold} alt="Sold item"/>}
                         {props.item.is_new && <img className="img-item-new" src={img_item_new} alt="New item"/>}
                     </div>
                     :
