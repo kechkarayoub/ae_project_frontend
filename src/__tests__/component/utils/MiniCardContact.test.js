@@ -41,8 +41,8 @@
 //    "tel": "xxxxxxxxxx",
 //    "fax": "xxxxxxxxxx",
 //    "position": {
-//        "gps_latitude": 45.50866990,
-//        "gps_longitude": -73.55399250,
+//        "gps_latitude": 45.474459,
+//        "gps_longitude": -73.470234,
 //    }
 //}
 //describe('MiniCardContact work', () => {

@@ -4,7 +4,7 @@ import CategoryLinks from './CategoryLinks';
 import './LinksList.css';
 import GuideLink from './GuideLink';
 import TitlePage from '../utils/TitlePage';
-import links_img from '../images/usefullinks/links_img.jpg';
+import links_img from '../images/usefullinks/links_img.png';
 
 const linksService = new LinksService();
 
