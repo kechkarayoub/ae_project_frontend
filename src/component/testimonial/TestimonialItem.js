@@ -7,7 +7,7 @@ const TestimonialItem = (props) => (
         <div className="name_el">
             {props.testimonialItem.image ?
             <div className="testimonial_image">
-                <img src={props.testimonialItem.image} alt="User image"/>
+                <img src={props.testimonialItem.image} alt="User"/>
             </div>
             :
             <div className="initials" style={{backgroundColor: props.testimonialItem.initials_bg_color, color: props.testimonialItem.initials_color}}>

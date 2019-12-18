@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import TitlePage from '../utils/TitlePage';
-import { withTranslation, Trans } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import './BuyOrSell.css';
 
 
@@ -14,6 +14,7 @@ class BuyOrSell extends Component {
 
     constructor(props) {
         super(props);
+        document.title = props.t('header.nav.buy_sell');
         this.state = {
             key: "to_buy"
         };

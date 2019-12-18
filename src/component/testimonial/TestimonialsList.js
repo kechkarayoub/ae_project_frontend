@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import TestimonialService from "../../services/TestimonialService";
-import TestimonialCreate from './TestimonialCreate';
+// import TestimonialCreate from './TestimonialCreate';
 import TestimonialItem from './TestimonialItem';
 import TitlePage from '../utils/TitlePage';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { withTranslation, Trans } from 'react-i18next';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { withTranslation } from 'react-i18next';
 import './TestimonialsList.css';
 
 const testimonialService = new TestimonialService();

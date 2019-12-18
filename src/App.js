@@ -6,19 +6,22 @@ import GlobalParamsService from './services/GlobalParamsService';
 import Header from './component/header/Header';
 import Home from './component/home/Home';
 import LoadingContent from './component/loading/LoadingContent';
+import mainBgImage from './component/images/body/main-bg.jpg';
 import Newsletter from './component/newsletter/Newsletter';
 import NotFoundPage from './component/notfound/NotFoundPage';
 import Properties from './component/property/Properties';
 import PropertyDetails from './component/property/PropertyDetails';
 import PropertyDetailsPrint from './component/property/PropertyDetailsPrint';
 import React, { Component } from 'react';
+import store from 'store';
 import Testimonial from './component/testimonial/Testimonial';
 import UsefulLinks from './component/usefullinks/UsefulLinks';
-import mainBgImage from './component/images/body/main-bg.jpg';
 import withUnmounted from '@ishawnwang/withunmounted';
-import { withTranslation, Trans } from 'react-i18next';
-import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { withTranslation } from 'react-i18next';
 import {
     faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faBath, faBed, faCar, faCheckCircle, faCopyright, faDownload, faFax, faFire,
     faFireAlt, faFireExtinguisher, faParking, faPhoneAlt, faPlus,  faPrint, faSwimmingPool,
@@ -27,9 +30,6 @@ import {
 import {
     faFacebook, faGooglePlus, faInstagram, faLinkedin, faTwitter, faYoutube
 } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import store from 'store';
 import  './App.css';
 
 library.add(
@@ -141,7 +141,9 @@ class App extends Component {
                     </HashRouter>
                 </div>
                :
-                <LoadingContent />
+                <LoadingContent 
+                    t={this.props.t}
+                />
             }
             </div >
         );

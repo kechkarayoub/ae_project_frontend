@@ -59,6 +59,7 @@ class ContactCreate extends Component {
                 this.refs.message.value = "";
                 Array.from(this.refs.phone.parentNode.getElementsByTagName('input')).map(input => {
                     input.value = "";
+                    return null;
                 });
                 this.setState({ 
                     errors: {},

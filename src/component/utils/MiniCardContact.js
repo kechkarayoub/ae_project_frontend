@@ -1,6 +1,6 @@
 import React from 'react';
-import './MiniCardContact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './MiniCardContact.css';
 
 
 const MiniCardContact = (props) => (

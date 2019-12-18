@@ -13,6 +13,7 @@ class PropertyDetailsPrint extends Component {
 
     constructor(props) {
         super(props);
+        document.title = `${props.t('property.print_property')}: ${props.match.params.id}`;
         this.state = {
             is_maps_active: props.is_maps_active,
             property: [],

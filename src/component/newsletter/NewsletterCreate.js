@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import NewsletterService from '../../services/NewsletterService';
+import React, { Component } from 'react';
 import { is_valid_email, is_empty } from '../../utils.js';
 const newsletterService = new NewsletterService();
 

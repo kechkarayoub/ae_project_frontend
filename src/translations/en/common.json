@@ -53,6 +53,7 @@
     "invalid_email": "Please enter a valid email!",
     "invalid_phone": "Please enter a valid number phone!",
     "last_name": "Last name: ",
+    "loading": "Loading...",
     "no": "No",
     "phone": "Phone number",
     "search_placeholder": "Search...",
@@ -116,6 +117,11 @@
   },
   "map_container": {
     "marker_icon": "Marker icon"
+  },
+  "notFound": {
+    "message1": "Page not found",
+    "message2": "Home page",
+    "title": "Page Not Found"
   },
   "pdf_container": {
     "download": "Download",
@@ -192,6 +198,8 @@
     "lot_size": "Lot size",
     "print_version": "Print version",
     "price": "Price",
+    "print_property": "Print property",
+    "property": "Property",
     "request_for_information": "Request for information"
   },
   "property_details_print": {

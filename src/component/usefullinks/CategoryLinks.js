@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import './CategoryLinks.css';
-import Link from './Link';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Collapsible from 'react-collapsible';
+import Link from './Link';
+import React, {Component} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './CategoryLinks.css';
+
 
 class CategoryLinks extends Component {
 
