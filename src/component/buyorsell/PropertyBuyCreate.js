@@ -7,7 +7,7 @@ import Select from 'react-select';
 import store from 'store';
 import { formated_select_options, is_empty, is_valid_email } from '../../utils.js';
 import "react-datepicker/dist/react-datepicker.css";
-import 'react-phone-input-2/dist/style.css';
+import 'react-phone-input-2/lib/style.css';
 import "./PropertyBuyCreate.css";
 
 const current_langue = store.get('current_langue');

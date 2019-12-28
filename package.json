@@ -34,7 +34,7 @@
     "react-i18next": "^10.13.1",
     "react-image-gallery": "^0.8.18",
     "react-map-gl": "^5.0.4",
-    "react-phone-input-2": "^2.9.4",
+    "react-phone-input-2": "^2.11.0",
     "react-phone-number-input": "^2.3.19",
     "react-router-dom": "^5.0.1",
     "react-select": "^3.0.4",

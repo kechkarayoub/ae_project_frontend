@@ -2,7 +2,7 @@ import ContactService from '../../services/ContactService';
 import React, { Component } from 'react';
 import ReactPhoneInput  from 'react-phone-input-2';
 import { is_empty, is_valid_email } from '../../utils.js';
-import 'react-phone-input-2/dist/style.css';
+import 'react-phone-input-2/lib/style.css';
 import './ContactCreate.css'
 
 const contactService = new ContactService();
