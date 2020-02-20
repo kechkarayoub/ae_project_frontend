@@ -108,7 +108,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.city = selectedOption.value;
-        properties_params_values.city = selectedOption.label;
+        properties_params_values.city = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params,  properties_params_values: properties_params_values, selectedCity: selectedOption });
         this.refreshProperties();
     };
@@ -118,7 +118,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.property_type = selectedOption.value;
-        properties_params_values.property_type = selectedOption.label;
+        properties_params_values.property_type = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedPropertyType: selectedOption });
         this.refreshProperties();
     };
@@ -127,7 +127,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.item_status = selectedOption.value;
-        properties_params_values.item_status = selectedOption.label;
+        properties_params_values.item_status = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedStatus: selectedOption });
         this.refreshProperties();
     };
@@ -137,7 +137,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.building_type = selectedOption.value;
-        properties_params_values.building_type = selectedOption.label;
+        properties_params_values.building_type = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedBuildingType: selectedOption });
         this.refreshProperties();
     };
@@ -147,7 +147,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.construction_age = selectedOption.value;
-        properties_params_values.construction_age = selectedOption.label;
+        properties_params_values.construction_age = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedConstructionAge: selectedOption });
         this.refreshProperties();
     };
@@ -157,7 +157,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.bedrooms_number = selectedOption.value;
-        properties_params_values.bedrooms_number = selectedOption.label;
+        properties_params_values.bedrooms_number = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedBedroomsNumber: selectedOption });
         this.refreshProperties();
     };
@@ -167,7 +167,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.bathrooms_number = selectedOption.value;
-        properties_params_values.bathrooms_number = selectedOption.label;
+        properties_params_values.bathrooms_number = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedBathroomsNumber: selectedOption });
         this.refreshProperties();
     };
@@ -177,7 +177,7 @@ class ItemsList extends Component {
         let properties_params = this.state.properties_params;
         let properties_params_values = this.state.properties_params_values;
         properties_params.price_range = selectedOption.value;
-        properties_params_values.price_range = selectedOption.label;
+        properties_params_values.price_range = selectedOption.value ? selectedOption.label : "";
         this.setState({ properties_params: properties_params, properties_params_values: properties_params_values, selectedPriceRange: selectedOption });
         this.refreshProperties();
     };
@@ -391,7 +391,7 @@ class ItemsList extends Component {
             selected_properties.push([this.props.t('properties.search_result.construction_age'), properties_params_values.construction_age + "."]);
         }
         if(properties_params_values.item_status){
-            selected_properties.push(["this.props.t('properties.search_result.status'): ", properties_params_values.item_status + "."]);
+            selected_properties.push([this.props.t('properties.search_result.status'), properties_params_values.item_status + "."]);
         }
         if(properties_params_values.bedrooms_number){
             selected_properties.push([this.props.t('properties.search_result.bedrooms_number'), properties_params_values.bedrooms_number + "."]);

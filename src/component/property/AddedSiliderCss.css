@@ -31,3 +31,6 @@
 
 .image-gallery-content.fullscreen .image-gallery-slide-wrapper .image-gallery-slides .image-gallery-slide .image-gallery-image img {
   height: 100%; }
+
+.image-gallery-swipe {
+  height: 100%; }
