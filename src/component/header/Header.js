@@ -44,45 +44,45 @@ const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleL
             </button>
             <div className={`${showMobileMenu ? '' : 'collapse'} navbar-collapse`} id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-item nav-link link-home" to="/">
+                    <Link className="nav-item nav-link link-home" to="/" onClick={toggleNavigation}>
                         <span className="bt-icon">
                             <img src={btHome} alt="Home"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.home') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-properties" to="/properties">
+                    <Link className="nav-item nav-link link-properties" to="/properties" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btProperties} alt="Home"/>
+                            <img src={btProperties} alt="Properties"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.properties') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-buyorsell" to="/buyorsell">
+                    <Link className="nav-item nav-link link-buyorsell" to="/buyorsell" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btSellers} alt="Home"/>
+                            <img src={btSellers} alt="Buy or sell"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.buy_sell') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-funding" to="/funding">
+                    <Link className="nav-item nav-link link-funding" to="/funding" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btFunding} alt="Home"/>
+                            <img src={btFunding} alt="Funding"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.funding') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-testimonial" to="/testimonial">
+                    <Link className="nav-item nav-link link-testimonial" to="/testimonial" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btTestimonials} alt="Home"/>
+                            <img src={btTestimonials} alt="Testimonial"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.testimonial') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-usefullinks" to="/usefullinks">
+                    <Link className="nav-item nav-link link-usefullinks" to="/usefullinks" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btLinks} alt="Home"/>
+                            <img src={btLinks} alt="Useful links"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.useful_links') }</span>
                     </Link>
-                    <Link className="nav-item nav-link link-contact" to="/contact">
+                    <Link className="nav-item nav-link link-contact" to="/contact" onClick={toggleNavigation}>
                         <span className="bt-icon">
-                            <img src={btContact} alt="Home"/>
+                            <img src={btContact} alt="Contact"/>
                         </span>
                         <span className="bt-text">{ t('header.nav.contact') }</span>
                     </Link>
