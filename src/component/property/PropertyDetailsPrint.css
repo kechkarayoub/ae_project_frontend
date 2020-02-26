@@ -1,300 +1,302 @@
-.page_content .body .content .property_container_print {
-  height: auto;
-  margin: 0px auto;
-  margin-top: 0px; }
-  @media only screen and (min-width: 320px) {
-    .page_content .body .content .property_container_print {
-      width: 320px; } }
-  @media only screen and (min-width: 480px) {
-    .page_content .body .content .property_container_print {
-      width: 480px; } }
-  @media only screen and (min-width: 640px) {
-    .page_content .body .content .property_container_print {
-      width: 640px; } }
-  @media only screen and (min-width: 768px) {
-    .page_content .body .content .property_container_print {
-      width: 768px; } }
-  @media only screen and (min-width: 1024px) {
-    .page_content .body .content .property_container_print {
-      width: 860px; } }
-  .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print {
-    float: inherit;
-    width: 100%; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header {
-      float: left;
-      height: auto;
-      margin-left: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
+.page_content .body {
+  position: relative; }
+  .page_content .body .content .property_container_print {
+    height: auto;
+    margin: 0px auto;
+    margin-top: 0px; }
+    @media only screen and (min-width: 320px) {
+      .page_content .body .content .property_container_print {
+        width: 320px; } }
+    @media only screen and (min-width: 480px) {
+      .page_content .body .content .property_container_print {
+        width: 480px; } }
+    @media only screen and (min-width: 640px) {
+      .page_content .body .content .property_container_print {
+        width: 640px; } }
+    @media only screen and (min-width: 768px) {
+      .page_content .body .content .property_container_print {
+        width: 768px; } }
+    @media only screen and (min-width: 1024px) {
+      .page_content .body .content .property_container_print {
+        width: 860px; } }
+    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print {
+      float: inherit;
       width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .contact_card {
-        border: solid 1px #333333;
-        color: #000;
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header {
         float: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 11px;
-        height: 130px;
-        margin: 0px;
-        margin-right: 1.4%;
-        padding: 0px;
-        width: 68.4%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .contact_card .title {
-          background-color: #666666;
-          color: #ffffff;
-          font-size: 14px;
-          font-weight: bold;
-          text-align: center; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-        border: solid 1px #333333;
-        border-radius: 12px;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .contact_card {
+          border: solid 1px #333333;
+          color: #000;
+          float: left;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 11px;
+          height: 130px;
+          margin: 0px;
+          margin-right: 1.4%;
+          padding: 0px;
+          width: 68.4%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .contact_card .title {
+            background-color: #666666;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+          border: solid 1px #333333;
+          border-radius: 12px;
+          float: left;
+          font-family: "Times New Roman", Times, serif;
+          height: 130px;
+          margin: 0px;
+          position: relative;
+          width: 29.2%; }
+          @media only screen and (min-width: 320px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+              font-size: 10px; } }
+          @media only screen and (min-width: 480px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+              font-size: 13px; } }
+          @media only screen and (min-width: 640px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+              font-size: 14px; } }
+          @media only screen and (min-width: 768px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+              font-size: 15px; } }
+          @media only screen and (min-width: 1024px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
+              font-size: 15px; } }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id div {
+            color: #555555;
+            left: 50%;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%; }
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .title {
+        border-bottom-color: #666;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-top-color: #666;
+        border-top-style: solid;
+        border-top-width: 2px;
+        color: #CC0033;
         float: left;
         font-family: "Times New Roman", Times, serif;
-        height: 130px;
-        margin: 0px;
-        position: relative;
-        width: 29.2%; }
-        @media only screen and (min-width: 320px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-            font-size: 10px; } }
-        @media only screen and (min-width: 480px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-            font-size: 13px; } }
-        @media only screen and (min-width: 640px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-            font-size: 14px; } }
-        @media only screen and (min-width: 768px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-            font-size: 15px; } }
-        @media only screen and (min-width: 1024px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id {
-            font-size: 15px; } }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-header .property_id div {
-          color: #555555;
-          left: 50%;
-          position: absolute;
-          text-align: center;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          width: 100%; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .title {
-      border-bottom-color: #666;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-top-color: #666;
-      border-top-style: solid;
-      border-top-width: 2px;
-      color: #CC0033;
-      float: left;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 24px;
-      font-weight: bold;
-      height: auto;
-      margin-bottom: 10px;
-      margin-left: 0px;
-      margin-top: 20px;
-      padding-bottom: 2px;
-      padding-top: 2px;
-      text-align: center;
-      width: 100%; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price {
-      display: flex;
-      flex-wrap: wrap;
-      float: left;
-      height: auto;
-      margin-bottom: 15px;
-      margin-left: 0px;
-      margin-top: 0px;
-      padding: 0px;
-      width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .address, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .price {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        font-weight: bold; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .address {
-        color: #000;
-        text-align: left;
-        width: 70%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .price {
-        color: #C03;
-        text-align: right;
-        width: 30%; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information {
-      display: flex;
-      margin-bottom: 15px;
-      width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-        border: 1px solid; }
-        @media only screen and (min-width: 320px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-            height: 150px;
-            padding: 2px; } }
-        @media only screen and (min-width: 480px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-            height: 190px;
-            padding: 4px; } }
-        @media only screen and (min-width: 640px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-            height: 230px;
-            padding: 6px; } }
-        @media only screen and (min-width: 768px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-            height: 270px;
-            padding: 8px; } }
-        @media only screen and (min-width: 1024px) {
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-            height: 300px;
-            padding: 10px; } }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps {
-        margin-right: 1%;
-        width: 39%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-          width: 100%; }
-          @media only screen and (min-width: 320px) {
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-              height: 138px;
-              margin: 4px 0; } }
-          @media only screen and (min-width: 480px) {
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-              height: 166px;
-              margin: 8px 0; } }
-          @media only screen and (min-width: 640px) {
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-              height: 194px;
-              margin: 12px 0; } }
-          @media only screen and (min-width: 768px) {
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-              height: 222px;
-              margin: 16px 0; } }
-          @media only screen and (min-width: 1024px) {
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
-              height: 240px;
-              margin: 20px 0; } }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
-        width: 60%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps .static_map {
-          height: 100%;
-          width: 100%; }
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps .static_map img {
-            height: 100%;
-            width: 100%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps.full_width {
-          width: 80%;
-          margin: 0 10%; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information {
-      display: flex;
-      margin-bottom: 15px;
-      width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description {
-        border-right: 6px solid #999;
-        width: 60%;
-        padding-right: 10px; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description .d_title {
-          border-bottom: 1px solid #8A8A8A;
-          border-top: 1px solid #8A8A8A;
-          float: left;
-          font-size: 15px;
-          font-weight: bold;
-          height: auto;
-          margin-bottom: 10px;
-          padding: 2px;
-          text-align: left;
-          text-decoration: none;
-          text-transform: uppercase;
-          width: 100%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description .description {
-          margin-bottom: 20px;
-          margin-top: 0px;
-          text-align: justify; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information {
-        padding-left: 10px;
-        width: 40%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .d_title {
-          border-bottom: 1px solid #8A8A8A;
-          border-top: 1px solid #8A8A8A;
-          float: left;
-          font-size: 15px;
-          font-weight: bold;
-          height: auto;
-          margin-bottom: 10px;
-          padding: 2px;
-          text-align: left;
-          text-decoration: none;
-          text-transform: uppercase;
-          width: 100%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace,
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage {
-          display: flex;
-          margin-bottom: 10px;
-          width: 100%; }
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .key,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .key {
-            color: #6B3038;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            font-weight: bold;
-            margin-bottom: -1px;
-            margin-right: 5px;
-            margin-top: 0px;
-            padding: 0px; }
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .value,
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .value {
-            font-size: 13px; }
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .value img,
-            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .value img {
-              width: 1em; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value {
-          color: #555555;
-          display: flex;
-          margin-top: 0px;
-          text-align: justify; }
-    .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos {
-      margin-bottom: 15px;
-      width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .p_title {
-        border-bottom: 1px solid #8A8A8A;
-        border-top: 1px solid #8A8A8A;
-        float: left;
-        font-size: 15px;
+        font-size: 24px;
         font-weight: bold;
         height: auto;
         margin-bottom: 10px;
-        padding: 2px;
-        text-align: left;
-        text-decoration: none;
-        text-transform: uppercase;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        text-align: center;
         width: 100%; }
-      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos {
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        float: left;
+        height: auto;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
         width: 100%; }
-        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos .property_photo {
-          margin: 7px 1%;
-          width: 31.33%; }
-          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos .property_photo .photo {
-            height: 180px;
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .address, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .price {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          font-weight: bold; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .address {
+          color: #000;
+          text-align: left;
+          width: 70%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .address_price .price {
+          color: #C03;
+          text-align: right;
+          width: 30%; }
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information {
+        display: flex;
+        margin-bottom: 15px;
+        width: 100%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+          border: 1px solid; }
+          @media only screen and (min-width: 320px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+              height: 150px;
+              padding: 2px; } }
+          @media only screen and (min-width: 480px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+              height: 190px;
+              padding: 4px; } }
+          @media only screen and (min-width: 640px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+              height: 230px;
+              padding: 6px; } }
+          @media only screen and (min-width: 768px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+              height: 270px;
+              padding: 8px; } }
+          @media only screen and (min-width: 1024px) {
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+              height: 300px;
+              padding: 10px; } }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps {
+          margin-right: 1%;
+          width: 39%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
             width: 100%; }
+            @media only screen and (min-width: 320px) {
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
+                height: 138px;
+                margin: 4px 0; } }
+            @media only screen and (min-width: 480px) {
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
+                height: 166px;
+                margin: 8px 0; } }
+            @media only screen and (min-width: 640px) {
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
+                height: 194px;
+                margin: 12px 0; } }
+            @media only screen and (min-width: 768px) {
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
+                height: 222px;
+                margin: 16px 0; } }
+            @media only screen and (min-width: 1024px) {
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .image_maps .image_map {
+                height: 240px;
+                margin: 20px 0; } }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps {
+          width: 60%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps .static_map {
+            height: 100%;
+            width: 100%; }
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps .static_map img {
+              height: 100%;
+              width: 100%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_map-information .card_maps.full_width {
+            width: 80%;
+            margin: 0 10%; }
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information {
+        display: flex;
+        margin-bottom: 15px;
+        width: 100%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description {
+          border-right: 6px solid #999;
+          width: 60%;
+          padding-right: 10px; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description .d_title {
+            border-bottom: 1px solid #8A8A8A;
+            border-top: 1px solid #8A8A8A;
+            float: left;
+            font-size: 15px;
+            font-weight: bold;
+            height: auto;
+            margin-bottom: 10px;
+            padding: 2px;
+            text-align: left;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 100%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_description .description {
+            margin-bottom: 20px;
+            margin-top: 0px;
+            text-align: justify; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information {
+          padding-left: 10px;
+          width: 40%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .d_title {
+            border-bottom: 1px solid #8A8A8A;
+            border-top: 1px solid #8A8A8A;
+            float: left;
+            font-size: 15px;
+            font-weight: bold;
+            height: auto;
+            margin-bottom: 10px;
+            padding: 2px;
+            text-align: left;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 100%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace,
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage {
+            display: flex;
+            margin-bottom: 10px;
+            width: 100%; }
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .key,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .key, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .key {
+              color: #6B3038;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 12px;
+              font-weight: bold;
+              margin-bottom: -1px;
+              margin-right: 5px;
+              margin-top: 0px;
+              padding: 0px; }
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .value,
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .value, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .value {
+              font-size: 13px; }
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_1 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_2 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .added_field_3 .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .annual_income .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .apartments_number .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .building_type .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .cost_per_housing .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .ccd .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .down_payment_required .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .economic_value .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .gross_revenue_multiplier .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .item_status .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .maximum_loan .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .net_income_multiplier .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .overall_rate_update .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_short_description .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_type .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_construction_age .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_lot_size .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_bedrooms_number .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_dining_room .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_fireplace .value img,
+              .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_swimming_pool .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garden .value img, .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .property_has_garage .value img {
+                width: 1em; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_information .property_general_information .housing_descriptions .value {
+            color: #555555;
+            display: flex;
+            margin-top: 0px;
+            text-align: justify; }
+      .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos {
+        margin-bottom: 15px;
+        width: 100%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .p_title {
+          border-bottom: 1px solid #8A8A8A;
+          border-top: 1px solid #8A8A8A;
+          float: left;
+          font-size: 15px;
+          font-weight: bold;
+          height: auto;
+          margin-bottom: 10px;
+          padding: 2px;
+          text-align: left;
+          text-decoration: none;
+          text-transform: uppercase;
+          width: 100%; }
+        .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: start;
+          width: 100%; }
+          .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos .property_photo {
+            margin: 7px 1%;
+            width: 31.33%; }
+            .page_content .body .content .property_container_print .pdf-container .pdf-body #property_details_to_print .property_details_to_print-content .property_details_to_print_photos .photos .property_photo .photo {
+              height: 180px;
+              width: 100%; }
