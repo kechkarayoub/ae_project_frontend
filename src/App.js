@@ -87,8 +87,7 @@ class App extends Component {
                                         home_page_data={global_params.home_page_data} 
                                         t={this.props.t}
                                     />} />
-                                    <Route path="/funding" exact render={(props) => <Funding
-                                        cities={global_params.selects_choices_dict.CITIES} />}
+                                    <Route path="/funding" exact render={(props) => <Funding />}
                                         t={this.props.t}
                                     />
                                     <Route path="/properties" exact render={(props) => <Properties
