@@ -260,6 +260,12 @@ class PropertyDetails extends Component {
                                             <div className="value">{property.added_field_3_value}</div>
                                         </div>
                                     }
+                                    {property.catalog &&
+                                        <div className="catalog">
+                                            <div className="key">{this.props.t('properties.catalog')}: </div>
+                                            <div className="value"><a href={property.catalog} target="_blank">{this.props.t('properties.click_to_download')}</a></div>
+                                        </div>
+                                    }
                                 </div>
                                 <div className="property_description">
                                     <div className="d_title">{this.props.t('property.description')}</div>

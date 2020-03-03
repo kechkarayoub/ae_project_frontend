@@ -206,7 +206,8 @@
     border-radius: 15px;
     height: 100%;
     position: absolute;
-    width: 100%; }
+    width: 100%;
+            top: 0; }
     .newsletter .newsletter_form .feedback .close_feedback {
       background-color: #595656;
       border: 0;

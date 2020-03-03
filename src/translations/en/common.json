@@ -152,7 +152,9 @@
       "other_characteristics": "Other characteristics",
       "swimming_pool": "Swimming pool"
     },
+    "catalog": "Catalog",
     "ccd": "Ccd (CCD)",
+    "click_to_download": "Click to download",
     "construction_age": "Construction age",
     "cost_per_housing": "Cost per housing (CPH)",
     "down_payment_required": "Down payment required",
