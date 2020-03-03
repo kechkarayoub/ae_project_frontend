@@ -55,7 +55,7 @@ class ContactCreate extends Component {
                 this.refs.firstName.value = "";
                 this.refs.lastName.value = "";
                 this.refs.email.value = "";
-                this.refs.object = this.state.object || this.props.t('contact.contact_create.get_informations');
+                this.refs.object.value = this.state.object || this.props.t('contact.contact_create.get_informations');
                 this.refs.message.value = "";
                 Array.from(this.refs.phone.parentNode.getElementsByTagName('input')).map(input => {
                     input.value = "";
