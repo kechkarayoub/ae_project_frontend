@@ -16,13 +16,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withTranslation } from 'react-i18next';
 import './Header.css';
 
-const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleLanguageChange}) => (
+const MenuLayout = (props) => (
     <div className="wrapper">
         <div className="langues-infos">
             {
-                header_params.i18n ?
+                props.header_params.i18n ?
                     <div className="changelangue">
-                        <LanguagesList on_click={(selected_language) => handleLanguageChange(selected_language)} t={t}/>
+                        <LanguagesList on_click={(selected_language) => props.handleLanguageChange(selected_language)} t={props.t}/>
                     </div>
                     :
                     <div className=""></div>
@@ -37,55 +37,91 @@ const MenuLayout = ({toggleNavigation, showMobileMenu, header_params, t, handleL
                 data-toggle="collapse"
                 data-target="#navbarNavAltMarkup"
                 data-test="open_menu_mobile"
-                onClick={toggleNavigation}
+                onClick={props.toggleNavigation}
                 type="button"
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className={`${showMobileMenu ? '' : 'collapse'} navbar-collapse`} id="navbarNavAltMarkup">
+            <div className={`${props.showMobileMenu ? '' : 'collapse'} navbar-collapse`} id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-item nav-link link-home" to="/" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btHome} alt="Home"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.home') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-properties" to="/properties" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btProperties} alt="Properties"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.properties') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-buyorsell" to="/buyorsell" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btSellers} alt="Buy or sell"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.buy_sell') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-funding" to="/funding" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btFunding} alt="Funding"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.funding') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-testimonial" to="/testimonial" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btTestimonials} alt="Testimonial"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.testimonial') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-usefullinks" to="/usefullinks" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btLinks} alt="Useful links"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.useful_links') }</span>
-                    </Link>
-                    <Link className="nav-item nav-link link-contact" to="/contact" onClick={toggleNavigation}>
-                        <span className="bt-icon">
-                            <img src={btContact} alt="Contact"/>
-                        </span>
-                        <span className="bt-text">{ t('header.nav.contact') }</span>
-                    </Link>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-home" to="/" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btHome} alt="Home"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.home') }</span>
+                        </Link>
+                    </div>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-properties" to="/properties" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btProperties} alt="Properties"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.properties') }</span>
+                        </Link>
+                    </div>
+                    <div className="nav-div">
+                        <div className="nav-item nav-link link-buyorsell" onClick={(evt) => {props.toggleBuySellSubmenu(evt)}}>
+                            <span className="bt-icon">
+                                <img src={btSellers} alt="Buy"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.buy') }<FontAwesomeIcon icon="caret-down" /></span>
+                            {props.showBuySellSubmenu &&
+                                <div className="submenu">
+                                    <Link className="nav-item nav-link link-properties" to="/buy" onClick={(evt) => props.toggleBuySellSubmenu(evt, true)}>
+                                        <span className="bt-icon">
+                                            <img src={btSellers} alt="Buy"/>
+                                        </span>
+                                        <span className="bt-text">{ props.t('header.nav.buy') }</span>
+                                    </Link>
+                                    <Link className="nav-item nav-link link-properties" to="/sell" onClick={(evt) => props.toggleBuySellSubmenu(evt, true)}>
+                                        <span className="bt-icon">
+                                            <img src={btSellers} alt="Sell"/>
+                                        </span>
+                                        <span className="bt-text">{ props.t('header.nav.sell') }</span>
+                                    </Link>
+                                    <Link className="nav-item nav-link link-properties" to="/rent" onClick={(evt) => props.toggleBuySellSubmenu(evt, true)}>
+                                        <span className="bt-icon">
+                                            <img src={btSellers} alt="Rent"/>
+                                        </span>
+                                        <span className="bt-text">{ props.t('header.nav.rent') }</span>
+                                    </Link>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-funding" to="/funding" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btFunding} alt="Funding"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.funding') }</span>
+                        </Link>
+                    </div>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-testimonial" to="/testimonial" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btTestimonials} alt="Testimonial"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.testimonial') }</span>
+                        </Link>
+                    </div>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-usefullinks" to="/usefullinks" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btLinks} alt="Useful links"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.useful_links') }</span>
+                        </Link>
+                    </div>
+                    <div className="nav-div">
+                        <Link className="nav-item nav-link link-contact" to="/contact" onClick={props.toggleNavigation}>
+                            <span className="bt-icon">
+                                <img src={btContact} alt="Contact"/>
+                            </span>
+                            <span className="bt-text">{ props.t('header.nav.contact') }</span>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -98,7 +134,8 @@ class Header extends Component {
         super(props);
         this.state = {
             header_params: props.header_params,
-            showMobileMenu: false
+            showMobileMenu: false,
+            showBuySellSubmenu: false
         };
         this.toggleNavigation = this.toggleNavigation.bind(this);
 
@@ -106,8 +143,25 @@ class Header extends Component {
     componentDidMount() {
     }
     toggleNavigation(){
-        this.setState({showMobileMenu: !this.state.showMobileMenu});
+        this.setState({
+            showMobileMenu: !this.state.showMobileMenu,
+            showBuySellSubmenu: false
+        });
     }
+    toggleBuySellSubmenu = (evt, close) => {
+        if(close){
+            evt.stopPropagation();
+            this.setState({
+                showBuySellSubmenu: false,
+                showMobileMenu: false
+            });
+        }
+        else{
+            this.setState({
+                showBuySellSubmenu: !this.state.showBuySellSubmenu,
+            });
+        }
+    };
     generateLink(current_url, id){
         return <BrowserRouter>
             <Link className="nav-item nav-link" to={current_url} id={id}>
@@ -132,8 +186,10 @@ class Header extends Component {
                                     header_params={header_params}
                                     showMobileMenu={showMobileMenu}
                                     toggleNavigation={this.toggleNavigation}
-                                        t={this.props.t}
-                                        handleLanguageChange={(selected_language) => this.handleLanguageChange(selected_language)}
+                                    toggleBuySellSubmenu={(evt, close) => this.toggleBuySellSubmenu(evt, close)}
+                                    showBuySellSubmenu={this.state.showBuySellSubmenu}
+                                    t={this.props.t}
+                                    handleLanguageChange={(selected_language) => this.handleLanguageChange(selected_language)}
                                 />
                             </div>
                         </div>

@@ -4,9 +4,10 @@
       "coordinates": "Coordinates",
       "details": "Details"
     },
-    "intro": "If you want to buy or sell a property, please complete and send us the application form below and we will contact you as soon as possible.",
+    "intro": "If you want to buy, sell or rent a property, please complete and send us the application form below and we will contact you as soon as possible.",
     "sell_a_property": "Sell a property",
     "to_buy": "To buy",
+    "to_rent": "To rent",
     "to_sell": "To sell"
   },
   "contact": {
@@ -82,11 +83,14 @@
       "french": "French"
     },
     "nav": {
+      "buy": "BUY",
       "buy_sell": "BUY/SELL",
       "contact": "Contact",
       "funding": "Funding",
       "home": "Home",
       "properties": "Properties",
+      "rent": "RENT",
+      "sell": "SELL",
       "testimonial": "Testimonial",
       "useful_links": "Useful links"
     }

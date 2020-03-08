@@ -23,7 +23,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { withTranslation } from 'react-i18next';
 import {
-    faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faBath, faBed, faCar, faCheckCircle, faCopyright, faDownload, faFax, faFire,
+    faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faCaretDown, faBath, faBed, faCar, faCheckCircle, faCopyright, faDownload, faFax, faFire,
     faFireAlt, faFireExtinguisher, faParking, faPhoneAlt, faPlus,  faPrint, faSwimmingPool,
     faTree
 } from '@fortawesome/free-solid-svg-icons';
@@ -35,7 +35,7 @@ import  './App.css';
 library.add(
     fab, faBath, faBed, faCar, faCopyright, faDownload, faFacebook, faGooglePlus, faInstagram, faLinkedin, faPrint, faTwitter, faYoutube
 )
-library.add(fas, faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faCheckCircle, faFax, faFire, faFireAlt, faFireExtinguisher,
+library.add(fas, faAddressCard, faAngleDoubleLeft, faAngleDoubleRight, faAngleDown, faAngleUp, faAt, faCaretDown, faCheckCircle, faFax, faFire, faFireAlt, faFireExtinguisher,
     faParking, faPhoneAlt, faPlus, faSwimmingPool, faTree
 )
 
@@ -108,8 +108,16 @@ class App extends Component {
                                         match={props.match} realtor_data={global_params.realtor_data}
                                         t={this.props.t}
                                     />} />
-                                    <Route path="/buyorsell" exact render={(props) => <BuyOrSell
-                                        selects_choices={global_params.selects_choices} />}
+                                    <Route path="/buy" exact render={(props) => <BuyOrSell
+                                        selects_choices={global_params.selects_choices} activeKey="to_buy"/>}
+                                        t={this.props.t}
+                                    />
+                                    <Route path="/sell" exact render={(props) => <BuyOrSell
+                                        selects_choices={global_params.selects_choices} activeKey="to_sell"/>}
+                                        t={this.props.t}
+                                    />
+                                    <Route path="/rent" exact render={(props) => <BuyOrSell
+                                        selects_choices={global_params.selects_choices} activeKey="to_rent"/>}
                                         t={this.props.t}
                                     />
                                     <Route path="/contact/:id" exact render={(props) => <Contact

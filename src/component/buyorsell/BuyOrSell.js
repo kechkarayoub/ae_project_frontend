@@ -1,6 +1,7 @@
 
 import ContactCreate from '../contact/ContactCreate';
 import PropertyBuyCreate from './PropertyBuyCreate';
+import PropertyRentCreate from './PropertyRentCreate';
 import React, { Component } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
@@ -16,8 +17,13 @@ class BuyOrSell extends Component {
         super(props);
         document.title = props.t('header.nav.buy_sell');
         this.state = {
-            key: "to_buy"
+            key: props.activeKey || "to_buy"
         };
+    }
+    componentWillRecieveProps(newProps){
+        if(newProps.activeKey && newProps.activeKey !== this.state.activeKey){
+            this.setState({activeKey: this.props.activeKey});
+        }
     }
     render() {
         return (
@@ -40,6 +46,10 @@ class BuyOrSell extends Component {
                     <Tab eventKey="to_sell" title={this.props.t('buyorsell.to_sell')} className="content_tab tab_to_sell">
                         <TitlePage title={this.props.t('buyorsell.to_sell')}/>
                         <ContactCreate title="" object={this.props.t('buyorsell.sell_a_property')} t={this.props.t}/>
+                    </Tab>
+                    <Tab eventKey="to_rent" title={this.props.t('buyorsell.to_rent')} className="content_tab tab_to_rent">
+                        <TitlePage title={this.props.t('buyorsell.to_rent')}/>
+                        <PropertyRentCreate {...this.props} />
                     </Tab>
 			    </Tabs>
             </div>

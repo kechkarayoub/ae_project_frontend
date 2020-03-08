@@ -4,9 +4,10 @@
       "coordinates": "Coordonnées",
       "details": "Details"
     },
-    "intro": "Si vous souhaitez acheter ou vendre une propriété, complétez et envoyez-nous le formulaire de demande ci-dessous et nous vous contacterons dans les plus brefs délais.",
+    "intro": "Si vous souhaitez acheter, vendre ou louer une propriété, complétez et envoyez-nous le formulaire de demande ci-dessous et nous vous contacterons dans les plus brefs délais.",
     "sell_a_property": "Vendre une propriété",
     "to_buy": "Acheter",
+    "to_rent": "Louer",
     "to_sell": "Vendre"
   },
   "contact": {
@@ -82,11 +83,14 @@
       "french": "Français"
     },
     "nav": {
+      "buy": "Acheter",
       "buy_sell": "Acheter/Vendre",
       "contact": "Contactez-nous",
       "funding": "Financement",
       "home": "Accueil",
       "properties": "Propriétés",
+      "rent": "LOCATION",
+      "sell": "Vendre",
       "testimonial": "Témoignage",
       "useful_links": "Liens utils"
     }
