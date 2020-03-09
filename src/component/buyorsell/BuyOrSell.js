@@ -17,12 +17,14 @@ class BuyOrSell extends Component {
         super(props);
         document.title = props.t('header.nav.buy_sell');
         this.state = {
-            key: props.activeKey || "to_buy"
+            activeKey: props.activeKey || "to_buy"
         };
     }
-    componentWillRecieveProps(newProps){
+    componentWillReceiveProps(newProps){
         if(newProps.activeKey && newProps.activeKey !== this.state.activeKey){
-            this.setState({activeKey: this.props.activeKey});
+            setTimeout(() => {
+                this.setState({activeKey: this.props.activeKey});
+            }, 100);
         }
     }
     render() {
@@ -35,8 +37,8 @@ class BuyOrSell extends Component {
                 </div>
                 <Tabs
                     id="controlled-tab-example"
-                    activeKey={this.state.key}
-                    onSelect={key => this.setState({ key })}
+                    activeKey={this.state.activeKey}
+                    onSelect={key => this.setState({ activeKey: key })}
                     className="tabs_buy_sell"
                 >
                     <Tab eventKey="to_buy" title={this.props.t('buyorsell.to_buy')} className="content_tab tab_to_buy">
