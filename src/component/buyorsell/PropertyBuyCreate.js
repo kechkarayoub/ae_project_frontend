@@ -205,7 +205,7 @@ class PropertyBuyCreate extends Component {
                                 <label>{this.props.t('global.phone')}</label>
                                 <input className="form-control hidden" type="text" ref='phone'  onFocus={() => this.removeError("phone")}/>
                                 <ReactPhoneInput
-                                    defaultCountry="ca"
+                                    country={"ca"}
                                     value={this.refs.phone ? this.refs.phone.value : ""}
                                     onChange={(value) =>
                                         this.refs.phone.value = value

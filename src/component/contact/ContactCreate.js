@@ -168,7 +168,7 @@ class ContactCreate extends Component {
                                 <label>{this.props.t('global.phone')}</label>
                                 <input className="form-control hidden" type="text" ref='phone' name='phone' onClick={this.handleInputClicked}/>
                                 <ReactPhoneInput
-                                    defaultCountry="ca"
+                                    country={"ca"}
                                     value={this.refs.phone ? this.refs.phone.value : ""}
                                     onChange={(value) =>
                                         this.refs.phone.value = value
