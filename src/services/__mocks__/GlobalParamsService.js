@@ -43,6 +43,7 @@ export const fakeGlobalParams = {
             ["attached", "Attached"],
             ["attached_corner_unit", "Attached corner unit"],
             ["quadrex", "Quadrex"],
+            ["5plex", "5 plex and more"],
         ],
         BEDROOMS_NUMBER: [
             ["", "Select bedrooms number"],
@@ -109,7 +110,8 @@ export const fakeGlobalParams = {
             "semi_detached": "Semi detached",
             "attached": "Attached",
             "attached_corner_unit": "Attached corner unit",
-            "quadrex": "Quadrex"
+            "quadrex": "Quadrex",
+            "5plex": "5 plex and more"
         },
         BEDROOMS_NUMBER: {
             "": "Select bedrooms number",
