@@ -13,8 +13,8 @@
   "contact": {
     "contact_create": {
       "contact_form": "Contact form",
-      "feedback_message_1": "An error has occured!",
-      "feedback_message_2": "Please re-try later.",
+      "feedback_message_1": "An error has occurred!",
+      "feedback_message_2": "Please retry later.",
       "get_informations": "Get informations",
       "message": "Message",
       "message_sent": "Your message has been sent.",
@@ -79,6 +79,7 @@
   },
   "header": {
     "languages": {
+      "arabic": "Arabic",
       "english": "English",
       "french": "French"
     },
@@ -132,7 +133,7 @@
     "print": "Print"
   },
   "properties": {
-    "advanced_filter": "Avanced filter",
+    "advanced_filter": "Advanced filter",
     "annual_income": "Annual income",
     "apartments_number": "Apartments number",
     "bathrooms_number": "Bathrooms number",
@@ -157,7 +158,7 @@
       "swimming_pool": "Swimming pool"
     },
     "catalog": "Catalog",
-    "ccd": "Ccd (CCD)",
+    "ccd": "Ccd",
     "click_to_download": "Click to download",
     "construction_age": "Construction age",
     "cost_per_housing": "Cost per housing (CPH)",
@@ -220,7 +221,7 @@
     "testimonial": "Testimonial"
   },
   "useful_links": {
-    "no_useful_link": "There in any useful link for now!",
+    "no_useful_link": "There is any useful link for now!",
     "guides": "Guides"
   }
 }

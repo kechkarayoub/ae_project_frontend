@@ -1,6 +1,7 @@
 import App from './App';
-import common_fr from "./translations/fr/common.json";
+import common_ar from "./translations/ar/common.json";
 import common_en from "./translations/en/common.json";
+import common_fr from "./translations/fr/common.json";
 import i18next from 'i18next';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -14,6 +15,9 @@ i18next.init({
     framework: "react-i18next",
     lng: store.get('current_langue') || "en",
     resources: {
+        ar: {
+            common: common_ar    // 'common' is our custom namespace
+        },
         en: {
             common: common_en    // 'common' is our custom namespace
         },

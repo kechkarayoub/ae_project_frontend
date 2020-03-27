@@ -79,6 +79,7 @@
   },
   "header": {
     "languages": {
+      "arabic": "Arabe",
       "english": "Anglais",
       "french": "Français"
     },
@@ -157,7 +158,7 @@
       "swimming_pool": "Piscine"
     },
     "catalog": "Description détaillée",
-    "ccd": "Ccd (CCD)",
+    "ccd": "Ccd",
     "click_to_download": "Cliquer pour télécharger",
     "construction_age": "Âge de la construction",
     "cost_per_housing": "Coût par logement (CPL)",

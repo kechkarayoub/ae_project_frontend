@@ -1,4 +1,5 @@
 import franceFlag from '../images/flags/France.png';
+import marocFlag from '../images/flags/Morocco.png';
 import React from 'react';
 import store from 'store';
 import unitedStatesFlag from '../images/flags/UnitedStates.png';
@@ -12,7 +13,7 @@ const LanguagesList = (props) => (
             title={store.get("current_langue") === "fr" ?
                 props.t('header.languages.french')
             :
-                props.t('header.languages.english')
+                props.t(store.get("current_langue") === "en" ? 'header.languages.english' : 'header.languages.arabic')
             }
             className="list_languages"
             data-testid="languages_button"

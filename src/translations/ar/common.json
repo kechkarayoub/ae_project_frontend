@@ -1,0 +1,227 @@
+{
+  "buyorsell": {
+    "buy_create": {
+      "coordinates": "إحداثيات",
+      "details": "تفاصيل"
+    },
+    "intro": "إذا كنتم ترغبون في شراء عقار أو بيعه أو تأجيره ، يرجى إكمال نموذج الطلب أدناه وإرساله إلينا وسوف نتصل بكم في أقرب وقت ممكن.",
+    "sell_a_property": "بيع عقار",
+    "to_buy": "للشراء",
+    "to_rent": "للإيجار",
+    "to_sell": "للبيع"
+  },
+  "contact": {
+    "contact_create": {
+      "contact_form": "نموذج الاتصال",
+      "feedback_message_1": "حدث خطأ!",
+      "feedback_message_2": "يرجى إعادة المحاولة لاحقًا.",
+      "get_informations": "احصل على معلومات",
+      "message": "الرسالة",
+      "message_sent": "تم ارسال رسالتك.",
+      "object": "الموضوع",
+      "reference_number": "رقم المرجع: ",
+      "will_answer_client": "سوف نجيبكم فى اسرع وقت ممكن!"
+    }
+  },
+  "footer": {
+    "all_rights_reserved": "كل الحقوق محفوظة.",
+    "powered_by": "مشغل بواسطة ",
+    "newsletter": {
+      "create": {
+        "information_updated_message_1": "إنكم مشتركون بالفعل.",
+        "information_updated_message_2": "تم تعديل معلوماتكم.",
+        "reactivated_message_1": "تم إعادة تنشيط اشتراككم.",
+        "reactivated_message_2": "أهلا بكم من جديد في نشرتنا الإخبارية.",
+        "title": "اشتركوا في صحيفتنا الإخبارية",
+        "welcome_message_1": "مرحبا بكم في نشرتنا الإخبارية.",
+        "welcome_message_2": "وشكرا لكم على الاشتراك!"
+      }
+    }
+  },
+  "funding": {
+    "email_sent": "تم إرسال البريد الإلكتروني بنجاح.",
+    "funding": "التمويل",
+    "no_funding": "لا يوجد أي عنصر لإظهاره!",
+    "send": "إرسال",
+    "server_error": "حدث خطأ. يرجى المحاولة لاحقًا."
+  },
+  "global": {
+    "cancel": "إلغاء",
+    "city": "المدينة",
+    "email": "البريد الإلكتروني",
+    "field_required": "هذه الخانة مطلوبة!",
+    "first_name": " الاسم: ",
+    "invalid_email": "يرجى إدخال البريد الإلكتروني الصحيح!",
+    "invalid_phone": "يرجى إدخال رقم هاتف صالح!",
+    "last_name": " النسب:",
+    "loading": "...جار التحميل",
+    "no": "لا",
+    "phone": "رقم الهاتف",
+    "search_placeholder": "بحث...",
+    "select_bathrooms_number_choice_0": "حدد عددا",
+    "select_bedrooms_number_choice_0": "حدد عددا",
+    "select_building_type_choice_0": "حدد النوع",
+    "select_choice_0": "تحديد",
+    "select_city_choice_0": "اختر المدينة",
+    "select_construction_age_choice_0": "حدد عمر البناء",
+    "select_price_ranges_choice_0": "غير محدد",
+    "select_property_type_choice_0": "حدد النوع",
+    "submit": "إرسال",
+    "title_page": {
+      "contact": "اتصل بنا",
+      "funding": "التمويل",
+      "home": "الصفحة الرئيسية",
+      "properties": "العقارات",
+      "testimonial": "التوصيات",
+      "useful_links": "روابط مفيدة"
+    },
+    "yes": "نعم"
+  },
+  "header": {
+    "languages": {
+      "arabic": "العربية",
+      "english": "الإنجليزية",
+      "french": "الفرنسية"
+    },
+    "nav": {
+      "buy": "شراء",
+      "buy_sell": "شراء/بيع",
+      "contact": "اتصل بنا",
+      "funding": "التمويل",
+      "home": "الرئيسية",
+      "properties": "العقارات",
+      "rent": "تأجير",
+      "sell": "بيع",
+      "testimonial": "التوصيات",
+      "useful_links": "روابط مفيدة"
+    }
+  },
+  "home": {
+    "bottom_side_1": {
+      "title": "",
+      "p1": "I am a real estate broker, specialist in sales and investments in the greater Montreal area for domestic and international investors, whether they are real estate income for personal purposes, for real estate speculation or to operate a company.",
+      "p2": "I am dedicated to developing the Montréal market abroad. I accompany my clients to find them the strategic location and I offer them a turnkey project. My clients benefit from my long-term support and commitment.",
+      "p3": "Thanks to my knowledge of the Greater Montreal Metropolitan Area market and my international reputation, I can offer you, as a consultant, my services in sales, leasing, acquisition of real estate assets, site research, design projects and recommendations. It is also thanks to my numerous partnerships and relationships that I can support my clients until the realization of their projects."
+    },
+    "bottom_side_2": {
+      "title": "",
+      "p1": "I am a real estate broker, specialist in sales and investments in the greater Montreal area for domestic and international investors, whether they are real estate income for personal purposes, for real estate speculation or to operate a company.",
+      "p2": "I am dedicated to developing the Montréal market abroad. I accompany my clients to find them the strategic location and I offer them a turnkey project. My clients benefit from my long-term support and commitment.",
+      "p3": "Thanks to my knowledge of the Greater Montreal Metropolitan Area market and my international reputation, I can offer you, as a consultant, my services in sales, leasing, acquisition of real estate assets, site research, design projects and recommendations. It is also thanks to my numerous partnerships and relationships that I can support my clients until the realization of their projects."
+    },
+    "bottom_side_3": {
+      "title": "",
+      "p1": "I am a real estate broker, specialist in sales and investments in the greater Montreal area for domestic and international investors, whether they are real estate income for personal purposes, for real estate speculation or to operate a company.",
+      "p2": "I am dedicated to developing the Montréal market abroad. I accompany my clients to find them the strategic location and I offer them a turnkey project. My clients benefit from my long-term support and commitment.",
+      "p3": "Thanks to my knowledge of the Greater Montreal Metropolitan Area market and my international reputation, I can offer you, as a consultant, my services in sales, leasing, acquisition of real estate assets, site research, design projects and recommendations. It is also thanks to my numerous partnerships and relationships that I can support my clients until the realization of their projects."
+    },
+    "title": {
+      "title_1": "Specialty: real estate investment advisor",
+      "title_2": ""
+    }
+  },
+  "map_container": {
+    "marker_icon": "أيقونة العلامة"
+  },
+  "notFound": {
+    "message1": "الصفحة غير موجودة",
+    "message2": "الصفحة الرئيسية",
+    "title": "الصفحة غير موجودة"
+  },
+  "pdf_container": {
+    "download": "تحميل",
+    "print": "طباعة"
+  },
+  "properties": {
+    "advanced_filter": "البحث المتقدم",
+    "annual_income": "الدخل السنوي",
+    "apartments_number": "عدد الشقق",
+    "bathrooms_number": "عدد الحمامات",
+    "bedrooms_number": "عدد غرف النوم",
+    "building_type": "نوع البناية",
+    "card_item": {
+      "bathrooms": {
+        "one": "حمام واحد",
+        "two": " حمامان",
+        "more_than_two": "أكثر من حمامين"
+      },
+      "bedrooms": {
+        "one": "غرفة نوم واحدة",
+        "two_four": " غرف نوم",
+        "more_than_foor": "أكثر من 4 غرف نوم"
+      },
+      "dining_room": "غرفة الطعام",
+      "fireplace": "مدفأة",
+      "garage": "مرآب",
+      "garden": "حديقة",
+      "other_characteristics": "مميزات وخصائص اخرى",
+      "swimming_pool": "حمام السباحة"
+    },
+    "catalog": "بيان",
+    "ccd": "Ccd",
+    "click_to_download": "اضغط للتحميل",
+    "construction_age": "عمر البناء",
+    "cost_per_housing": "تكلفة السكن (CPH)",
+    "down_payment_required": "الدفعة الأولى المطلوبة",
+    "economic_value": "القيمة الاقتصادية",
+    "gross_revenue_multiplier": "مضاعف الإيرادات الإجمالية (GRM)",
+    "has_dining_room": "مع غرفة الطعام؟",
+    "has_fireplace": "مع مدفأة؟",
+    "has_garage": "مع مرآب؟",
+    "has_garden": "مع حديقة؟",
+    "has_swimming_pool": "مع حمام سباحة؟",
+    "housing_descriptions": "وصف المساكن",
+    "maximum_loan": "الحد الأقصى للقرض",
+    "net_income_multiplier": "مضاعف صافي الدخل (NIM)",
+    "occupation_date": "تاريخ الاستغلال",
+    "overall_rate_update": "المعدل العام للتحديث (ORU)",
+    "price_ranges": "نطاق السعر",
+    "property_type": "نوع العقار",
+    "search_result": {
+      "bathrooms_number": "عدد الحمامات: ",
+      "bedrooms_number": "عدد غرف النوم: ",
+      "message_no_items_exist": "ا يوجد أي عنصر في الوقت الحالي ، شكرًا لكم على زيارتنا بمجرد حل المشكلة. شكرا لكم.",
+      "message_no_result_matches": "عذرًا ، ليس لدينا عناصر تطابق هذه المعايير:",
+      "message_try_with_other_criteria": "حاول باستعمال معايير أخرى!",
+      "nothing_found": "لم يتم العثور على شيء!",
+      "building_type": "نوع البناية: ",
+      "construction_age": "عمر البناء: ",
+      "price_ranges": "نطاق السعر: ",
+      "property_type": "نوع العقار: ",
+      "searched_city": " المدينة التي تم البحث عنها:",
+      "searched_word": " كلمة البحث:",
+      "status": "الحالة: ",
+      "with_dining_room": "مع غرفة طعام.",
+      "with_fireplace": "مع مدفأة.",
+      "with_garage": "مع مرآب.",
+      "with_garden": "مع حديقة.",
+      "with_swimming_pool": "مع حمام سباحة."
+    },
+    "status": "الحالة"
+  },
+  "property": {
+    "description": "الوصف",
+    "general_information": "معلومات عامة",
+    "lot_size": "حجم البناية",
+    "print_version": "نسخة مطبوعة",
+    "price": "السعر",
+    "print_property": "طبع العقار",
+    "property": "العقار",
+    "request_for_information": "طلب الحصول على معلومات"
+  },
+  "property_details_print": {
+    "contact": "اتصل بنا",
+    "front_view_alt": "المنظر الأمامي للعقار",
+    "photos": "الصور",
+    "property_alt": "العقار"
+  },
+  "testimonial": {
+    "add_testimonial": "أضف توصية",
+    "no_testimonial": "لا توجد توصيات في الوقت الراهن!",
+    "testimonial": "توصية"
+  },
+  "useful_links": {
+    "no_useful_link": "لا يوجد اي رابط مفيد الان!",
+    "guides": "دليل"
+  }
+}
